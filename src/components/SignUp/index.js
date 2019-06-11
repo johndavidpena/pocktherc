@@ -52,7 +52,7 @@ class SignUpFormBase extends Component {
       // .then(authUser => { ORIGINAL CODE
       .then(() => {
         this.setState({ ...INITIAL_STATE });
-        this.props.history.push(ROUTES.HOME);
+        this.props.history.push(ROUTES.WORKOUT);
       })
       .catch(error => {
         this.setState({ error });

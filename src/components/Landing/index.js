@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Home = () => (
-  <div>
-    <h1>Landing</h1>
-  </div>
+const Landing = () => (
+  <React.Fragment>
+    <h1 className='mainHeading'>Pockt Herc</h1>
+  </React.Fragment>
 );
 
-export default Home;
+export default Landing;

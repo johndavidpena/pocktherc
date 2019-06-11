@@ -1,10 +1,14 @@
 import React from 'react';
+import { FiUserX } from "react-icons/fi";
 
 import { withFirebase } from '../Firebase';
 
 const SignOutButton = ({ firebase }) => (
-  <button type="button" onClick={firebase.doSignOut}>
-    Sign Out
+  <button
+    className='signOutButton'
+    type="button"
+    onClick={firebase.doSignOut}>
+    <FiUserX />
   </button>
 );
 

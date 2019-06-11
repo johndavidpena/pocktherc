@@ -1,0 +1,11 @@
+.svgIcon path {
+  /* transition: 250ms; */
+}
+
+.svgIcon:hover path {
+  /* fill: #292; */
+}
+
+.svgIcon.barbell:hover path {
+  /* fill: var(--red-800); */
+}

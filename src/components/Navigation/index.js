@@ -1,4 +1,6 @@
 import React from 'react';
+import navStyles from './nav.module.css';
+import { FiHome, FiSettings, FiUser, FiUserPlus } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 
 import SignOutButton from '../SignOut';
@@ -8,7 +10,7 @@ import * as ROLES from '../../constants/roles';
 import { AuthUserContext } from '../Session';
 
 const Navigation = () => (
-  <div>
+  <React.Fragment>
     <AuthUserContext.Consumer>
       {authUser =>
         authUser ? (
@@ -18,23 +20,23 @@ const Navigation = () => (
           )
       }
     </AuthUserContext.Consumer>
-  </div>
+  </React.Fragment>
 );
 
 const NavigationAuth = ({ authUser }) => (
-  <ul>
-    <li>
+  <ul className={navStyles.ul}>
+    {/* <li>
       <Link to={ROUTES.LANDING}>Landing</Link>
+    </li> */}
+    <li>
+      <Link to={ROUTES.WORKOUT}><FiHome /></Link>
     </li>
     <li>
-      <Link to={ROUTES.HOME}>Home</Link>
-    </li>
-    <li>
-      <Link to={ROUTES.ACCOUNT}>Account</Link>
+      <Link to={ROUTES.ACCOUNT}><FiUser /></Link>
     </li>
     {!!authUser.roles[ROLES.ADMIN] && (
       <li>
-        <Link to={ROUTES.ADMIN}>Admin</Link>
+        <Link to={ROUTES.ADMIN}><FiSettings /></Link>
       </li>
     )}
     <li>
@@ -44,12 +46,12 @@ const NavigationAuth = ({ authUser }) => (
 );
 
 const NavigationNonAuth = () => (
-  <ul>
-    <li>
+  <ul className={navStyles.ul}>
+    {/* <li>
       <Link to={ROUTES.LANDING}>Landing</Link>
-    </li>
+    </li> */}
     <li>
-      <Link to={ROUTES.SIGN_IN}>Sign In</Link>
+      <Link to={ROUTES.SIGN_IN}><FiUserPlus /></Link>
     </li>
   </ul>
 );
