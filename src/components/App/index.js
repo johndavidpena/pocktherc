@@ -12,14 +12,14 @@ import AccountPage from '../Account';
 import StrengthPage from '../Strength';
 import CardioPage from '../Cardio';
 import P90X2Page from '../P90X2';
-import P90X2totalbodyPage from '../P90X2/totalbody';
-import P90X2chestbackPage from '../P90X2/chestback';
-import P90X2shouldersarmsPage from '../P90X2/shouldersarms';
-import P90X2basebackPage from '../P90X2/baseback';
-import P90X2paplowerPage from '../P90X2/paplower';
-import P90X2chestPage from '../P90X2/chest';
-import P90X2papupperPage from '../P90X2/papupper';
-import P90X2vsculptPage from '../P90X2/vsculpt';
+import X2totalbody from '../P90X2/totalbody';
+import X2chestback from '../P90X2/chestback';
+import X2shouldersarms from '../P90X2/shouldersarms';
+import X2baseback from '../P90X2/baseback';
+import X2paplower from '../P90X2/paplower';
+import X2chesttris from '../P90X2/chesttris';
+import X2papupper from '../P90X2/papupper';
+import X2vsculpt from '../P90X2/vsculpt';
 import InsanityPage from '../Insanity';
 
 import * as ROUTES from '../../constants/routes';
@@ -39,14 +39,14 @@ const App = () => (
       <Route path={ROUTES.WORKOUT} component={WorkoutPage} />
       <Route path={ROUTES.STRENGTH} component={StrengthPage} />
       <Route path={ROUTES.P90X2} component={P90X2Page} />
-      <Route path={ROUTES.P90X2TOTALBODY} component={P90X2totalbodyPage} />
-      <Route path={ROUTES.P90X2CHESTBACK} component={P90X2chestbackPage} />
-      <Route path={ROUTES.P90X2SHOULDERSARMS} component={P90X2shouldersarmsPage} />
-      <Route path={ROUTES.P90X2BASEBACK} component={P90X2basebackPage} />
-      <Route path={ROUTES.P90X2PAPLOWER} component={P90X2paplowerPage} />
-      <Route path={ROUTES.P90X2CHEST} component={P90X2chestPage} />
-      <Route path={ROUTES.P90X2PAPUPPER} component={P90X2papupperPage} />
-      <Route path={ROUTES.P90X2VSCULPT} component={P90X2vsculptPage} />
+      <Route path={ROUTES.X2TOTALBODY} component={X2totalbody} />
+      <Route path={ROUTES.X2CHESTBACK} component={X2chestback} />
+      <Route path={ROUTES.X2SHOULDERSARMS} component={X2shouldersarms} />
+      <Route path={ROUTES.X2BASEBACK} component={X2baseback} />
+      <Route path={ROUTES.X2PAPLOWER} component={X2paplower} />
+      <Route path={ROUTES.X2CHESTTRIS} component={X2chesttris} />
+      <Route path={ROUTES.X2PAPUPPER} component={X2papupper} />
+      <Route path={ROUTES.X2VSCULPT} component={X2vsculpt} />
       <Route path={ROUTES.CARDIO} component={CardioPage} />
       <Route path={ROUTES.INSANITY} component={InsanityPage} />
     </div>

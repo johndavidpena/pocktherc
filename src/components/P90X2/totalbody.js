@@ -1,7 +1,7 @@
 import React from 'react';
 
-const P90X2totalbodyPage = () => (
+const X2totalbody = () => (
   <h1 className='mainHeading'>Total Body</h1>
 );
 
-export default P90X2totalbodyPage;
+export default X2totalbody;

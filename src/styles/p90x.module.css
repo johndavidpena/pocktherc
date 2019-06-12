@@ -13,6 +13,11 @@
   margin-top: var(--size-2);
 }
 
+.container a {
+  text-decoration: none;
+  color: var(--off-white);
+}
+
 .container p {
   font-size: var(--font-size);
   margin-bottom: var(--spacing-1);

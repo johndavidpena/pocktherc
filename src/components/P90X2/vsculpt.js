@@ -1,7 +1,7 @@
 import React from 'react';
 
-const P90X2vsculptPage = () => (
+const X2vsculpt = () => (
   <h1 className='mainHeading'>V Sculpt</h1>
 );
 
-export default P90X2vsculptPage;
+export default X2vsculpt;
