@@ -1,0 +1,1 @@
+Wrap all components in withAuthorization

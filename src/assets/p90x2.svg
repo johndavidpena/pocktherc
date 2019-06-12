@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="128px" viewBox="0 0 200 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>p90x2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="p90x2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="P90X2" font-family="Nunito-Black, Nunito Black" font-size="34" font-weight="700" fill="#3994C1">
+            <tspan x="46.212" y="116">P90X2</tspan>
+        </text>
+        <g id="Group" transform="translate(23.000000, 13.000000)" stroke="#3994C1">
+            <path d="M31.6019417,30.5 C51.1419706,28.375 66.2741173,27.3125 76.9983819,27.3125 C87.7226464,27.3125 103.690823,28.375 124.902913,30.5" id="Line" stroke-width="10" stroke-linecap="square"></path>
+            <path d="M27.0873786,0.25 L27.0873786,60.75" id="Line-2" stroke-width="14" stroke-linecap="round"></path>
+            <path d="M127.912621,0.25 L127.912621,60.75" id="Line-3" stroke-width="14" stroke-linecap="round"></path>
+            <path d="M142.710356,11 L142.710356,51.5" id="Line-4" stroke-width="11.5" stroke-linecap="round"></path>
+            <path d="M12.289644,11 L12.289644,51.5" id="Line-4-Copy" stroke-width="11.5" stroke-linecap="round"></path>
+            <path d="M154.749191,18.125 L154.749191,42.875" id="Line-5" stroke-width="9" stroke-linecap="round"></path>
+            <path d="M0.250809061,18.125 L0.250809061,42.875" id="Line-5-Copy" stroke-width="9" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

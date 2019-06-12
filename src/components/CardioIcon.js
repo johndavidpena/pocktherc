@@ -18,7 +18,7 @@ const SVG = ({
       className={`.svgIcon ${className || ""}`}
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <g id="cardio" stroke="none" stroke-width="1" fill={fill} fill-rule="evenodd">
+      <g id="cardio" stroke="none" strokeWidth="1" fill={fill} fillRule="evenodd">
         <g id="Group" transform="translate(200.500000, 172.500000) rotate(-45.000000) translate(-200.500000, -172.500000) translate(98.000000, 70.000000)" fill={fill}>
           <rect id="Rectangle" x="0" y="68.3333333" width="136.666667" height="136.666667"></rect>
           <circle id="Oval" cx="68.3333333" cy="68.3333333" r="68.3333333"></circle>
