@@ -13,6 +13,8 @@ import StrengthPage from '../Strength';
 import CardioPage from '../Cardio';
 import P90X2Page from '../P90X2';
 import X2totalbody from '../P90X2/totalbody';
+import X2balancepower from '../P90X2/balancepower';
+import X2core from '../P90X2/core';
 import X2chestback from '../P90X2/chestback';
 import X2shouldersarms from '../P90X2/shouldersarms';
 import X2baseback from '../P90X2/baseback';
@@ -40,6 +42,8 @@ const App = () => (
       <Route path={ROUTES.STRENGTH} component={StrengthPage} />
       <Route path={ROUTES.P90X2} component={P90X2Page} />
       <Route path={ROUTES.X2TOTALBODY} component={X2totalbody} />
+      <Route path={ROUTES.X2BALANCEPOWER} component={X2balancepower} />
+      <Route path={ROUTES.X2CORE} component={X2core} />
       <Route path={ROUTES.X2CHESTBACK} component={X2chestback} />
       <Route path={ROUTES.X2SHOULDERSARMS} component={X2shouldersarms} />
       <Route path={ROUTES.X2BASEBACK} component={X2baseback} />

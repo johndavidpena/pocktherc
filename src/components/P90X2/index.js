@@ -12,11 +12,11 @@ const P90X2 = () => (
     <Link to={ROUTES.X2TOTALBODY}>
       <p>Total Body</p>
     </Link>
-    <Link to={ROUTES.X2TOTALBODY}>
-      <p>Total Body</p>
+    <Link to={ROUTES.X2BALANCEPOWER}>
+      <p>Balance Power</p>
     </Link>
-    <Link to={ROUTES.X2TOTALBODY}>
-      <p>Total Body</p>
+    <Link to={ROUTES.X2CORE}>
+      <p>Core</p>
     </Link>
 
     <h4>PHASE 2</h4>
