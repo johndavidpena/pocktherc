@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import mainStyles from '../../styles/main.module.css';
 import { compose } from 'recompose';
 
 import { withFirebase } from '../Firebase';
@@ -42,7 +43,7 @@ class AdminPage extends Component {
 
     return (
       <div>
-        <h1>Admin</h1>
+        <h1 className={mainStyles.mainHeading}>Admin</h1>
         <p>The Admin Page is accessible by every SIGNED IN ADMIN user.</p>
         {loading && <div>Loading ...</div>}
 

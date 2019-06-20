@@ -1,4 +1,5 @@
 import React from 'react';
+import mainStyles from '../../styles/main.module.css';
 import cardioStyles from './cardio.module.css';
 import Insanity from '../InsanityIcon';
 
@@ -7,7 +8,7 @@ import * as ROUTES from '../../constants/routes';
 
 const CardioPage = () => (
   <React.Fragment>
-    <h1 className='mainHeading'>Cardio</h1>
+    <h1 className={mainStyles.mainHeading}>Cardio</h1>
 
     <div className={cardioStyles.link}>
       <Link to={ROUTES.INSANITY}>

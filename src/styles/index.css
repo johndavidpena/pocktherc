@@ -431,6 +431,10 @@ body {
   box-sizing: border-box;
 }
 
+p {
+  color: var(--off-white);
+}
+
 .absCentered {
   position: absolute;
   top: 50%;
@@ -438,22 +442,6 @@ body {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-
-.mainHeading {
-  color: var(--off-white);
-  font-size: var(--font-size-headline);
-  font-family: var(--default-serif);
-  text-align: center;
-}
-
-.subHeading {
-  color: var(--red-300);
-  font-size: var(--font-size-subheadline);
-}
-
-.signOutButton {
-  color: var(--off-white);
 }
 
 /* * * * * * * * */

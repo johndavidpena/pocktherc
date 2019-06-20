@@ -1,4 +1,5 @@
 import React from 'react';
+import mainStyles from '../../styles/main.module.css';
 import strengthStyles from './strength.module.css';
 import P90X2 from '../P90X2Icon';
 
@@ -7,7 +8,7 @@ import * as ROUTES from '../../constants/routes';
 
 const StrengthPage = () => (
   <React.Fragment>
-    <h1 className='mainHeading'>Strength</h1>
+    <h1 className={mainStyles.mainHeading}>Strength</h1>
 
     <div className={strengthStyles.link}>
       <Link to={ROUTES.P90X2}>

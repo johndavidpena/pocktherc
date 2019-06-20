@@ -1,4 +1,5 @@
 import React from 'react';
+import mainStyles from '../../styles/main.module.css'
 
 import { AuthUserContext, withAuthorization } from '../Session';
 import { PasswordForgetForm } from '../PasswordForget';
@@ -8,7 +9,8 @@ const AccountPage = () => (
   <AuthUserContext.Consumer>
     {authUser => (
       <div>
-        <h1>Account: {authUser.email}</h1>
+        <h1 className={mainStyles.mainHeading}>Account:</h1>
+        <h3 className={mainStyles.subHeading}>{authUser.email}</h3>
         <PasswordForgetForm />
         <PasswordChangeForm />
       </div>
