@@ -2,7 +2,8 @@
   background: var(--light-blue-700);
   color: var(--grey-100);
   width: 65vw;
-  height: 70vh;
+  /* height: 60vh; */
+  margin: 1rem auto;
   text-align: center;
 }
 
@@ -12,6 +13,30 @@
   padding: var(--size-2);
 }
 
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card input {
+  font-family: inherit;
+  font-size: var(--font-size);
+  margin: 1rem;
+  padding: 5px;
+}
+
+.card button {
+  background: var(--grey-300);
+  font-family: inherit;
+  font-size: var(--font-size);
+  margin: 0 auto;
+  padding: 5px;
+  width: 50%;
+  outline: none;
+  border: none;
+}
+
 .card p {
   font-size: var(--font-size);
+  padding: 5px;
 }

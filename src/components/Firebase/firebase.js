@@ -34,6 +34,13 @@ class Firebase {
   doPasswordUpdate = password =>
     this.auth.currentUser.updatePassword(password);
 
+  doSaveExercise = (reps, weight) =>
+    // NOTE: The name in the db 'exercises'
+    this.db.ref('exercises').set({
+      reps,
+      weight
+    });
+
   // *** Merge Auth and DB User API *** //
   onAuthUserListener = (next, fallback) =>
     this.auth.onAuthStateChanged(authUser => {
@@ -65,6 +72,10 @@ class Firebase {
   // *** User API ***
   user = uid => this.db.ref(`users/${uid}`);
   users = () => this.db.ref('users');
+
+  // *** Exercise API ***
+  // exercise = (reps, weight) => this.db.ref(`exercises`);
+  // exercises = () => this.db.ref('exercises');
 }
 
 export default Firebase;

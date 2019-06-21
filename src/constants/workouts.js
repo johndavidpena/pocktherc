@@ -699,50 +699,42 @@ export const X2PAPLOWER = [
   {
     id: 0,
     exercise: 'Step Up Convict',
-    reps: 0,
-    weight: 0
+    description: 'Holding a dumbbell in each hand, step up with one foot, raise the opposite knee, step down, and lunge back with one leg. Do at least 8 reps per leg.'
   },
   {
     id: 1,
     exercise: 'Skater Plyo',
-    reps: 0,
-    weight: 0
+    description: 'Do 8 side-to-side with the arm swing.'
   },
   {
     id: 2,
     exercise: '1 Leg Line Hop',
-    reps: 0,
-    weight: 0
+    description: '10 seconds front-to-back, 10 seconds side-to-side, repeat for a total of 40 seconds per leg.'
   },
   {
     id: 3,
     exercise: 'Tonys Triangle',
-    reps: 0,
-    weight: 0
+    description: 'On your side, bottom leg bent at a 90 degree angle. Top leg, foot pointed down, up, then forward and down, up, then back and down. 5 per side.'
   },
   {
     id: 4,
     exercise: 'Squat Cross Reach',
-    reps: 0,
-    weight: 0
+    description: 'Standing on right leg, holding a dumbbell in the left hand, squat down, reach forward with the dumbbell while kicking the back leg behind. Come back to the squat position, then stand and repeat. Do at least 8 per side.'
   },
   {
     id: 5,
     exercise: 'Split Squat Jump',
-    reps: 6,
-    weight: 0
+    description: 'In a 1 leg squat position, jump up with both hands and switch lunging legs. 8 reps.'
   },
   {
     id: 6,
     exercise: 'Monster Slalom',
-    reps: 0,
-    weight: 0
+    description: 'Feet together, jump side-to-side for 30 seconds.'
   },
   {
     id: 7,
     exercise: 'Side Bridge Leg Lift',
-    reps: 0,
-    weight: 0
+    description: 'On your side, raise hips, lift top leg up, toes pointed down, hand on hip for 30 seconds per side.'
   },
 ];
 
