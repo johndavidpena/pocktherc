@@ -1,7 +1,7 @@
 import React from 'react';
 import mainStyles from '../../styles/main.module.css';
 import deckStyles from '../../styles/deck.module.css';
-import CardForm from '../Card';
+import Card from '../Card';
 
 import * as WORKOUTS from '../../constants/workouts';
 
@@ -14,7 +14,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>Total Body</h3>
           {WORKOUTS.X2TOTALBODY.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
@@ -26,7 +26,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>Balance and Power</h3>
           {WORKOUTS.X2BALANCEPOWER.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
@@ -38,7 +38,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>Core</h3>
           {WORKOUTS.X2CORE.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
@@ -50,7 +50,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>Chest and Back</h3>
           {WORKOUTS.X2CHESTBACK.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
@@ -62,7 +62,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>Shoulders and Arms</h3>
           {WORKOUTS.X2SHOULDERSARMS.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
@@ -74,7 +74,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>Base and Back</h3>
           {WORKOUTS.X2BASEBACK.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
@@ -86,7 +86,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>PAP Lower</h3>
           {WORKOUTS.X2PAPLOWER.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
@@ -98,7 +98,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>Chest and Triceps</h3>
           {WORKOUTS.X2CHESTTRIS.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
@@ -110,7 +110,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>PAP Upper</h3>
           {WORKOUTS.X2PAPUPPER.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
@@ -122,7 +122,7 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>V Sculpt</h3>
           {WORKOUTS.X2VSCULPT.map(exercise => (
-            <CardForm exercise={exercise}
+            <Card exercise={exercise}
               key={exercise.id} />
           ))}
         </div>
