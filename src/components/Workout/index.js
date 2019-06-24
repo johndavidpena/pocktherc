@@ -38,3 +38,4 @@ const WorkoutPage = () => {
 const condition = authUser => !!authUser;
 
 export default withAuthorization(condition)(WorkoutPage);
+// NOTE: Not sure the database is being passed correctly here

@@ -7,6 +7,7 @@ const Card = props => (
     <p>{props.exercise.description}</p>
     <p>Reps: {}</p>
     <p>Weight: {}</p>
+    <button onClick={props.save}>Save</button>
   </div>
 );
 

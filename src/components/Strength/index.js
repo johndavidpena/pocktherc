@@ -6,6 +6,8 @@ import P90X2 from '../P90X2Icon';
 import { Link } from 'react-router-dom';
 import * as ROUTES from '../../constants/routes';
 
+import { withAuthorization } from '../Session';
+
 const StrengthPage = () => (
   <React.Fragment>
     <h1 className={mainStyles.mainHeading}>Strength</h1>
@@ -42,4 +44,6 @@ const StrengthPage = () => (
   </React.Fragment>
 );
 
-export default StrengthPage;
+const condition = authUser => !!authUser;
+
+export default withAuthorization(condition)(StrengthPage);

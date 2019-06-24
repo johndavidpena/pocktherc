@@ -4,6 +4,8 @@ import p90xStyles from '../../styles/p90x.module.css';
 
 import Deck from '../Deck';
 
+import { withAuthorization } from '../Session';
+
 const P90X2 = () => {
   const [workout, setWorkout] = useState(null);
 
@@ -57,4 +59,6 @@ const P90X2 = () => {
   }
 }
 
-export default P90X2;
+const condition = authUser => !!authUser;
+
+export default withAuthorization(condition)(P90X2);
