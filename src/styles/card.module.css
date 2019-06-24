@@ -1,17 +1,42 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  align-items: center;
+
+  margin: var(--size-1) auto;
   background: var(--light-blue-700);
   color: var(--grey-100);
   width: 65vw;
-  height: 70vh;
-  text-align: center;
+  height: auto;
+  padding: var(--size-1);
 }
 
 .card h4 {
   font-size: var(--font-size-subheadline);
+  text-align: center;
   color: var(--text-dark);
   padding: var(--size-2);
 }
 
 .card p {
+  margin-bottom: var(--size-1);
+}
+
+.card input {
+  width: 50vw;
   font-size: var(--font-size);
+  margin-bottom: var(--size-1);
+  padding: var(--size-1);
+}
+
+.card button {
+  width: 50vw;
+  margin-bottom: var(--size-2);
+  background: var(--grey-300);
+  font-size: var(--font-size);
+  font-family: inherit;
+  color: var(--text-dark);
+  outline: none;
+  padding: var(--size-1);
 }

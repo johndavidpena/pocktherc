@@ -2,52 +2,52 @@ export const X2BASEBACK = [
   {
     id: '000',
     exercise: 'No Kip Pull Up',
-    description: ''
+    description: 'Body straight, no kipping.'
   },
   {
     id: '001',
     exercise: 'Plyo Frog Squat',
-    rdescription: ''
+    description: 'Legs wide, standing in place, squat down then jump up and bring hands to prayer or touch the sky. Go for at least 30.'
   },
   {
     id: '002',
     exercise: 'Wide Leg Close Grip Chin Up',
-    description: ''
+    description: 'No kipping.'
   },
   {
     id: '003',
     exercise: 'Chair Jump',
-    description: ''
+    description: 'Legs shoulder width apart, slight bend in the legs. Arms up and out, then jump and swing arms behind body. Go for at least 20.'
   },
   {
     id: '004',
     exercise: 'Chin Pull',
-    description: ''
+    description: 'Alternate every 2 or 3.'
   },
   {
     id: '005',
     exercise: 'Plyo Lunge Press',
-    description: ''
+    description: 'A dumbbell in each hand, dumbbells at the shoulders, palms in, get in the 1 leg squat position. Jump up and switch legs and raise the dumbbells straight up in the air.'
   },
   {
     id: '006',
     exercise: 'V Pull Up',
-    description: ''
+    description: 'No kipping, arms wide. Bring your chin up to the right hand, down, then up to the left.'
   },
   {
     id: '007',
     exercise: 'Surfer Spin',
-    description: ''
+    description: 'Arms out, slight squat position. Jump a 180, then another, then come back to start. Do at least 22.'
   },
   {
     id: '008',
     exercise: 'Kippy Cross Fugly Pull',
-    description: ''
+    description: 'Ugly without hurting yourself.'
   },
   {
     id: '009',
     exercise: 'Jack-in-the-Box Knee Tuck',
-    description: ''
+    description: 'Slight squat position with hands touching the ground. Jump up and touch the hands to the knees. Do at least 25.'
   }
 ];
 
@@ -55,112 +55,112 @@ export const X2VSCULPT = [
   {
     id: '010',
     exercise: 'Around the World Pull Up',
-    description: ''
+    description: 'Do a pull up in a circle, change direction each time.'
   },
   {
     id: '011',
     exercise: 'Alt Hammer Curl',
-    description: ''
+    description: 'One foot up on a step, dumbbell in each hand. Hammer curl 1 arm alternating. Put pressure on the foot that is up.'
   },
   {
     id: '012',
     exercise: 'Med Ball Renegade Row',
-    description: ''
+    description: 'In wide leg plank, 1 hand on a med ball, the other doing a row with a dumbbell.'
   },
   {
     id: '013',
     exercise: 'Band Bicep Curl',
-    description: ''
+    description: 'Band on top of 1 foot, wrapped around once. That foot out while the other leg is planted at the knee. Both hands do a bicep curl with the band.'
   },
   {
     id: '014',
     exercise: 'Pull Up X',
-    description: ''
+    description: 'Hands and legs wide.'
   },
   {
     id: '015',
     exercise: 'Med Ball Renegade Curl',
-    description: ''
+    description: 'Just like Med Ball Renegade Row but with a curl.'
   },
   {
     id: '016',
     exercise: 'Wide Leg Row Twist',
-    description: ''
+    description: 'Sitting down, band over the tops of the feet and wrapped around, coming INTO the legs. Hold both band handles with 1 arm, do a row with a slight twist. Switch sides.'
   },
   {
     id: '017',
     exercise: 'Balance Dumbbell Curl',
-    description: ''
+    description: 'Sit on a large stability ball, dumbbell curls, both arms at a time.'
   },
   {
     id: '018',
     exercise: 'Switch Grip Pull Up',
-    description: ''
+    description: 'Alternate chin ups and pull ups every 2 or 3 reps.'
   },
   {
     id: '019',
     exercise: 'Roman Band Curl',
-    description: ''
+    description: 'Sit on a stability ball, band under the feet and coming OUTSIDE. Do a bicep curl, 1 arm at a time. Bring to opposite pec with a little hold.'
   },
   {
     id: '020',
     exercise: '21 Pull Up',
-    description: ''
+    description: '3 sets of pulls ups. First reps only bottom to halfway, second reps halfway to the top, last reps full range.'
   },
   {
     id: '021',
     exercise: 'Entmans Chin Up',
-    description: ''
+    description: 'Chin ups with a med ball between the feet.'
   },
   {
     id: '022',
     exercise: 'Ball Preacher',
-    description: ''
+    description: 'Chest on a stability ball, wide feet. Bicep curls with dumbbells, both arms at once.'
   },
   {
     id: '023',
     exercise: 'Stability Ball Lawnmower',
-    description: ''
+    description: '1 dumbbell in 1 hand, the other arm on a stability ball, feet wide. Lawnmower row with dumbbell.'
   },
   {
     id: '024',
     exercise: 'Renegade Roman Curl',
-    description: ''
+    description: 'In plank with a dumbbell in each hand. Curl into the body, switch.'
   },
   {
     id: '025',
     exercise: 'Zip Kip Pull Up',
-    description: ''
+    description: 'No kipping.'
   },
   {
     id: '026',
     exercise: 'High Rep Balance Curl',
-    description: ''
+    description: '30 dumbbell bicep curls. 15 with the right leg elevated, 15 with the left.'
   },
   {
     id: '027',
     exercise: 'Straight Arm Pullover',
-    description: ''
+    description: 'Lying on a stability ball with 1 dumbbell. Keep the arms straight and do a tricep pullover.'
   },
   {
     id: '028',
     exercise: 'Renegade Hammer Curl',
-    description: ''
+    description: 'In plank, a dumbbell in each hand. Hammer curls, alternating arms.'
   },
   {
     id: '029',
     exercise: 'Zip Kip Chin Up',
-    description: ''
+    description: 'No kipping.'
   },
   {
     id: '030',
     exercise: 'Close Body Curl',
-    description: ''
+    description: 'Standing with a dumbbell in each arm. Bicep curls with the arms squeezed into the body and into the armpits. Elbows back.'
   },
   {
     id: '031',
     exercise: 'Cross Fugly Pull Up',
-    description: ''
+    description: 'Ugly without hurting yourself.'
   }
 ];
 
@@ -168,57 +168,57 @@ export const X2CHESTTRIS = [
   {
     id: '032',
     exercise: 'Chattarocker Push Up',
-    description: ''
+    description: 'Plank position, down to chattaronga, shuffle back to elbow plank, shuffle back to chattaronga, do a push up.'
   },
   {
     id: '033',
     exercise: 'Strip Press 1',
-    description: ''
+    description: '1 foot up on a step, dumbbell in each hand. Hands at shoulders, palms facing out, shoulder press up with palms facing in. Do 8 reps.'
   },
   {
     id: '034',
     exercise: 'Strip Press 2',
-    description: ''
+    description: 'Same as above with less wait.'
   },
   {
     id: '035',
     exercise: 'Strip Press 3',
-    description: ''
+    description: 'Same as above with less wait.'
   },
   {
     id: '036',
     exercise: 'Tri Ext on Stability Ball',
-    description: ''
+    description: 'Lying on stability ball with a dumbbell in each hand. Tricep pullovers.'
   },
   {
     id: '037',
     exercise: '3 Ball Extravaganza',
-    description: ''
+    description: 'Each hand on a med ball and both feet on another. Do a push up, then bring the right knee into the body, switch.'
   },
   {
     id: '038',
     exercise: 'Callahan Press 1 leg',
-    description: ''
+    description: '1 foot up on a step, dumbbell in each hand. Shoulder press up with palms out, then elbows down to shoulder level, bring the dumbbells together in front, palms facing face.'
   },
   {
     id: '039',
     exercise: 'Iron Man Kickback',
-    description: ''
+    description: 'Chest on a stability ball, feet wide, dumbbell kick backs.'
   },
   {
     id: '040',
     exercise: 'Push Up Side Arm Balance',
-    description: ''
+    description: 'Each hand on a med ball, feet wide. Push up then side arm balance, switch sides.'
   },
   {
     id: '041',
     exercise: 'X2 Circle Fly',
-    description: ''
+    description: 'Chest on stability ball, dumbbell in each hand, 15 seconds forward, 15 seconds backward. OR..standing with a band.'
   },
   {
     id: '042',
-    exercise: '# Ball Dip',
-    description: ''
+    exercise: '3 Ball Dip',
+    description: 'Each hand on a ball, both feet on another. Tricep dips.'
   }
 ];
 

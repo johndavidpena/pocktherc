@@ -1,5 +1,3 @@
-.deck {}
-
 .deck h3 {
   font-size: var(--font-size-subheadline);
   color: var(--off-white);

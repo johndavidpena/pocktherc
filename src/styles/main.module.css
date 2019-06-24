@@ -9,8 +9,56 @@
   color: var(--red-300);
   font-size: var(--font-size-subheadline);
   text-align: center;
+  margin-bottom: var(--size-2);
+}
+
+.signUpLink {
+  text-align: center;
+  font-size: var(--font-size-4);
+}
+
+.signUpLink a {
+  text-decoration: none;
+  color: var(--text-light);
 }
 
 .signOutButton {
   color: var(--off-white);
+}
+
+.userList {
+  color: var(--off-white);
+  font-size: var(--font-size);
+  margin-left: var(--size-4);
+  margin-top: var(--size-2);
+  list-style-type: none;
+}
+
+.userList li span{
+  display: block;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  align-items: center;
+}
+
+.form input {
+  width: 50vw;
+  font-size: var(--font-size);
+  margin-bottom: var(--size-1);
+  padding: var(--size-1);
+}
+
+.form button {
+  width: 50vw;
+  margin-bottom: var(--size-2);
+  background: var(--grey-300);
+  font-size: var(--font-size);
+  font-family: inherit;
+  color: var(--text-dark);
+  outline: none;
+  padding: var(--size-1);
 }

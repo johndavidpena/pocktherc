@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import mainStyles from '../../styles/main.module.css';
+
 import { withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
 import { SignUpLink } from '../SignUp';
@@ -9,7 +11,7 @@ import * as ROUTES from '../../constants/routes';
 
 const SignInPage = () => (
   <div>
-    <h1>SignIn</h1>
+    <h3 className={mainStyles.subHeading}>Sign In</h3>
     <SignInForm />
     <PasswordForgetLink />
     <SignUpLink />
@@ -53,7 +55,8 @@ class SignInFormBase extends Component {
     const isInvalid = password === '' || email === '';
 
     return (
-      <form onSubmit={this.onSubmit}>
+      <form onSubmit={this.onSubmit}
+        className={mainStyles.form}>
         <input
           name="email"
           value={email} onChange={this.onChange} type="text" placeholder="Email Address" />

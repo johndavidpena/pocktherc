@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import mainStyles from '../../styles/main.module.css';
-import { compose } from 'recompose';
 
+import { compose } from 'recompose';
 import { withFirebase } from '../Firebase';
 import { withAuthorization } from '../Session';
 import * as ROLES from '../../constants/roles';
@@ -43,9 +43,10 @@ class AdminPage extends Component {
 
     return (
       <div>
-        <h1 className={mainStyles.mainHeading}>Admin</h1>
-        <p>The Admin Page is accessible by every SIGNED IN ADMIN user.</p>
-        {loading && <div>Loading ...</div>}
+        <h3 className={mainStyles.subHeading}>Admin</h3>
+        <p className='center'>Only accessible to signed in admin users.</p>
+
+        {loading && <p className='center'>Loading ...</p>}
 
         <UserList users={users} />
       </div>
@@ -54,7 +55,7 @@ class AdminPage extends Component {
 }
 
 const UserList = ({ users }) => (
-  <ul>
+  <ul className={mainStyles.userList}>
     {users.map(user => (
       <li key={user.uid}>
         <span>

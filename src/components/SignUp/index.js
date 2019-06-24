@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import mainStyles from '../../styles/main.module.css';
+
 import { Link, withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
 
@@ -8,7 +10,7 @@ import * as ROLES from '../../constants/roles';
 
 const SignUpPage = () => (
   <div>
-    <h1>SignUp</h1>
+    <h3 className={mainStyles.subHeading}>Sign Up</h3>
     <SignUpForm />
   </div>
 );
@@ -130,7 +132,7 @@ class SignUpFormBase extends Component {
 }
 
 const SignUpLink = () => (
-  <p>
+  <p className={mainStyles.signUpLink}>
     Don't have an account? <Link to={ROUTES.SIGN_UP}>Sign Up</Link>
   </p>
 );

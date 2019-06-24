@@ -10,12 +10,11 @@ class CardBase extends Component {
     this.state = {
       exerciseId: this.props.exercise.id,
       exercise: this.props.exercise.exercise,
-      reps: '',
-      weight: ''
+      reps: null,
+      weight: null
     }
   }
 
-  // Fetch/read existing data and populate fields
   async componentDidMount() {
     const exerciseRef = this.props.firebase.populateCards(this.state.exerciseId);
     // console.log('[Card.js] componentDidMount', exerciseRef);
@@ -25,6 +24,9 @@ class CardBase extends Component {
     try {
       await exerciseRef.once('value', function (snapshot) {
         // console.log(snapshot.val());
+        // Handle if no data exists
+        if (snapshot.val() === null) return;
+
         initialReps = snapshot.val().reps;
         initialWeight = snapshot.val().weight;
       });
