@@ -62,13 +62,27 @@ class Firebase {
       }
     });
 
+  // *** Save the reps and weight of a single exercise ***
+  saveExercise = (exerciseId, reps, weight) => {
+    console.log(this.auth.currentUser.uid);
+    // console.log(this.db);
+    // console.log('saveExercise from firebase.js', exerciseId, reps, weight);
+
+    this.db.ref(`exercises/${this.auth.currentUser.uid}/${exerciseId}`)
+      .set({
+        exerciseId,
+        reps,
+        weight
+      });
+  }
+
   // *** User API ***
   user = uid => this.db.ref(`users/${uid}`);
   users = () => this.db.ref('users');
 
   // *** Exercise API ***
-  exercise = uid => this.db.ref(`exercises/${uid}`);
-  exercises = () => this.db.ref('exercises');
+  // exercise = uid => this.db.ref(`exercises/${uid}`);
+  // exercises = () => this.db.ref('exercises');
 }
 
 export default Firebase;
