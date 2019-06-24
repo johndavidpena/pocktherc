@@ -9,17 +9,41 @@ class CardBase extends Component {
 
     this.state = {
       exerciseId: this.props.exercise.id,
+      exercise: this.props.exercise.exercise,
       reps: '',
       weight: ''
+    }
+  }
+
+  // Fetch/read existing data and populate fields
+  async componentDidMount() {
+    const exerciseRef = this.props.firebase.populateCards(this.state.exerciseId);
+    // console.log('[Card.js] componentDidMount', exerciseRef);
+    let initialReps;
+    let initialWeight;
+
+    try {
+      await exerciseRef.once('value', function (snapshot) {
+        // console.log(snapshot.val());
+        initialReps = snapshot.val().reps;
+        initialWeight = snapshot.val().weight;
+      });
+
+      this.setState({
+        reps: initialReps,
+        weight: initialWeight
+      });
+    } catch (e) {
+      console.log(e);
     }
   }
 
   onSubmit = event => {
     event.preventDefault();
 
-    const { exerciseId, reps, weight } = this.state;
+    const { exerciseId, exercise, reps, weight } = this.state;
 
-    this.props.firebase.saveExercise(exerciseId, reps, weight)
+    this.props.firebase.saveExercise(exerciseId, exercise, reps, weight);
   }
 
   onChange = event => {
@@ -27,12 +51,12 @@ class CardBase extends Component {
   }
 
   render() {
-    const { exerciseId, reps, weight } = this.state;
+    const { reps, weight } = this.state;
 
     return (
       <form
         className={cardStyles.card}
-        key={exerciseId}
+        key={this.props.exercise.id}
         onSubmit={this.onSubmit}
       >
         <h4>{this.props.exercise.exercise}</h4>
