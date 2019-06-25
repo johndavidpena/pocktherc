@@ -10,8 +10,8 @@ class CardBase extends Component {
     this.state = {
       exerciseId: this.props.exercise.id,
       exercise: this.props.exercise.exercise,
-      reps: null,
-      weight: null
+      reps: 0,
+      weight: 0
     }
   }
 
@@ -77,7 +77,6 @@ class CardBase extends Component {
           placeholder='Weight' />
         <button type='submit'>Save</button>
       </form>
-
     );
   }
 }

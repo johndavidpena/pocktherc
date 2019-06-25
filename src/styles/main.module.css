@@ -24,6 +24,8 @@
 
 .signOutButton {
   color: var(--off-white);
+  background: transparent;
+  border: none;
 }
 
 .userList {

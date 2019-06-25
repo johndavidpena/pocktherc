@@ -64,13 +64,9 @@ class Firebase {
 
   // *** Read and populate reps and weight ***
   populateCards = (exerciseId) => {
-    // console.log('[firebase.js] populateCards called with', exerciseId);
     const exerciseRef = this.db.ref(`exercises/${this.auth.currentUser.uid}/${exerciseId}`);
-    // console.log('[firebase.js] populateCards', exerciseRef);
+
     return exerciseRef;
-    // exerciseRef.once('value', function (snapshot) {
-    //   populateExerciseReps(repsElement, snapshot.val());
-    // });
   }
 
   // *** Save the reps and weight of a single exercise ***
