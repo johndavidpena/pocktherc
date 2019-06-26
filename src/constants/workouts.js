@@ -226,102 +226,102 @@ export const X2CHESTBACK = [
   {
     id: '043',
     exercise: 'Pull Up X',
-    description: ''
+    description: 'Wide arms, wide legs.'
   },
   {
     id: '044',
     exercise: 'Plyo Stability Ball Push Up',
-    description: ''
+    description: 'Hands wide on a stability ball, do a push up with a clap at the top.'
   },
   {
     id: '045',
     exercise: 'Core Crunch Chin Up',
-    description: ''
+    description: 'Knees or ankles to the bar on the chin up.'
   },
   {
     id: '046',
     exercise: 'Push Up Side Arm Balance',
-    description: ''
+    description: 'Each hand on a med ball, push up, then side arm balance.'
   },
   {
     id: '047',
     exercise: 'Lever',
-    description: ''
+    description: 'Palms in, bring the body horizontal with the arms fully extended.'
   },
   {
     id: '048',
     exercise: '4 Ball Push Up',
-    description: ''
+    description: 'Each hand and foot on a med ball, do a push up.'
   },
   {
     id: '049',
     exercise: 'Chin Pull',
-    description: ''
+    description: 'Alternate every 2 or 3.'
   },
   {
     id: '050',
     exercise: 'Impossible/Possible',
-    description: ''
+    description: 'Each hand on a med ball and feet up on a stability ball, do a push up.'
   },
   {
     id: '051',
     exercise: 'L Pull Up',
-    description: ''
+    description: 'Pull up with the legs extended horizontally.'
   },
   {
     id: '052',
     exercise: '3 Ball Plyo Push Up',
-    description: ''
+    description: '3 med balls spread out in front. Push up position, push up on 2 balls, side to side.'
   },
   {
     id: '053',
     exercise: 'Vaulter Pull Up',
-    description: ''
+    description: 'Hands facing opposite, switch every 2 or 3.'
   },
   {
     id: '054',
     exercise: 'Elevated Stability Ball Push Up',
-    description: ''
+    description: 'Hands wide on stability ball and feet elevated on a step. Do a push up.'
   },
   {
     id: '055',
     exercise: 'In and Out, Narrow - Wide',
-    description: ''
+    description: 'Switch close grip and wide every 2 or 3.'
   },
   {
     id: '056',
     exercise: 'Swimmers Push Up',
-    description: ''
+    description: 'Each hand on a med ball, do a push up and raise 1 arm and the opposite leg, switch.'
   },
   {
     id: '057',
     exercise: '4 Grip Pull Up',
-    description: ''
+    description: 'Wide, close, facing in, opposite.'
   },
   {
     id: '058',
     exercise: 'Double Wide Push Up',
-    description: ''
+    description: 'Super wide push up on med balls.'
   },
   {
     id: '059',
     exercise: 'Double Wide Pull Up',
-    description: ''
+    description: 'Super wide pull up.'
   },
   {
     id: '060',
     exercise: 'Chattarocker',
-    description: ''
+    description: 'Plank position, down to chattaronga, shuffle back to elbow plank, shuffle back to chattaronga, do a push up.'
   },
   {
     id: '061',
     exercise: 'Towel Pull Up',
-    description: ''
+    description: 'Towel in each hand, do a pull up.'
   },
   {
     id: '062',
     exercise: 'Med Ball Plyo Push Up',
-    description: ''
+    description: 'Hands on med ball alternating with hands on the floor.'
   }
 ];
 
@@ -329,37 +329,37 @@ export const X2SHOULDERSARMS = [
   {
     id: '063',
     exercise: 'Balance Curl',
-    description: ''
+    description: 'Dumbbell bicep curls with 1 foot off the ground.'
   },
   {
     id: '064',
     exercise: 'Alt Arnold Press',
-    description: ''
+    description: 'Dumbbell in each hand, 1 foot off the ground. Hands at shoulders, palms facing in, alternating shoulder press rotating to palm facing out at top.'
   },
   {
     id: '065',
     exercise: 'Overhead Tricep Pull',
-    description: ''
+    description: 'Dumbbell in each hand, lying on a stability ball, tricep extensions.'
   },
   {
     id: '066',
     exercise: '6 Direction Shoulder Fly',
-    description: ''
+    description: 'Dumbbell in each hand, 1 foot off of the ground. Arms raise out to the sides, then come in and down. Then arms up in the middle, out to the sides and down.'
   },
   {
     id: '067',
     exercise: 'Crazy 8',
-    description: ''
+    description: 'Dumbbell in each hand, 1 foot off the ground. Hold 1 arm halfway up while the other does 8 curls. Switch for a total of 32.'
   },
   {
     id: '068',
     exercise: 'Y-T Fly',
-    description: ''
+    description: 'Light dumbbell or nothing in each hand. Chest on stability ball. Hands up straight, then up and out to the sides.'
   },
   {
     id: '069',
     exercise: 'Rocket Launcher Tri Kickback',
-    description: ''
+    description: 'Dumbbell in each hand, 1 foot up on a step or in a forward lunge. Tricep kickbacks.'
   }
 ];
 

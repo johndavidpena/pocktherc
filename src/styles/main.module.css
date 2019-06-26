@@ -1,3 +1,10 @@
+.landingHeading {
+  color: var(--red-400);
+  font-size: 20vh;
+  font-family: var(--default-serif);
+  text-align: center;
+}
+
 .mainHeading {
   color: var(--off-white);
   font-size: var(--font-size-headline);
@@ -26,6 +33,13 @@
   color: var(--off-white);
   background: transparent;
   border: none;
+}
+
+.calendar {
+  width: 100%;
+  margin: 2rem 0;
+  color: var(--off-white);
+  font-size: var(--size-4);
 }
 
 .userList {

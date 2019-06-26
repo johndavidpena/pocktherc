@@ -2,6 +2,8 @@ import React from 'react';
 import Barbell from '../BarbellIcon';
 import Cardio from '../CardioIcon';
 import mainStyles from '../../styles/main.module.css';
+import { FiCalendar } from "react-icons/fi";
+
 import { Link } from 'react-router-dom';
 import * as ROUTES from '../../constants/routes';
 
@@ -14,7 +16,10 @@ const WorkoutPage = () => {
 
   return (
     <animated.div style={fade}>
-      <h1 className={mainStyles.mainHeading}>POCKTHERC</h1>
+      <Link to={ROUTES.CALENDAR}>
+        <FiCalendar
+          className={mainStyles.calendar} />
+      </Link>
       <Link to={ROUTES.STRENGTH}>
         <Barbell
           fill="#3994C1" // --light-blue-500

@@ -5,6 +5,7 @@ export const ACCOUNT = '/account';
 export const ADMIN = '/admin';
 export const PASSWORD_FORGET = '/pw-forget';
 export const WORKOUT = '/workout';
+export const CALENDAR = '/calendar';
 export const STRENGTH = '/strength';
 export const CARDIO = '/cardio';
 export const P90X2 = '/p90x2';

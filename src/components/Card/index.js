@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import cardStyles from '../../styles/card.module.css';
+import { Button } from '../Button';
 
 import { withFirebase } from '../Firebase';
 
@@ -75,7 +76,9 @@ class CardBase extends Component {
           onChange={this.onChange}
           value={weight}
           placeholder='Weight' />
-        <button type='submit'>Save</button>
+        <Button type='submit'
+          // value='Save'
+          element={'Save'} />
       </form>
     );
   }
