@@ -62,8 +62,32 @@ class Firebase {
       }
     });
 
+  // *** Read and populate calendar ***
+  // populateCalendar = (date) => {
+  populateCalendar = () => {
+    // FIX: For some reason, cant find this on page reload
+    // console.log('Firebase.js, populateCalendar, this.auth.currentuser...', this.auth.currentUser);
+
+    // const calendarRef = this.db.ref(`calendars/${this.auth.currentUser.uid}/${date}`);
+    const calendarRef = this.db.ref(`calendars/${this.auth.currentUser.uid}`);
+
+    return calendarRef;
+  }
+  // *** Save the date of a workout to the calendar ***
+  saveWorkoutDate = (date, program, workout) => {
+    // console.log('Saved date to calendar for user...', this.auth.currentUser.uid);
+
+    this.db.ref(`calendars/${this.auth.currentUser.uid}/${date}`)
+      .set({
+        program,
+        workout
+      });
+  }
+
   // *** Read and populate reps and weight ***
   populateCards = (exerciseId) => {
+    console.log(this.auth.currentUser);
+
     const exerciseRef = this.db.ref(`exercises/${this.auth.currentUser.uid}/${exerciseId}`);
 
     return exerciseRef;
@@ -84,10 +108,6 @@ class Firebase {
   // *** User API ***
   user = uid => this.db.ref(`users/${uid}`);
   users = () => this.db.ref('users');
-
-  // *** Exercise API ***
-  // exercise = uid => this.db.ref(`exercises/${uid}`);
-  // exercises = () => this.db.ref('exercises');
 }
 
 export default Firebase;

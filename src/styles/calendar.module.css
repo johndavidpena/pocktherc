@@ -1,1 +1,4 @@
-
+.container {
+  text-align: center;
+  margin: var(--size-4) 0;
+}

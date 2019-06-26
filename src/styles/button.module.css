@@ -1,14 +1,16 @@
 .button {
-  width: 6rem;
+  width: 50vw;
   height: var(--size-4);
   border-radius: var(--border-radius);
   border: var(--border-width-3) solid var(--grey-700);
   border: none;
-  color: var(--off-white);
+  color: var(--text-dark);
+  font-family: inherit;
   font-size: var(--font-size);
-  background-color: var(--grey-400);
+  background: var(--grey-300);
   cursor: pointer;
   outline: none;
-  padding: 0.5rem 0;
+  margin-bottom: var(--size-2);
+  padding: var(--size-1);
   box-shadow: var(--box-shadow);
 }

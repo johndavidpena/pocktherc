@@ -2,6 +2,7 @@ import React from 'react';
 import mainStyles from '../../styles/main.module.css';
 import deckStyles from '../../styles/deck.module.css';
 import Card from '../Card';
+import CalendarButton from '../CalendarButton';
 
 import * as WORKOUTS from '../../constants/workouts';
 
@@ -17,6 +18,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton click={props.saveToCalendar} />
         </div>
       );
     case 'balancepower':
@@ -29,6 +31,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton />
         </div>
       );
     case 'core':
@@ -41,6 +44,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton />
         </div>
       );
     case 'chestback':
@@ -53,6 +57,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton />
         </div>
       );
     case 'shouldersarms':
@@ -65,6 +70,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton />
         </div>
       );
     case 'baseback':
@@ -77,6 +83,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton />
         </div>
       );
     case 'paplower':
@@ -89,6 +96,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton />
         </div>
       );
     case 'chesttris':
@@ -101,6 +109,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton />
         </div>
       );
     case 'papupper':
@@ -113,6 +122,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton />
         </div>
       );
     case 'vsculpt':
@@ -125,6 +135,7 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton />
         </div>
       );
     default:

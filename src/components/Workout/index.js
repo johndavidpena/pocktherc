@@ -18,7 +18,7 @@ const WorkoutPage = () => {
     <animated.div style={fade}>
       <Link to={ROUTES.CALENDAR}>
         <FiCalendar
-          className={mainStyles.calendar} />
+          className={mainStyles.calendarIcon} />
       </Link>
       <Link to={ROUTES.STRENGTH}>
         <Barbell

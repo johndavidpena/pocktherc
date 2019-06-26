@@ -1,1 +1,3 @@
-Wrap all components in withAuthorization
+Calendar issues...
+  on page reload, this.auth.currentUser is null
+  Still can't populate dates in populateCalendar
