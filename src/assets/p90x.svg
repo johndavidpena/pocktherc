@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="200px" height="128px" viewBox="0 0 200 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>p90x2</title>
-    <g id="p90x2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <text id="P90X2" font-family="Nunito-Black, Nunito Black" font-size="34" font-weight="700" fill="#3994C1">
-            <tspan x="46.212" y="116">P90X2</tspan>
+    <title>p90x</title>
+    <g id="p90x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="P90X" font-family="Nunito-Black, Nunito Black" font-size="34" font-weight="700" fill="#3994C1">
+            <tspan x="56.429" y="116">P90X</tspan>
         </text>
         <g id="Group" transform="translate(23.000000, 13.000000)" stroke="#3994C1">
             <path d="M31.6019417,30.5 C51.1419706,28.375 66.2741173,27.3125 76.9983819,27.3125 C87.7226464,27.3125 103.690823,28.375 124.902913,30.5" id="Line" stroke-width="10" stroke-linecap="square"></path>

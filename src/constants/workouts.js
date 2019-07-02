@@ -1,3 +1,4 @@
+// P90X2 workouts below
 export const X2BASEBACK = [
   {
     id: '000',
@@ -367,62 +368,62 @@ export const X2TOTALBODY = [
   {
     id: '070',
     exercise: 'Arm Chest Press',
-    description: ''
+    description: 'Lying on a stability ball. 1 arm dumbbell chest press, switch arms.'
   },
   {
     id: '071',
     exercise: '4 Position Pull Up',
-    description: ''
+    description: 'Wide pull, narrow pull, chin, and hands facing.'
   },
   {
     id: '072',
     exercise: 'Push Up Side Arm Balance',
-    description: ''
+    description: 'Each hand on a med ball, push up, then side arm balance and switch.'
   },
   {
     id: '073',
     exercise: 'Switch Lunge Press',
-    description: ''
+    description: 'Dumbbell in each hand. Hands at shoulders, step forward with 1 leg into a lunge and press up. Then step back into a lunge and press up. Switch legs.',
   },
   {
     id: '074',
     exercise: 'Warrior 3 Kickback',
-    description: ''
+    description: 'Dumbbell in each hand. Stand on 1 leg, lifted leg straight back so leg and chest are parallel to the ground. Do tricep kickbacks, switch legs.'
   },
   {
     id: '075',
     exercise: 'Warrior 3 Curl',
-    description: ''
+    description: 'Same set up as above, but with bicep curls.'
   },
   {
     id: '076',
     exercise: 'Boing Push Up',
-    description: ''
+    description: 'Hands wide on a stability ball. Do a push up and lift the ball off the ground and bring to chest at top of the move.'
   },
   {
     id: '077',
     exercise: 'Crunchy Lever Pull Up',
-    description: ''
+    description: 'Hands facing each other. Bring feet up to bar with arms straight, then chin to the bar.'
   },
   {
     id: '078',
     exercise: 'Mule Kick Burpee',
-    description: ''
+    description: 'For 60 seconds, start standing, go down to hands on the floor with legs kicked back into the air. Down to plank, 1 knee into the elbow, then a push, then the other knee to the elbow and a push up. Repeat.'
   },
   {
     id: '079',
     exercise: 'Swimmers Curl Press in 1/2 Chair',
-    description: ''
+    description: 'Dumbbell in each hand, cross 1 foot up to the other knee and then into chair position. Bicep curls up to a shoulder press.'
   },
   {
     id: '080',
     exercise: 'Balance Kickback on Stability Ball',
-    description: ''
+    description: '1 dumbbell in 1 hand, the other arm supporting the body on a stability ball. Tricep kickback then switch arms.'
   },
   {
     id: '081',
     exercise: 'Rocket Launcher Preacher Curl',
-    description: ''
+    description: 'Dumbbell in each hand, 1 foot forward lunge position, then bicep curls. Switch legs.'
   }
 ];
 
@@ -430,107 +431,107 @@ export const X2BALANCEPOWER = [
   {
     id: '082',
     exercise: 'Sphinx to Plank Plyo Bounce',
-    description: ''
+    description: 'On a stability ball on the elbows, BOUNCE up to hands on ball, go back and forth.'
   },
   {
     id: '083',
     exercise: '1 Leg Plyo Squat Reach',
-    description: ''
+    description: 'Standing on 1 foot with the other foot by the ankle. Reach down with the opposite hand then up with a jump. 12 reps at least on each leg.'
   },
   {
     id: '084',
     exercise: 'Russian Twist',
-    description: ''
+    description: 'Squeeze a med ball between the knees, sitting on the floor. Hold 1 dumbbell with both hands and twist the dumbbell side to side.'
   },
   {
     id: '085',
     exercise: 'Sphinx to Plank Roll Up',
-    description: ''
+    description: 'On a stability ball on the elbows, ROLL up to hands on ball, go back and forth.'
   },
   {
     id: '086',
     exercise: '4 Direction 1 Leg Squat Hop',
-    description: ''
+    description: '1 foot off the ground, next to the other ankle. Jump forward, reach opposite hand down to floor then back up, repeat with jump left, jump back, and jump right. Switch legs.'
   },
   {
     id: '087',
     exercise: 'Forearm Alt Side Plank',
-    description: ''
+    description: 'Forearms on a stability ball, go ont 1 forearm and raise the other hand to the ceiling, switch. Do 16 reps.'
   },
   {
     id: '088',
     exercise: 'Decline Sphinx Plank Press',
-    description: ''
+    description: 'Both feet up on a stability ball, press up and down from sphinx to plank.'
   },
   {
     id: '089',
     exercise: 'Weighted Katherine',
-    description: ''
+    description: 'Dumbbell in each hand. Jump from 1 leg lunge to opposite leg lunge. Do 30 reps.'
   },
   {
     id: '090',
     exercise: 'Plank X Crunch',
-    description: ''
+    description: 'Feet and hands wide. Raise 1 leg and opposite arm up and out, bring elbow and knee together, then extends out again. Switch and do 20 reps.'
   },
   {
     id: '091',
     exercise: 'Renegade Row 1/2 Lolasana',
-    description: ''
+    description: 'Dumbbell in each hand, do a row in each hand, then jump knees into chest, suspended off the ground or 1 foot on the ground.'
   },
   {
     id: '092',
     exercise: 'Glute Bridge Roll Out',
-    description: ''
+    description: 'Lying on the back with feet up on a stability ball, lift the pelvis up and bring feet to butt, back and forth.'
   },
   {
     id: '093',
     exercise: 'Over/Under Boat',
-    description: ''
+    description: 'With a band or a broomstick, sit on the ground. In a boat position, move the broom under the feet, then over the feet. Do 15 - 20 reps.'
   },
   {
     id: '094',
     exercise: 'Warrior Row Press',
-    description: ''
+    description: '8 per side, 1 dumbbell in 1 hand. Warrior 3 position with lifted leg and chest parallel to the floor, do a row then stand up, still on 1 foot and press up.'
   },
   {
     id: '095',
     exercise: 'Split Lunge',
-    description: ''
+    description: 'Top of 1 foot or toe on a stability ball, do 1 leg squats, bring hands to prayer or over head. Switch.'
   },
   {
     id: '096',
     exercise: 'Crawly Crab Press',
-    description: ''
+    description: 'Back on the stability ball, pivot over to 1 elbow and reach the opposite hand to the ceiling, switch.'
   },
   {
     id: '097',
     exercise: 'Lateral Plyo Push Up',
-    description: ''
+    description: '1 med ball in the center of your plank position. Do a push up with 1 arm on the med ball, go back and forth, switching the hand on the med ball.'
   },
   {
     id: '098',
     exercise: 'Lunge Kneel Knee Raise',
-    description: ''
+    description: 'Dumbbell in each hand, hands at the shoulders in a 1 leg kneel. Stand up to 1 leg, press dumbbells up and bring opposite knee up.'
   },
   {
     id: '099',
     exercise: 'X Plank Spider Twist',
-    description: ''
+    description: 'Hands wide in plank position. Bring left foot across body to right hand, switch back and forth.'
   },
   {
     id: '100',
     exercise: 'Dumbbell Row to Side Plank',
-    description: ''
+    description: 'Dumbbell in each hand in a plank position. Row up and continue with dumbbell up to the ceiling, switch.'
   },
   {
     id: '101',
     exercise: 'Dumbbell Super Burpee',
-    description: ''
+    description: 'Dumbbell in each hand. Start standing, jump back to plank on 1 foot, push up, then back to standing, then shoulder press up.'
   },
   {
     id: '102',
     exercise: 'Plank Ball Crunch',
-    description: ''
+    description: 'Plank position with feet up on a stability ball, bring knees into chest, back and forth.'
   }
 ];
 
@@ -538,87 +539,87 @@ export const X2CORE = [
   {
     id: '103',
     exercise: 'Sphinx Plank Crunch',
-    description: ''
+    description: 'In sphinx plank, bring knee to opposite elbow, swing knee to outside and return to start. Switch.'
   },
   {
     id: '104',
     exercise: 'Warrior 3 Cross Crunch',
-    description: ''
+    description: 'Warrior 3, lifted leg, chest, and both arms parallel to the floor. Come up to standing still on 1 leg, bring knee up to opposite elbow, then back down.'
   },
   {
     id: '105',
     exercise: 'Single Leg Walkout to Sphinx',
-    description: ''
+    description: 'Stand on 1 foot, hands to the ground, crawl out to sphinx, crawl back to feet, stand up, raise arms, repeat.'
   },
   {
     id: '106',
     exercise: 'Half Angel',
-    description: ''
+    description: 'Lying on 1 side, feet stacked on top of each other. Plant forearm on ground, lift pelvis, raise leg and bring arm up and over. Repeat.'
   },
   {
     id: '107',
     exercise: 'Roller Boat',
-    description: ''
+    description: 'Lie on back, grab hamstrings, roll up to boat with hands and feet extended, grab the knees and roll back. Repeat.'
   },
   {
     id: '108',
     exercise: '3 Speed Med Ball Push Up',
-    description: ''
+    description: '1 med ball in the middle of your plank, push ups back and forth with both hands on med ball alternating with both hands on the ground. Go for 30 seconds.'
   },
   {
     id: '109',
     exercise: '1 Leg Lateral Leap Squat',
-    description: ''
+    description: 'On 1 foot, jump laterally to opposite foot, reach opposite hand down to the ground. Repeat.'
   },
   {
     id: '110',
     exercise: 'Core Circle',
-    description: ''
+    description: 'Forearms on a stability ball, circle around on the ball for 30 seconds.'
   },
   {
     id: '111',
     exercise: 'Holmsen Screamer Lunge',
-    description: ''
+    description: '1 leg lunge, jump up while bringing 1 arm up. Do 10 then switch legs.'
   },
   {
     id: '112',
     exercise: 'Med Ball Dreya Roll',
-    description: ''
+    description: 'Standing with a med ball in the hands. Go down to the butt, roll back, then roll up to standing with a jump.'
   },
   {
     id: '113',
     exercise: 'Plank Burpee on Stability Ball',
-    description: ''
+    description: 'Stability ball in the hands, on 1 leg, jump back to plank, then push up and back to standing with raising the ball to the ceiling and a jump.'
   },
   {
     id: '114',
     exercise: 'Banana Ball Switch Crunch',
-    description: ''
+    description: 'On the back with a stability ball in the hands, bring ball overhead then contract and switch ball to feet, fully extend then contract and switch ball back to hands, repeat.'
   },
   {
     id: '115',
     exercise: '3 Point Squat Press with Med Ball',
-    description: ''
+    description: 'Stand with a med ball in the hands, squat down, then stand and raise ball to the left, repeat with the ball up to the center, and then up to the right. Repeat.'
   },
   {
     id: '116',
     exercise: 'Slo-Mo Balance Climber',
-    description: ''
+    description: 'Forearms on a stability ball, bring right knee to right elbow, then switch.'
   },
   {
     id: '117',
     exercise: 'X2 Diver',
-    description: ''
+    description: 'Stand with wide legs, come down to hands on the floor, push back up to standing and raise hands over head and clap.'
   },
   {
     id: '118',
     exercise: 'Ryan Sphinx Twist Crunch',
-    description: ''
+    description: 'Plank position with 1 forearm on the ground, out to the side, NOT out in front. With the opposite raised arm, reach under the body, then come out and reach that hand to that swung out leg.'
   },
   {
     id: '119',
     exercise: '1 Leg Med Ball Burpee',
-    description: ''
+    description: 'Holding a med ball in the hands, stand on 1 leg, jump back to plank, do a push up and return to standing. Switch legs.'
   }
 ];
 
@@ -669,40 +670,302 @@ export const X2PAPUPPER = [
   {
     id: '128',
     exercise: 'Renegade Row',
-    description: ''
+    description: 'In plank position with a dumbbell in each hand. Do a push up, then a row with each arm. Do at least 10 reps.'
   },
   {
     id: '129',
     exercise: 'Plyo Push Ups',
-    description: ''
+    description: 'Hand clap plyo push up. Do 6 reps.'
   },
   {
     id: '130',
     exercise: 'Plank on Med Ball',
-    description: ''
+    description: 'Feet up on a med ball. Elbow plank for 60 seconds.'
   },
   {
     id: '131',
     exercise: 'Superman',
-    description: ''
+    description: 'On your stomach, raise the arms and legs for 45 seconds. Hold a broom or weighted bar if available.'
   },
   {
     id: '132',
-    description: ''
+    exercise: 'Towel Push Up',
+    description: '2 towels over the pull up bar, 1 in each hand.'
   },
   {
     id: '133',
     exercise: 'Med Ball Pike',
-    description: ''
+    description: 'On your back with a med ball straight above your chest. Bring the med ball to the feet and do not let the med ball go past the head. Do 10 reps.'
   },
   {
     id: '134',
     exercise: 'Step Up Hammer Press',
-    description: ''
+    description: 'Dumbbell in each hand, 1 foot up on a step. Hammer curl then up to a shoulder press with the palms facing out.'
   },
   {
     id: '135',
     exercise: 'Roller Angel',
-    description: ''
+    description: 'Lay over a roller (or stand with your back flat against a wall). Work the arms up and down by the head for 30 seconds.'
+  },
+];
+
+// P90X workouts below
+export const XCHESTBACK = [
+  {
+    id: '136',
+    exercise: 'Standard Push Ups',
+    description: 'Do a standard push up.'
+  },
+  {
+    id: '137',
+    exercise: 'Wide Front Pull Ups',
+    description: 'Do a wide front pull up.'
+  },
+  {
+    id: '138',
+    exercise: 'Military Push Ups',
+    description: 'Arms and hands close to the body.'
+  },
+  {
+    id: '139',
+    exercise: 'Chin Ups',
+    description: 'Do a standard chin up.'
+  },
+  {
+    id: '140',
+    exercise: 'Wide Fly Push Ups',
+    description: 'Do a wide push up. (fly?)'
+  },
+  {
+    id: '141',
+    exercise: 'Closed Grip Overhand Pull Ups',
+    description: 'Do a close grip pull up.'
+  },
+  {
+    id: '142',
+    exercise: 'Decline Push Ups',
+    description: 'Feet elevated for a standard push up.'
+  },
+  {
+    id: '143',
+    exercise: 'Heavy Pants',
+    description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
+  },
+  {
+    id: '144',
+    exercise: 'Diamond Push Ups',
+    description: 'Hands close together in the shape of a diamond push up.'
+  },
+  {
+    id: '145',
+    exercise: 'Lawnmowers',
+    description: '1 arm dumbbell rows.'
+  },
+  {
+    id: '146',
+    exercise: 'Dive Bomber Push Ups',
+    description: 'Down and under an imaginary shaft.'
+  },
+  {
+    id: '147',
+    exercise: 'Back Flys',
+    description: 'Dumbbell in each hand, slight bend forward, back flies. REPEAT WORKOUT BUT ALTERNATE BACK - CHEST INSTEAD OF CHEST - BACK.'
+  }
+];
+
+
+export const XSHOULDERSARMS = [
+  {
+    id: '148',
+    exercise: 'Alternating Shoulder Press',
+    description: 'Dumbbell in each arm, alternating shoulder press.'
+  },
+  {
+    id: '149',
+    exercise: 'In and Out Bicep Curls',
+    description: 'Dumbbell in each hand, 1 rep in close, 1 rep out wide.'
+  },
+  {
+    id: '150',
+    exercise: '2 Arm Tricep Kickbacks',
+    description: 'Slight bend at waist, dumbbell kickbacks. REPEAT LAST 3 MOVES.'
+  },
+  {
+    id: '151',
+    exercise: 'Deep Swimmers Press',
+    description: 'Dumbbell in each hand, bicep curl up to shoulder press.'
+  },
+  {
+    id: '152',
+    exercise: 'Full Supination Concentration Curls',
+    description: '1 dumbbell at a time, slightly across the body, squeeze the bicep and slight curl in at the top.'
+  },
+  {
+    id: '153',
+    exercise: 'Chair Dips',
+    description: 'REPEAT LAST 3 MOVES.'
+  },
+  {
+    id: '154',
+    exercise: 'Upright Rows',
+    description: 'Dumbbell in each hand.'
+  },
+  {
+    id: '155',
+    exercise: 'Static Arm Curls',
+    description: 'Hold 1 dumbbell at 90 degress, parallel to the floor, do 4 bicep curls with the other arm, switch.'
+  },
+  {
+    id: '156',
+    exercise: 'Flip Grip Twist Tricep Kickbacks',
+    description: '1 leg forward, bend forward, wrist facing down on 1 rep, then 1 rep with wrists facing up. REPEAT LAST 3 MOVES.'
+  },
+  {
+    id: '157',
+    exercise: 'Seated 2 Angle Shoulder Flys',
+    description: '1 rep seated, straight up, then 1 rep with a slight lean forward.'
+  },
+  {
+    id: '158',
+    exercise: 'Crouching Cohen Curls',
+    description: 'Dumbbell in each hand, crouch down and put elbows inside of knees.'
+  },
+  {
+    id: '159',
+    exercise: 'Lying Down Tricep Extensions',
+    description: 'Dumbbell in each hand. REPEAT LAST 3 MOVES.'
+  },
+  {
+    id: '160',
+    exercise: 'In and Out Straight Arm Shoulder Flys',
+    description: 'Shoulder fly out the the sides, then out in front.'
+  },
+  {
+    id: '161',
+    exercise: 'Congdon Curls',
+    description: 'Regular bicep curl up then hammer down.'
+  },
+  {
+    id: '162',
+    exercise: 'Side Tri Rises',
+    description: 'Lying on 1 side, bottom arm to opposite shoulder, top arm at a 90 degree angle, fingers pointing to the face, push up with the top arm. REPEAT LAST 3 MOVES.'
+  },
+];
+
+export const XLEGSBACK = [
+  {
+    id: '163',
+    exercise: 'Balanced Lunges',
+    description: 'Dumbbell in each hand, back leg on a chair or step, lunge with front leg. 30 reps per leg.'
+  },
+  {
+    id: '164',
+    exercise: 'Calf Raise Squats',
+    description: 'Dumbbell in each hand, squat down the up to a calf raise. At least 25 reps.'
+  },
+  {
+    id: '165',
+    exercise: 'Chin Ups',
+    description: 'Standard chin up.'
+  },
+  {
+    id: '166',
+    exercise: 'Super Skaters',
+    description: 'On 1 leg, no weight, back leg swings back with supporting arm movement. 25 reps per side.'
+  },
+  {
+    id: '167',
+    exercise: 'Wall Squats',
+    description: 'High for 15 seconds, low for 15, total of 90 seconds.'
+  },
+  {
+    id: '168',
+    exercise: 'Wide Front Pull Ups',
+    description: 'Wide pull ups'
+  },
+  {
+    id: '169',
+    exercise: 'Step Back Lunge',
+    description: 'Dumbbell in each hand. 1 leg step back lunge at a time. Do 10 normal, then 5 with dumbbells overhead or bicep curls.'
+  },
+  {
+    id: '170',
+    exercise: 'Alternating Side Lunge',
+    description: 'Dumbbell in each hand, right leg lunge out to the side, then the left. Do at least 20 reps.'
+  },
+  {
+    id: '171',
+    exercise: 'Narrow Grip Pull Ups',
+    description: 'Narrow grip pull ups.'
+  },
+  {
+    id: '172',
+    exercise: 'Single Leg Wall Squat',
+    description: '10 seconds per leg for a total of 60 seconds at least.'
+  },
+  {
+    id: '173',
+    exercise: 'Deadlift Squats',
+    description: 'With dumbbells or not, stand on 1 leg, go down in a squat, touch the floor 20 times per leg.'
+  },
+  {
+    id: '174',
+    exercise: 'Switch Grip Pull Ups',
+    description: 'Back and forth between chin ups and pull ups.'
+  },
+  {
+    id: '175',
+    exercise: 'Three Way Lunge',
+    description: 'No weight, step out to the side, then kick with front leg. Step out 45 degrees and kick, then step forward and kick.'
+  },
+  {
+    id: '176',
+    exercise: 'Sneaky Lunge',
+    description: 'Right leg lunge forward, leaning forward, arms back then arms over head, to standing. Do another, then turn around and do the same with the left leg.'
+  },
+  {
+    id: '177',
+    exercise: 'Chin Ups',
+    description: 'Standard chin ups.'
+  },
+  {
+    id: '178',
+    exercise: 'Chair Salutations',
+    description: 'Standing, bend over, come up into chair and hold for 30 seconds. Take a break and do another rep.'
+  },
+  {
+    id: '179',
+    exercise: 'Toe Roll Iso Lunge',
+    description: 'Step 1 leg far back, roll the back leg toe forwards and backwards 20 times. Repeat with the other leg.'
+  },
+  {
+    id: '180',
+    exercise: 'Wide Pull Ups',
+    description: 'Wide pull ups.'
+  },
+  {
+    id: '181',
+    exercise: 'Groucho Walk',
+    description: 'Get into a wide squat position. 4 steps forward, then 4 back. 60 seconds at least.'
+  },
+  {
+    id: '182',
+    exercise: 'Calf Raises',
+    description: 'Toes out, feet parallel, toes in. Dumbbells in each hand, do 15 slow and 10 quick per position.'
+  },
+  {
+    id: '183',
+    exercise: 'Narrow Pull Ups',
+    description: 'Narrow pull up.'
+  },
+  {
+    id: '184',
+    exercise: '80/20 Siebers Speed Squats',
+    description: '80% of the body weight on 1 foot, 20 on the other. 20 squats on that side then switch.'
+  },
+  {
+    id: '185',
+    exercise: 'Switch Grip Pull Ups',
+    description: 'Back and forth between chin ups and pull ups.'
   },
 ];

@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import mainStyles from '../../styles/main.module.css';
-// import calendarStyles from '../../styles/calendar.module.css';
 
 import { Button } from '../Button';
 
-import { compose } from 'recompose';
 import { withFirebase } from '../Firebase';
-import { withAuthorization } from '../Session';
 
-
+// TODO: Sort workouts by latest date
 class CalendarBase extends Component {
   constructor(props) {
     super(props);
@@ -17,25 +14,24 @@ class CalendarBase extends Component {
       date: new Date().toUTCString().replace(/\s/g, ""),
       program: '',
       workout: '',
-      dates: []
+      workoutEntries: []
     }
   }
 
   async componentDidMount() {
     const calendarRef = this.props.firebase.populateCalendar();
-    let dates = [];
+    let workoutEntries;
 
     try {
+      // calendarRef.on won't work for some reason
       await calendarRef.once('value', function (snapshot) {
         if (snapshot.val() === null) return;
 
-        dates.push(snapshot.val());
-        console.log("TCL: CalendarBase -> componentDidMount -> snapshot", snapshot);
-        // console.log("TCL: CalendarBase -> componentDidMount -> dates", dates)
+        workoutEntries = Object.entries(snapshot.val());
       });
 
       this.setState({
-        dates
+        workoutEntries
       });
     } catch (e) {
       console.log('Error at Calendar componentDidMount', e);
@@ -48,6 +44,7 @@ class CalendarBase extends Component {
     const { date, program, workout } = this.state;
 
     this.props.firebase.saveWorkoutDate(date, program, workout);
+    // TODO:On saving a new workout, the list should update
   }
 
   onChange = event => {
@@ -78,25 +75,25 @@ class CalendarBase extends Component {
             element={'Save'} />
         </form>
 
-        {/* <p>{this.state.dates}</p> */}
-        {/* {this.state.dates[0].map(date => (
-          <div>
-            <p>{date.program}</p>
-            <p>{date.workout}</p>
+        {this.state.workoutEntries.map(item => (
+          <div className={mainStyles.workoutEntries} key={item[0]}>
+            <p>{item[0].slice(0, 13)}</p>
+            <p>{item[1].program} - {item[1].workout}</p>
           </div>
-        ))} */}
+        ))}
       </React.Fragment>
     );
   }
 }
 
-const condition = authUser => !!authUser;
+// FIX: With either option...on page reload, can't find uid of null
+// const condition = authUser => !!authUser;
 
-// const Calendar = withFirebase(CalendarBase);
+// export default compose(
+//   withAuthorization(condition),
+//   withFirebase,
+// )(CalendarBase);
 
-// export default withAuthorization(condition)(Calendar);
+const Calendar = withFirebase(CalendarBase);
 
-export default compose(
-  withAuthorization(condition),
-  withFirebase,
-)(CalendarBase);
+export default Calendar;

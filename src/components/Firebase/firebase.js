@@ -65,10 +65,8 @@ class Firebase {
   // *** Read and populate calendar ***
   // populateCalendar = (date) => {
   populateCalendar = () => {
-    // FIX: For some reason, cant find this on page reload
+    // FIX: For some reason, cant find auth on page reload
     // console.log('Firebase.js, populateCalendar, this.auth.currentuser...', this.auth.currentUser);
-
-    // const calendarRef = this.db.ref(`calendars/${this.auth.currentUser.uid}/${date}`);
     const calendarRef = this.db.ref(`calendars/${this.auth.currentUser.uid}`);
 
     return calendarRef;
@@ -86,7 +84,7 @@ class Firebase {
 
   // *** Read and populate reps and weight ***
   populateCards = (exerciseId) => {
-    console.log(this.auth.currentUser);
+    // console.log(this.auth.currentUser);
 
     const exerciseRef = this.db.ref(`exercises/${this.auth.currentUser.uid}/${exerciseId}`);
 

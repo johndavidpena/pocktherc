@@ -12,6 +12,7 @@ import AccountPage from '../Account';
 import CalendarPage from '../Calendar';
 import StrengthPage from '../Strength';
 import CardioPage from '../Cardio';
+import P90XPage from '../P90X';
 import P90X2Page from '../P90X2';
 import InsanityPage from '../Insanity';
 
@@ -32,6 +33,7 @@ const App = () => (
       <Route path={ROUTES.WORKOUT} component={WorkoutPage} />
       <Route path={ROUTES.CALENDAR} component={CalendarPage} />
       <Route path={ROUTES.STRENGTH} component={StrengthPage} />
+      <Route path={ROUTES.P90X} component={P90XPage} />
       <Route path={ROUTES.P90X2} component={P90X2Page} />
       <Route path={ROUTES.CARDIO} component={CardioPage} />
       <Route path={ROUTES.INSANITY} component={InsanityPage} />

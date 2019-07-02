@@ -5,9 +5,7 @@
   align-items: center;
 
   margin: var(--size-1) auto;
-  /* background: var(--light-blue-700); */
-  background: rgba(29, 111, 152, 0.8);
-  color: var(--grey-100);
+  background: var(--light-blue-700);
   width: 65vw;
   height: auto;
   padding: var(--size-1);
@@ -22,6 +20,8 @@
 
 .card p {
   margin-bottom: var(--size-1);
+  color: var(--light-blue-100);
+
 }
 
 .card input {

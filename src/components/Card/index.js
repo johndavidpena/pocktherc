@@ -18,13 +18,11 @@ class CardBase extends Component {
 
   async componentDidMount() {
     const exerciseRef = this.props.firebase.populateCards(this.state.exerciseId);
-    // console.log('[Card.js] componentDidMount', exerciseRef);
     let initialReps;
     let initialWeight;
 
     try {
       await exerciseRef.once('value', function (snapshot) {
-        // console.log(snapshot.val());
         // Handle if no data exists
         if (snapshot.val() === null) return;
 

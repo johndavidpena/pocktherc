@@ -8,5 +8,6 @@ export const WORKOUT = '/workout';
 export const CALENDAR = '/calendar';
 export const STRENGTH = '/strength';
 export const CARDIO = '/cardio';
+export const P90X = '/p90x';
 export const P90X2 = '/p90x2';
 export const INSANITY = '/insanity';
