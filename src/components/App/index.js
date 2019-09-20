@@ -7,7 +7,6 @@ import SignUpPage from '../SignUp';
 import SignInPage from '../SignIn';
 import PasswordForgetPage from '../PasswordForget';
 import WorkoutPage from '../Workout';
-import AdminPage from '../Admin';
 import AccountPage from '../Account';
 import CalendarPage from '../Calendar';
 import StrengthPage from '../Strength';
@@ -29,7 +28,6 @@ const App = () => (
       <Route path={ROUTES.SIGN_IN} component={SignInPage} />
       <Route path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
       <Route path={ROUTES.ACCOUNT} component={AccountPage} />
-      <Route path={ROUTES.ADMIN} component={AdminPage} />
       <Route path={ROUTES.WORKOUT} component={WorkoutPage} />
       <Route path={ROUTES.CALENDAR} component={CalendarPage} />
       <Route path={ROUTES.STRENGTH} component={StrengthPage} />

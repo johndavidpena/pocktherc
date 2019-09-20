@@ -43,8 +43,8 @@ class CalendarBase extends Component {
 
     const { date, program, workout } = this.state;
 
-    this.props.firebase.saveWorkoutDate(date, program, workout);
     // TODO:On saving a new workout, the list should update
+    this.props.firebase.saveWorkoutDate(date, program, workout)
   }
 
   onChange = event => {

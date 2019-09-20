@@ -6,22 +6,38 @@
 
   margin: var(--size-1) auto;
   background: var(--light-blue-700);
-  width: 65vw;
+  width: 85vw;
   height: auto;
-  padding: var(--size-1);
+  padding: 1rem;
 }
 
 .card h4 {
   font-size: var(--font-size-subheadline);
   text-align: center;
   color: var(--text-dark);
-  padding: var(--size-2);
 }
 
 .card p {
-  margin-bottom: var(--size-1);
+  margin-bottom: 1rem;
   color: var(--light-blue-100);
+}
 
+
+.inputsWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card label {
+  font-size: var(--font-size);
+  color: var(--text-dark);
 }
 
 .card input {
@@ -31,5 +47,5 @@
   border-radius: var(--border-radius);
   border: none;
   margin-bottom: var(--size-1);
-  padding: var(--size-1);
+  padding: 1rem;
 }

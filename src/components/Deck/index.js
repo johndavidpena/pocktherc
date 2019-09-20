@@ -140,12 +140,15 @@ const Deck = props => {
         </div>
       );
     // Start P90X workouts below
+    // TODO: Update all to styles used below
     case 'chestandback':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X</h1>
-          <h3>Chest and Back</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X</h1>
+            <h3>Chest and Back</h3>
+          </div>
           {WORKOUTS.XCHESTBACK.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -173,6 +176,19 @@ const Deck = props => {
             onClick={props.click}>P90X</h1>
           <h3>Legs and Back</h3>
           {WORKOUTS.XLEGSBACK.map(exercise => (
+            <Card exercise={exercise}
+              key={exercise.id} />
+          ))}
+          <CalendarButton />
+        </div>
+      );
+    case 'chestshoulderstris':
+      return (
+        <div className={deckStyles.deck}>
+          <h1 className={mainStyles.mainHeading}
+            onClick={props.click}>P90X</h1>
+          <h3>Chest, Shoulders, Triceps</h3>
+          {WORKOUTS.XCHESTSHOULDERSTRIS.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
           ))}

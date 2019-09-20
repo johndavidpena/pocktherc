@@ -1,3 +1,10 @@
+.heading {
+  display: inline-flex;
+  align-items: baseline;
+  width: 100vw;
+  justify-content: center;
+}
+
 .deck h3 {
   font-size: var(--font-size-subheadline);
   color: var(--off-white);

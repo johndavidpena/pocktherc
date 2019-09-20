@@ -1,10 +1,38 @@
 import React from 'react';
-import mainStyles from '../../styles/main.module.css';
+import landingStyles from '../../styles/landing.module.css';
 
 const Landing = () => (
-  <React.Fragment>
-    <h1 className={mainStyles.landingHeading}>Pockt Herc</h1>
-  </React.Fragment>
+  <div className={landingStyles.landing}>
+    <h1 className={landingStyles.landingHeading}>Pockt Herc</h1>
+
+    <div className={landingStyles.bokeh}>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
 );
 
 export default Landing;

@@ -769,11 +769,71 @@ export const XCHESTBACK = [
   {
     id: '147',
     exercise: 'Back Flys',
-    description: 'Dumbbell in each hand, slight bend forward, back flies. REPEAT WORKOUT BUT ALTERNATE BACK - CHEST INSTEAD OF CHEST - BACK.'
+    description: 'Dumbbell in each hand, slight bend forward, back flies.'
+  },
+  {
+    id: '148',
+    exercise: 'Wide Front Pull Ups',
+    description: 'Do a wide front pull up.'
+  },
+  {
+    id: '149',
+    exercise: 'Standard Push Ups',
+    description: 'Do a standard push up.'
+  },
+  {
+    id: '150',
+    exercise: 'Chin Ups',
+    description: 'Do a standard chin up.'
+  },
+  {
+    id: '151',
+    exercise: 'Military Push Ups',
+    description: 'Arms and hands close to the body.'
+  },
+  {
+    id: '152',
+    exercise: 'Closed Grip Overhand Pull Ups',
+    description: 'Do a close grip pull up.'
+  },
+  {
+    id: '153',
+    exercise: 'Wide Fly Push Ups',
+    description: 'Do a wide push up.'
+  },
+  {
+    id: '154',
+    exercise: 'Heavy Pants',
+    description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
+  },
+  {
+    id: '155',
+    exercise: 'Decline Push Ups',
+    description: 'Feet elevated for a standard push up.'
+  },
+  {
+    id: '156',
+    exercise: 'Lawnmowers',
+    description: '1 arm dumbbell rows.'
+  },
+  {
+    id: '157',
+    exercise: 'Diamond Push Ups',
+    description: 'Hands close together in the shape of a diamond push up.'
+  },
+  {
+    id: '158',
+    exercise: 'Back Flys',
+    description: 'Dumbbell in each hand, slight bend forward, back flies.'
+  },
+  {
+    id: '159',
+    exercise: 'Dive Bomber Push Ups',
+    description: 'Down and under an imaginary shaft.'
   }
 ];
 
-
+// TODO: Update all ids below
 export const XSHOULDERSARMS = [
   {
     id: '148',
@@ -967,5 +1027,128 @@ export const XLEGSBACK = [
     id: '185',
     exercise: 'Switch Grip Pull Ups',
     description: 'Back and forth between chin ups and pull ups.'
+  },
+];
+
+export const XCHESTSHOULDERSTRIS = [
+  {
+    id: '186',
+    exercise: 'Slow Motion 3 in 1 Push Ups',
+    description: ''
+  },
+  {
+    id: '187',
+    exercise: 'In and Out Shoulder Flys',
+    description: ''
+  },
+  {
+    id: '188',
+    exercise: 'Chair Dips',
+    description: ''
+  },
+  {
+    id: '189',
+    exercise: 'Plange Push Ups',
+    description: ''
+  },
+  {
+    id: '190',
+    exercise: 'Pike Presses',
+    description: ''
+  },
+  {
+    id: '191',
+    exercise: 'Side Tri Rises',
+    description: ''
+  },
+  {
+    id: '192',
+    exercise: 'Floor Flys',
+    description: 'Switch every 4 reps.'
+  },
+  {
+    id: '193',
+    exercise: 'Scarecrows',
+    description: ''
+  },
+  {
+    id: '194',
+    exercise: 'Overhead Tricep Extensions',
+    description: ''
+  },
+  {
+    id: '195',
+    exercise: '2 Twitch Speed Push Ups',
+    description: '4 fast, 3 slow.'
+  },
+  {
+    id: '196',
+    exercise: 'Y Presses',
+    description: ''
+  },
+  {
+    id: '197',
+    exercise: 'Lying Tricep Extensions',
+    description: ''
+  },
+  {
+    id: '198',
+    exercise: 'Side to Side Push Ups',
+    description: ''
+  },
+  {
+    id: '199',
+    exercise: 'Pour Flys',
+    description: ''
+  },
+  {
+    id: '200',
+    exercise: 'Side-Leaning Tricep Extensions',
+    description: ''
+  },
+  {
+    id: '201',
+    exercise: '1 Arm Push Ups',
+    description: ''
+  },
+  {
+    id: '202',
+    exercise: 'Weighted Circles',
+    description: '2 x 20 reps.'
+  },
+  {
+    id: '203',
+    exercise: 'Throw the Bomb',
+    description: ''
+  },
+  {
+    id: '204',
+    exercise: 'Clap or Plyo Push Ups',
+    description: ''
+  },
+  {
+    id: '205',
+    exercise: 'Slow-Mo Throws',
+    description: ''
+  },
+  {
+    id: '206',
+    exercise: 'Front to Back Tricep Extensions',
+    description: ''
+  },
+  {
+    id: '207',
+    exercise: '1 Arm Balance Push Ups',
+    description: ''
+  },
+  {
+    id: '208',
+    exercise: 'Fly Row Presses',
+    description: ''
+  },
+  {
+    id: '209',
+    exercise: 'Dumbbell Cross Body Blows',
+    description: ''
   },
 ];
