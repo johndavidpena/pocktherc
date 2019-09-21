@@ -8,6 +8,62 @@ import * as WORKOUTS from '../../constants/workouts';
 
 const Deck = props => {
   switch (props.workout) {
+    // Start P90X workouts below
+    // TODO: Update all to styles used below in chestandback
+    case 'chestandback':
+      return (
+        <div className={deckStyles.deck}>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X</h1>
+            <h3>Chest and Back</h3>
+          </div>
+          {WORKOUTS.XCHESTBACK.map(exercise => (
+            <Card exercise={exercise}
+              key={exercise.id} />
+          ))}
+          <CalendarButton />
+        </div>
+      );
+    case 'shouldersandarms':
+      return (
+        <div className={deckStyles.deck}>
+          <h1 className={mainStyles.mainHeading}
+            onClick={props.click}>P90X</h1>
+          <h3>Shoulders and Arms</h3>
+          {WORKOUTS.XSHOULDERSARMS.map(exercise => (
+            <Card exercise={exercise}
+              key={exercise.id} />
+          ))}
+          <CalendarButton />
+        </div>
+      );
+    case 'legsandback':
+      return (
+        <div className={deckStyles.deck}>
+          <h1 className={mainStyles.mainHeading}
+            onClick={props.click}>P90X</h1>
+          <h3>Legs and Back</h3>
+          {WORKOUTS.XLEGSBACK.map(exercise => (
+            <Card exercise={exercise}
+              key={exercise.id} />
+          ))}
+          <CalendarButton />
+        </div>
+      );
+    case 'chestshoulderstris':
+      return (
+        <div className={deckStyles.deck}>
+          <h1 className={mainStyles.mainHeading}
+            onClick={props.click}>P90X</h1>
+          <h3>Chest, Shoulders, Triceps</h3>
+          {WORKOUTS.XCHESTSHOULDERSTRIS.map(exercise => (
+            <Card exercise={exercise}
+              key={exercise.id} />
+          ))}
+          <CalendarButton />
+        </div>
+      );
     // Start P90X2 workouts below
     case 'totalbody':
       return (
@@ -133,62 +189,6 @@ const Deck = props => {
             onClick={props.click}>P90X2</h1>
           <h3>V Sculpt</h3>
           {WORKOUTS.X2VSCULPT.map(exercise => (
-            <Card exercise={exercise}
-              key={exercise.id} />
-          ))}
-          <CalendarButton />
-        </div>
-      );
-    // Start P90X workouts below
-    // TODO: Update all to styles used below
-    case 'chestandback':
-      return (
-        <div className={deckStyles.deck}>
-          <div className={deckStyles.heading}>
-            <h1 className={mainStyles.mainHeading}
-              onClick={props.click}>P90X</h1>
-            <h3>Chest and Back</h3>
-          </div>
-          {WORKOUTS.XCHESTBACK.map(exercise => (
-            <Card exercise={exercise}
-              key={exercise.id} />
-          ))}
-          <CalendarButton />
-        </div>
-      );
-    case 'shouldersandarms':
-      return (
-        <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X</h1>
-          <h3>Shoulders and Arms</h3>
-          {WORKOUTS.XSHOULDERSARMS.map(exercise => (
-            <Card exercise={exercise}
-              key={exercise.id} />
-          ))}
-          <CalendarButton />
-        </div>
-      );
-    case 'legsandback':
-      return (
-        <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X</h1>
-          <h3>Legs and Back</h3>
-          {WORKOUTS.XLEGSBACK.map(exercise => (
-            <Card exercise={exercise}
-              key={exercise.id} />
-          ))}
-          <CalendarButton />
-        </div>
-      );
-    case 'chestshoulderstris':
-      return (
-        <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X</h1>
-          <h3>Chest, Shoulders, Triceps</h3>
-          {WORKOUTS.XCHESTSHOULDERSTRIS.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
           ))}

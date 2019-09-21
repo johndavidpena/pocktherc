@@ -1,3 +1,471 @@
+// P90X workouts below
+export const XCHESTBACK = [
+  {
+    id: '136',
+    workout: 'p90xchestback',
+    exercise: 'Standard Push Ups',
+    description: 'Do a standard push up.'
+  },
+  {
+    id: '137',
+    workout: 'p90xchestback',
+    exercise: 'Wide Front Pull Ups',
+    description: 'Do a wide front pull up.'
+  },
+  {
+    id: '138',
+    workout: 'p90xchestback',
+    exercise: 'Military Push Ups',
+    description: 'Arms and hands close to the body.'
+  },
+  {
+    id: '139',
+    workout: 'p90xchestback',
+    exercise: 'Chin Ups',
+    description: 'Do a standard chin up.'
+  },
+  {
+    id: '140',
+    workout: 'p90xchestback',
+    exercise: 'Wide Fly Push Ups',
+    description: 'Do a wide push up. (fly?)'
+  },
+  {
+    id: '141',
+    workout: 'p90xchestback',
+    exercise: 'Closed Grip Overhand Pull Ups',
+    description: 'Do a close grip pull up.'
+  },
+  {
+    id: '142',
+    workout: 'p90xchestback',
+    exercise: 'Decline Push Ups',
+    description: 'Feet elevated for a standard push up.'
+  },
+  {
+    id: '143',
+    workout: 'p90xchestback',
+    exercise: 'Heavy Pants',
+    description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
+  },
+  {
+    id: '144',
+    workout: 'p90xchestback',
+    exercise: 'Diamond Push Ups',
+    description: 'Hands close together in the shape of a diamond push up.'
+  },
+  {
+    id: '145',
+    workout: 'p90xchestback',
+    exercise: 'Lawnmowers',
+    description: '1 arm dumbbell rows.'
+  },
+  {
+    id: '146',
+    workout: 'p90xchestback',
+    exercise: 'Dive Bomber Push Ups',
+    description: 'Down and under an imaginary shaft.'
+  },
+  {
+    id: '147',
+    workout: 'p90xchestback',
+    exercise: 'Back Flys',
+    description: 'Dumbbell in each hand, slight bend forward, back flies.'
+  },
+  {
+    id: '148',
+    workout: 'p90xchestback',
+    exercise: 'Wide Front Pull Ups',
+    description: 'Do a wide front pull up.'
+  },
+  {
+    id: '149',
+    workout: 'p90xchestback',
+    exercise: 'Standard Push Ups',
+    description: 'Do a standard push up.'
+  },
+  {
+    id: '150',
+    workout: 'p90xchestback',
+    exercise: 'Chin Ups',
+    description: 'Do a standard chin up.'
+  },
+  {
+    id: '151',
+    workout: 'p90xchestback',
+    exercise: 'Military Push Ups',
+    description: 'Arms and hands close to the body.'
+  },
+  {
+    id: '152',
+    workout: 'p90xchestback',
+    exercise: 'Closed Grip Overhand Pull Ups',
+    description: 'Do a close grip pull up.'
+  },
+  {
+    id: '153',
+    workout: 'p90xchestback',
+    exercise: 'Wide Fly Push Ups',
+    description: 'Do a wide push up.'
+  },
+  {
+    id: '154',
+    workout: 'p90xchestback',
+    exercise: 'Heavy Pants',
+    description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
+  },
+  {
+    id: '155',
+    workout: 'p90xchestback',
+    exercise: 'Decline Push Ups',
+    description: 'Feet elevated for a standard push up.'
+  },
+  {
+    id: '156',
+    workout: 'p90xchestback',
+    exercise: 'Lawnmowers',
+    description: '1 arm dumbbell rows.'
+  },
+  {
+    id: '157',
+    workout: 'p90xchestback',
+    exercise: 'Diamond Push Ups',
+    description: 'Hands close together in the shape of a diamond push up.'
+  },
+  {
+    id: '158',
+    workout: 'p90xchestback',
+    exercise: 'Back Flys',
+    description: 'Dumbbell in each hand, slight bend forward, back flies.'
+  },
+  {
+    id: '159',
+    workout: 'p90xchestback',
+    exercise: 'Dive Bomber Push Ups',
+    description: 'Down and under an imaginary shaft.'
+  }
+];
+
+// TODO: Update all ids below
+export const XSHOULDERSARMS = [
+  {
+    id: '148',
+    exercise: 'Alternating Shoulder Press',
+    description: 'Dumbbell in each arm, alternating shoulder press.'
+  },
+  {
+    id: '149',
+    exercise: 'In and Out Bicep Curls',
+    description: 'Dumbbell in each hand, 1 rep in close, 1 rep out wide.'
+  },
+  {
+    id: '150',
+    exercise: '2 Arm Tricep Kickbacks',
+    description: 'Slight bend at waist, dumbbell kickbacks. REPEAT LAST 3 MOVES.'
+  },
+  {
+    id: '151',
+    exercise: 'Deep Swimmers Press',
+    description: 'Dumbbell in each hand, bicep curl up to shoulder press.'
+  },
+  {
+    id: '152',
+    exercise: 'Full Supination Concentration Curls',
+    description: '1 dumbbell at a time, slightly across the body, squeeze the bicep and slight curl in at the top.'
+  },
+  {
+    id: '153',
+    exercise: 'Chair Dips',
+    description: 'REPEAT LAST 3 MOVES.'
+  },
+  {
+    id: '154',
+    exercise: 'Upright Rows',
+    description: 'Dumbbell in each hand.'
+  },
+  {
+    id: '155',
+    exercise: 'Static Arm Curls',
+    description: 'Hold 1 dumbbell at 90 degress, parallel to the floor, do 4 bicep curls with the other arm, switch.'
+  },
+  {
+    id: '156',
+    exercise: 'Flip Grip Twist Tricep Kickbacks',
+    description: '1 leg forward, bend forward, wrist facing down on 1 rep, then 1 rep with wrists facing up. REPEAT LAST 3 MOVES.'
+  },
+  {
+    id: '157',
+    exercise: 'Seated 2 Angle Shoulder Flys',
+    description: '1 rep seated, straight up, then 1 rep with a slight lean forward.'
+  },
+  {
+    id: '158',
+    exercise: 'Crouching Cohen Curls',
+    description: 'Dumbbell in each hand, crouch down and put elbows inside of knees.'
+  },
+  {
+    id: '159',
+    exercise: 'Lying Down Tricep Extensions',
+    description: 'Dumbbell in each hand. REPEAT LAST 3 MOVES.'
+  },
+  {
+    id: '160',
+    exercise: 'In and Out Straight Arm Shoulder Flys',
+    description: 'Shoulder fly out the the sides, then out in front.'
+  },
+  {
+    id: '161',
+    exercise: 'Congdon Curls',
+    description: 'Regular bicep curl up then hammer down.'
+  },
+  {
+    id: '162',
+    exercise: 'Side Tri Rises',
+    description: 'Lying on 1 side, bottom arm to opposite shoulder, top arm at a 90 degree angle, fingers pointing to the face, push up with the top arm. REPEAT LAST 3 MOVES.'
+  },
+];
+
+export const XLEGSBACK = [
+  {
+    id: '163',
+    exercise: 'Balanced Lunges',
+    description: 'Dumbbell in each hand, back leg on a chair or step, lunge with front leg. 30 reps per leg.'
+  },
+  {
+    id: '164',
+    exercise: 'Calf Raise Squats',
+    description: 'Dumbbell in each hand, squat down the up to a calf raise. At least 25 reps.'
+  },
+  {
+    id: '165',
+    exercise: 'Chin Ups',
+    description: 'Standard chin up.'
+  },
+  {
+    id: '166',
+    exercise: 'Super Skaters',
+    description: 'On 1 leg, no weight, back leg swings back with supporting arm movement. 25 reps per side.'
+  },
+  {
+    id: '167',
+    exercise: 'Wall Squats',
+    description: 'High for 15 seconds, low for 15, total of 90 seconds.'
+  },
+  {
+    id: '168',
+    exercise: 'Wide Front Pull Ups',
+    description: 'Wide pull ups'
+  },
+  {
+    id: '169',
+    exercise: 'Step Back Lunge',
+    description: 'Dumbbell in each hand. 1 leg step back lunge at a time. Do 10 normal, then 5 with dumbbells overhead or bicep curls.'
+  },
+  {
+    id: '170',
+    exercise: 'Alternating Side Lunge',
+    description: 'Dumbbell in each hand, right leg lunge out to the side, then the left. Do at least 20 reps.'
+  },
+  {
+    id: '171',
+    exercise: 'Narrow Grip Pull Ups',
+    description: 'Narrow grip pull ups.'
+  },
+  {
+    id: '172',
+    exercise: 'Single Leg Wall Squat',
+    description: '10 seconds per leg for a total of 60 seconds at least.'
+  },
+  {
+    id: '173',
+    exercise: 'Deadlift Squats',
+    description: 'With dumbbells or not, stand on 1 leg, go down in a squat, touch the floor 20 times per leg.'
+  },
+  {
+    id: '174',
+    exercise: 'Switch Grip Pull Ups',
+    description: 'Back and forth between chin ups and pull ups.'
+  },
+  {
+    id: '175',
+    exercise: 'Three Way Lunge',
+    description: 'No weight, step out to the side, then kick with front leg. Step out 45 degrees and kick, then step forward and kick.'
+  },
+  {
+    id: '176',
+    exercise: 'Sneaky Lunge',
+    description: 'Right leg lunge forward, leaning forward, arms back then arms over head, to standing. Do another, then turn around and do the same with the left leg.'
+  },
+  {
+    id: '177',
+    exercise: 'Chin Ups',
+    description: 'Standard chin ups.'
+  },
+  {
+    id: '178',
+    exercise: 'Chair Salutations',
+    description: 'Standing, bend over, come up into chair and hold for 30 seconds. Take a break and do another rep.'
+  },
+  {
+    id: '179',
+    exercise: 'Toe Roll Iso Lunge',
+    description: 'Step 1 leg far back, roll the back leg toe forwards and backwards 20 times. Repeat with the other leg.'
+  },
+  {
+    id: '180',
+    exercise: 'Wide Pull Ups',
+    description: 'Wide pull ups.'
+  },
+  {
+    id: '181',
+    exercise: 'Groucho Walk',
+    description: 'Get into a wide squat position. 4 steps forward, then 4 back. 60 seconds at least.'
+  },
+  {
+    id: '182',
+    exercise: 'Calf Raises',
+    description: 'Toes out, feet parallel, toes in. Dumbbells in each hand, do 15 slow and 10 quick per position.'
+  },
+  {
+    id: '183',
+    exercise: 'Narrow Pull Ups',
+    description: 'Narrow pull up.'
+  },
+  {
+    id: '184',
+    exercise: '80/20 Siebers Speed Squats',
+    description: '80% of the body weight on 1 foot, 20 on the other. 20 squats on that side then switch.'
+  },
+  {
+    id: '185',
+    exercise: 'Switch Grip Pull Ups',
+    description: 'Back and forth between chin ups and pull ups.'
+  },
+];
+
+export const XCHESTSHOULDERSTRIS = [
+  {
+    id: '186',
+    exercise: 'Slow Motion 3 in 1 Push Ups',
+    description: ''
+  },
+  {
+    id: '187',
+    exercise: 'In and Out Shoulder Flys',
+    description: ''
+  },
+  {
+    id: '188',
+    exercise: 'Chair Dips',
+    description: ''
+  },
+  {
+    id: '189',
+    exercise: 'Plange Push Ups',
+    description: ''
+  },
+  {
+    id: '190',
+    exercise: 'Pike Presses',
+    description: ''
+  },
+  {
+    id: '191',
+    exercise: 'Side Tri Rises',
+    description: ''
+  },
+  {
+    id: '192',
+    exercise: 'Floor Flys',
+    description: 'Switch every 4 reps.'
+  },
+  {
+    id: '193',
+    exercise: 'Scarecrows',
+    description: ''
+  },
+  {
+    id: '194',
+    exercise: 'Overhead Tricep Extensions',
+    description: ''
+  },
+  {
+    id: '195',
+    exercise: '2 Twitch Speed Push Ups',
+    description: '4 fast, 3 slow.'
+  },
+  {
+    id: '196',
+    exercise: 'Y Presses',
+    description: ''
+  },
+  {
+    id: '197',
+    exercise: 'Lying Tricep Extensions',
+    description: ''
+  },
+  {
+    id: '198',
+    exercise: 'Side to Side Push Ups',
+    description: ''
+  },
+  {
+    id: '199',
+    exercise: 'Pour Flys',
+    description: ''
+  },
+  {
+    id: '200',
+    exercise: 'Side-Leaning Tricep Extensions',
+    description: ''
+  },
+  {
+    id: '201',
+    exercise: '1 Arm Push Ups',
+    description: ''
+  },
+  {
+    id: '202',
+    exercise: 'Weighted Circles',
+    description: '2 x 20 reps.'
+  },
+  {
+    id: '203',
+    exercise: 'Throw the Bomb',
+    description: ''
+  },
+  {
+    id: '204',
+    exercise: 'Clap or Plyo Push Ups',
+    description: ''
+  },
+  {
+    id: '205',
+    exercise: 'Slow-Mo Throws',
+    description: ''
+  },
+  {
+    id: '206',
+    exercise: 'Front to Back Tricep Extensions',
+    description: ''
+  },
+  {
+    id: '207',
+    exercise: '1 Arm Balance Push Ups',
+    description: ''
+  },
+  {
+    id: '208',
+    exercise: 'Fly Row Presses',
+    description: ''
+  },
+  {
+    id: '209',
+    exercise: 'Dumbbell Cross Body Blows',
+    description: ''
+  },
+];
+
 // P90X2 workouts below
 export const X2BASEBACK = [
   {
@@ -706,449 +1174,5 @@ export const X2PAPUPPER = [
     id: '135',
     exercise: 'Roller Angel',
     description: 'Lay over a roller (or stand with your back flat against a wall). Work the arms up and down by the head for 30 seconds.'
-  },
-];
-
-// P90X workouts below
-export const XCHESTBACK = [
-  {
-    id: '136',
-    exercise: 'Standard Push Ups',
-    description: 'Do a standard push up.'
-  },
-  {
-    id: '137',
-    exercise: 'Wide Front Pull Ups',
-    description: 'Do a wide front pull up.'
-  },
-  {
-    id: '138',
-    exercise: 'Military Push Ups',
-    description: 'Arms and hands close to the body.'
-  },
-  {
-    id: '139',
-    exercise: 'Chin Ups',
-    description: 'Do a standard chin up.'
-  },
-  {
-    id: '140',
-    exercise: 'Wide Fly Push Ups',
-    description: 'Do a wide push up. (fly?)'
-  },
-  {
-    id: '141',
-    exercise: 'Closed Grip Overhand Pull Ups',
-    description: 'Do a close grip pull up.'
-  },
-  {
-    id: '142',
-    exercise: 'Decline Push Ups',
-    description: 'Feet elevated for a standard push up.'
-  },
-  {
-    id: '143',
-    exercise: 'Heavy Pants',
-    description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
-  },
-  {
-    id: '144',
-    exercise: 'Diamond Push Ups',
-    description: 'Hands close together in the shape of a diamond push up.'
-  },
-  {
-    id: '145',
-    exercise: 'Lawnmowers',
-    description: '1 arm dumbbell rows.'
-  },
-  {
-    id: '146',
-    exercise: 'Dive Bomber Push Ups',
-    description: 'Down and under an imaginary shaft.'
-  },
-  {
-    id: '147',
-    exercise: 'Back Flys',
-    description: 'Dumbbell in each hand, slight bend forward, back flies.'
-  },
-  {
-    id: '148',
-    exercise: 'Wide Front Pull Ups',
-    description: 'Do a wide front pull up.'
-  },
-  {
-    id: '149',
-    exercise: 'Standard Push Ups',
-    description: 'Do a standard push up.'
-  },
-  {
-    id: '150',
-    exercise: 'Chin Ups',
-    description: 'Do a standard chin up.'
-  },
-  {
-    id: '151',
-    exercise: 'Military Push Ups',
-    description: 'Arms and hands close to the body.'
-  },
-  {
-    id: '152',
-    exercise: 'Closed Grip Overhand Pull Ups',
-    description: 'Do a close grip pull up.'
-  },
-  {
-    id: '153',
-    exercise: 'Wide Fly Push Ups',
-    description: 'Do a wide push up.'
-  },
-  {
-    id: '154',
-    exercise: 'Heavy Pants',
-    description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
-  },
-  {
-    id: '155',
-    exercise: 'Decline Push Ups',
-    description: 'Feet elevated for a standard push up.'
-  },
-  {
-    id: '156',
-    exercise: 'Lawnmowers',
-    description: '1 arm dumbbell rows.'
-  },
-  {
-    id: '157',
-    exercise: 'Diamond Push Ups',
-    description: 'Hands close together in the shape of a diamond push up.'
-  },
-  {
-    id: '158',
-    exercise: 'Back Flys',
-    description: 'Dumbbell in each hand, slight bend forward, back flies.'
-  },
-  {
-    id: '159',
-    exercise: 'Dive Bomber Push Ups',
-    description: 'Down and under an imaginary shaft.'
-  }
-];
-
-// TODO: Update all ids below
-export const XSHOULDERSARMS = [
-  {
-    id: '148',
-    exercise: 'Alternating Shoulder Press',
-    description: 'Dumbbell in each arm, alternating shoulder press.'
-  },
-  {
-    id: '149',
-    exercise: 'In and Out Bicep Curls',
-    description: 'Dumbbell in each hand, 1 rep in close, 1 rep out wide.'
-  },
-  {
-    id: '150',
-    exercise: '2 Arm Tricep Kickbacks',
-    description: 'Slight bend at waist, dumbbell kickbacks. REPEAT LAST 3 MOVES.'
-  },
-  {
-    id: '151',
-    exercise: 'Deep Swimmers Press',
-    description: 'Dumbbell in each hand, bicep curl up to shoulder press.'
-  },
-  {
-    id: '152',
-    exercise: 'Full Supination Concentration Curls',
-    description: '1 dumbbell at a time, slightly across the body, squeeze the bicep and slight curl in at the top.'
-  },
-  {
-    id: '153',
-    exercise: 'Chair Dips',
-    description: 'REPEAT LAST 3 MOVES.'
-  },
-  {
-    id: '154',
-    exercise: 'Upright Rows',
-    description: 'Dumbbell in each hand.'
-  },
-  {
-    id: '155',
-    exercise: 'Static Arm Curls',
-    description: 'Hold 1 dumbbell at 90 degress, parallel to the floor, do 4 bicep curls with the other arm, switch.'
-  },
-  {
-    id: '156',
-    exercise: 'Flip Grip Twist Tricep Kickbacks',
-    description: '1 leg forward, bend forward, wrist facing down on 1 rep, then 1 rep with wrists facing up. REPEAT LAST 3 MOVES.'
-  },
-  {
-    id: '157',
-    exercise: 'Seated 2 Angle Shoulder Flys',
-    description: '1 rep seated, straight up, then 1 rep with a slight lean forward.'
-  },
-  {
-    id: '158',
-    exercise: 'Crouching Cohen Curls',
-    description: 'Dumbbell in each hand, crouch down and put elbows inside of knees.'
-  },
-  {
-    id: '159',
-    exercise: 'Lying Down Tricep Extensions',
-    description: 'Dumbbell in each hand. REPEAT LAST 3 MOVES.'
-  },
-  {
-    id: '160',
-    exercise: 'In and Out Straight Arm Shoulder Flys',
-    description: 'Shoulder fly out the the sides, then out in front.'
-  },
-  {
-    id: '161',
-    exercise: 'Congdon Curls',
-    description: 'Regular bicep curl up then hammer down.'
-  },
-  {
-    id: '162',
-    exercise: 'Side Tri Rises',
-    description: 'Lying on 1 side, bottom arm to opposite shoulder, top arm at a 90 degree angle, fingers pointing to the face, push up with the top arm. REPEAT LAST 3 MOVES.'
-  },
-];
-
-export const XLEGSBACK = [
-  {
-    id: '163',
-    exercise: 'Balanced Lunges',
-    description: 'Dumbbell in each hand, back leg on a chair or step, lunge with front leg. 30 reps per leg.'
-  },
-  {
-    id: '164',
-    exercise: 'Calf Raise Squats',
-    description: 'Dumbbell in each hand, squat down the up to a calf raise. At least 25 reps.'
-  },
-  {
-    id: '165',
-    exercise: 'Chin Ups',
-    description: 'Standard chin up.'
-  },
-  {
-    id: '166',
-    exercise: 'Super Skaters',
-    description: 'On 1 leg, no weight, back leg swings back with supporting arm movement. 25 reps per side.'
-  },
-  {
-    id: '167',
-    exercise: 'Wall Squats',
-    description: 'High for 15 seconds, low for 15, total of 90 seconds.'
-  },
-  {
-    id: '168',
-    exercise: 'Wide Front Pull Ups',
-    description: 'Wide pull ups'
-  },
-  {
-    id: '169',
-    exercise: 'Step Back Lunge',
-    description: 'Dumbbell in each hand. 1 leg step back lunge at a time. Do 10 normal, then 5 with dumbbells overhead or bicep curls.'
-  },
-  {
-    id: '170',
-    exercise: 'Alternating Side Lunge',
-    description: 'Dumbbell in each hand, right leg lunge out to the side, then the left. Do at least 20 reps.'
-  },
-  {
-    id: '171',
-    exercise: 'Narrow Grip Pull Ups',
-    description: 'Narrow grip pull ups.'
-  },
-  {
-    id: '172',
-    exercise: 'Single Leg Wall Squat',
-    description: '10 seconds per leg for a total of 60 seconds at least.'
-  },
-  {
-    id: '173',
-    exercise: 'Deadlift Squats',
-    description: 'With dumbbells or not, stand on 1 leg, go down in a squat, touch the floor 20 times per leg.'
-  },
-  {
-    id: '174',
-    exercise: 'Switch Grip Pull Ups',
-    description: 'Back and forth between chin ups and pull ups.'
-  },
-  {
-    id: '175',
-    exercise: 'Three Way Lunge',
-    description: 'No weight, step out to the side, then kick with front leg. Step out 45 degrees and kick, then step forward and kick.'
-  },
-  {
-    id: '176',
-    exercise: 'Sneaky Lunge',
-    description: 'Right leg lunge forward, leaning forward, arms back then arms over head, to standing. Do another, then turn around and do the same with the left leg.'
-  },
-  {
-    id: '177',
-    exercise: 'Chin Ups',
-    description: 'Standard chin ups.'
-  },
-  {
-    id: '178',
-    exercise: 'Chair Salutations',
-    description: 'Standing, bend over, come up into chair and hold for 30 seconds. Take a break and do another rep.'
-  },
-  {
-    id: '179',
-    exercise: 'Toe Roll Iso Lunge',
-    description: 'Step 1 leg far back, roll the back leg toe forwards and backwards 20 times. Repeat with the other leg.'
-  },
-  {
-    id: '180',
-    exercise: 'Wide Pull Ups',
-    description: 'Wide pull ups.'
-  },
-  {
-    id: '181',
-    exercise: 'Groucho Walk',
-    description: 'Get into a wide squat position. 4 steps forward, then 4 back. 60 seconds at least.'
-  },
-  {
-    id: '182',
-    exercise: 'Calf Raises',
-    description: 'Toes out, feet parallel, toes in. Dumbbells in each hand, do 15 slow and 10 quick per position.'
-  },
-  {
-    id: '183',
-    exercise: 'Narrow Pull Ups',
-    description: 'Narrow pull up.'
-  },
-  {
-    id: '184',
-    exercise: '80/20 Siebers Speed Squats',
-    description: '80% of the body weight on 1 foot, 20 on the other. 20 squats on that side then switch.'
-  },
-  {
-    id: '185',
-    exercise: 'Switch Grip Pull Ups',
-    description: 'Back and forth between chin ups and pull ups.'
-  },
-];
-
-export const XCHESTSHOULDERSTRIS = [
-  {
-    id: '186',
-    exercise: 'Slow Motion 3 in 1 Push Ups',
-    description: ''
-  },
-  {
-    id: '187',
-    exercise: 'In and Out Shoulder Flys',
-    description: ''
-  },
-  {
-    id: '188',
-    exercise: 'Chair Dips',
-    description: ''
-  },
-  {
-    id: '189',
-    exercise: 'Plange Push Ups',
-    description: ''
-  },
-  {
-    id: '190',
-    exercise: 'Pike Presses',
-    description: ''
-  },
-  {
-    id: '191',
-    exercise: 'Side Tri Rises',
-    description: ''
-  },
-  {
-    id: '192',
-    exercise: 'Floor Flys',
-    description: 'Switch every 4 reps.'
-  },
-  {
-    id: '193',
-    exercise: 'Scarecrows',
-    description: ''
-  },
-  {
-    id: '194',
-    exercise: 'Overhead Tricep Extensions',
-    description: ''
-  },
-  {
-    id: '195',
-    exercise: '2 Twitch Speed Push Ups',
-    description: '4 fast, 3 slow.'
-  },
-  {
-    id: '196',
-    exercise: 'Y Presses',
-    description: ''
-  },
-  {
-    id: '197',
-    exercise: 'Lying Tricep Extensions',
-    description: ''
-  },
-  {
-    id: '198',
-    exercise: 'Side to Side Push Ups',
-    description: ''
-  },
-  {
-    id: '199',
-    exercise: 'Pour Flys',
-    description: ''
-  },
-  {
-    id: '200',
-    exercise: 'Side-Leaning Tricep Extensions',
-    description: ''
-  },
-  {
-    id: '201',
-    exercise: '1 Arm Push Ups',
-    description: ''
-  },
-  {
-    id: '202',
-    exercise: 'Weighted Circles',
-    description: '2 x 20 reps.'
-  },
-  {
-    id: '203',
-    exercise: 'Throw the Bomb',
-    description: ''
-  },
-  {
-    id: '204',
-    exercise: 'Clap or Plyo Push Ups',
-    description: ''
-  },
-  {
-    id: '205',
-    exercise: 'Slow-Mo Throws',
-    description: ''
-  },
-  {
-    id: '206',
-    exercise: 'Front to Back Tricep Extensions',
-    description: ''
-  },
-  {
-    id: '207',
-    exercise: '1 Arm Balance Push Ups',
-    description: ''
-  },
-  {
-    id: '208',
-    exercise: 'Fly Row Presses',
-    description: ''
-  },
-  {
-    id: '209',
-    exercise: 'Dumbbell Cross Body Blows',
-    description: ''
   },
 ];

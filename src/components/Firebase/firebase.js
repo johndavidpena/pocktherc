@@ -34,7 +34,7 @@ class Firebase {
   doPasswordUpdate = password =>
     this.auth.currentUser.updatePassword(password);
 
-  // *** Merge Auth and DB User API *** //
+  // Merge Auth and DB User API
   onAuthUserListener = (next, fallback) =>
     this.auth.onAuthStateChanged(authUser => {
       if (authUser) {
@@ -42,11 +42,6 @@ class Firebase {
           .once('value')
           .then(snapshot => {
             const dbUser = snapshot.val();
-
-            // default empty roles
-            if (!dbUser.roles) {
-              dbUser.roles = {};
-            }
 
             // merge auth and db user
             authUser = {
@@ -62,52 +57,56 @@ class Firebase {
       }
     });
 
-  // *** Read and populate calendar ***
+  // Read and populate calendar
   // populateCalendar = (date) => {
-  populateCalendar = () => {
-    // FIX: For some reason, cant find auth on page reload
-    // console.log('Firebase.js, populateCalendar, this.auth.currentuser...', this.auth.currentUser);
-    const calendarRef = this.db.ref(`calendars/${this.auth.currentUser.uid}`);
+  // populateCalendar = () => {
+  // FIX: For some reason, cant find auth on page reload
+  // console.log('Firebase.js, populateCalendar, this.auth.currentuser...', this.auth.currentUser);
+  //   const calendarRef = this.db.ref(`calendars/${this.auth.currentUser.uid}`);
 
-    return calendarRef;
-  }
-  // *** Save the date of a workout to the calendar ***
-  saveWorkoutDate = (date, program, workout) => {
-    // console.log('Saved date to calendar for user...', this.auth.currentUser.uid);
+  //   return calendarRef;
+  // }
+  // Save the date of a workout to the calendar
+  // saveWorkoutDate = (date, program, workout) => {
+  // console.log('Saved date to calendar for user...', this.auth.currentUser.uid);
 
-    this.db.ref(`calendars/${this.auth.currentUser.uid}/${date}`)
+  //   this.db.ref(`calendars/${this.auth.currentUser.uid}/${date}`)
+  //     .set({
+  //       program,
+  //       workout
+  //     });
+  // }
+
+  // Read and populate reps and weight
+  // populateCards = (exerciseId) => {
+  // console.log(this.auth.currentUser);
+
+  //   const exerciseRef = this.db.ref(`exercises/${this.auth.currentUser.uid}/${exerciseId}`);
+
+  //   return exerciseRef;
+  // }
+
+  // Save the reps and weight of a single exercise
+  saveExercise = (exerciseId, workout, exercise, reps, weight) => {
+    // console.log('this.auth.currentUser.uid:', this.auth.currentUser.uid);
+    console.log(`exerciseId is ${exerciseId}\nworkout is ${workout}\nexercise is ${exercise}\nreps is ${reps}\nweight is ${weight}`);
+
+    const userId = this.auth.currentUser.uid;
+
+    this.db.ref(`${workout}/${exercise}`)
       .set({
-        program,
-        workout
-      });
-  }
-
-  // *** Read and populate reps and weight ***
-  populateCards = (exerciseId) => {
-    // console.log(this.auth.currentUser);
-
-    const exerciseRef = this.db.ref(`exercises/${this.auth.currentUser.uid}/${exerciseId}`);
-
-    return exerciseRef;
-  }
-
-  // *** Save the reps and weight of a single exercise ***
-  saveExercise = (exerciseId, exercise, reps, weight) => {
-    // console.log('Saved to user', this.auth.currentUser.uid);
-
-    this.db.ref(`exercises/${this.auth.currentUser.uid}/${exerciseId}`)
-      .set({
-        exercise,
+        exerciseId,
+        userId,
         reps,
         weight
       });
   }
 
-  // *** User API ***
+  // User API
   user = uid => this.db.ref(`users/${uid}`);
   users = () => this.db.ref('users');
 
-  // *** Exercises API ***
+  // Exercises API
   // exercises = uid => this.db.ref(`exercises/${uid}`);
 }
 
