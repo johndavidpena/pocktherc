@@ -79,7 +79,7 @@ class SignUpFormBase extends Component {
       username === '';
 
     return (
-      <form onSubmit={this.onSubmit}>
+      <form onSubmit={this.onSubmit} className={mainStyles.form}>
         <input
           name="username"
           value={username}

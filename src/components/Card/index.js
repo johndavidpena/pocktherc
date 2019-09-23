@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import cardStyles from '../../styles/card.module.css';
 import { Button } from '../Button';
 
+import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
 
 const CardBase = props => {
@@ -9,52 +10,73 @@ const CardBase = props => {
   const [weight, setWeight] = useState(0);
 
   useEffect(() => {
-    // Call to Firebase DB to get initial props
-    // console.log(props); // Exercises 136-159 w id, exercise, description
-    // props.firebase.fetchExercise(props);
-  });
+    const { workout, id } = props.exercise;
+    const user = props.firebase.auth.currentUser.uid;
 
-  const onSubmit = event => {
+    props.firebase.exercises(workout, id, user).once('value')
+      .then(snapshot => {
+        if (snapshot.val() !== null && user === snapshot.val().userId) {
+          setReps(snapshot.val().reps);
+          setWeight(snapshot.val().weight);
+        }
+      })
+      .catch(err => console.log(err));
+  }, [props.firebase, props.exercise]);
+
+  const saveExercise = (event, authUser) => {
     event.preventDefault();
-    // console.log(props.exercise.workout);
+    const { workout, exercise, id } = props.exercise;
 
-    props.firebase.saveExercise(props.exercise.id, props.exercise.workout, props.exercise.exercise, reps, weight);
+    props.firebase.exercises(workout, id, authUser.uid).set({
+      userId: authUser.uid,
+      workout,
+      exercise,
+      id,
+      reps,
+      weight,
+      createdAt: props.firebase.serverValue.TIMESTAMP,
+    });
   }
 
   return (
-    <form
-      className={cardStyles.card}
-      key={props.exercise.id}
-      onSubmit={onSubmit}
-    >
-      <h4>{props.exercise.exercise}</h4>
-      <p>{props.exercise.description}</p>
+    <AuthUserContext.Consumer>
+      {authUser => (
+        <form
+          className={cardStyles.card}
+          onSubmit={event => saveExercise(event, authUser)}
+        >
+          <h4>{props.exercise.exercise}</h4>
+          <p>{props.exercise.description}</p>
 
-      <div className={cardStyles.inputsWrapper}>
-        <div className={cardStyles.inputs}>
-          <label htmlFor="reps">Reps</label>
-          <input
-            name='reps'
-            type='number'
-            onChange={e => setReps(e.target.value)}
-            value={reps} />
-        </div>
+          <div className={cardStyles.inputsWrapper}>
+            <div className={cardStyles.inputs}>
+              <label htmlFor="reps">Reps</label>
+              <input
+                name='reps'
+                type='number'
+                onChange={e => setReps(e.target.value)}
+                value={reps} />
+            </div>
 
-        <div className={cardStyles.inputs}>
-          <label htmlFor="weight">Weight</label>
-          <input
-            name='weight'
-            type='number'
-            onChange={e => setWeight(e.target.value)}
-            value={weight} />
-        </div>
-      </div>
+            <div className={cardStyles.inputs}>
+              <label htmlFor="weight">Weight</label>
+              <input
+                name='weight'
+                type='number'
+                onChange={e => setWeight(e.target.value)}
+                value={weight} />
+            </div>
+          </div>
 
-      <Button type='submit' element={'Save'} />
-    </form>
+          <Button type='submit' element={'Save'} />
+        </form>
+      )}
+    </AuthUserContext.Consumer>
   );
 }
 
 const Card = withFirebase(CardBase);
 
-export default Card;
+const condition = authUser => !!authUser;
+
+export default withAuthorization(condition)(Card);
