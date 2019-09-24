@@ -1,8 +1,10 @@
 import React from 'react';
 import mainStyles from '../../styles/main.module.css';
 import strengthStyles from './strength.module.css';
-import P90X from '../P90XIcon';
-import P90X2 from '../P90X2Icon';
+// import P90X from '../P90XIcon';
+// import P90X2 from '../P90X2Icon';
+import P90Ximg from '../../assets/p90x.png';
+import P90X2img from '../../assets/p90x2.png';
 
 import { Link } from 'react-router-dom';
 import * as ROUTES from '../../constants/routes';
@@ -15,19 +17,21 @@ const StrengthPage = () => (
 
     <div className={strengthStyles.link}>
       <Link to={ROUTES.P90X}>
-        <P90X
+        {/* <P90X
           fill="#3994C1" // --light-blue-500
           width={100}
-          style={{ background: 'transparent', width: '100%' }} />
+          style={{ background: 'transparent', width: '100%' }} /> */}
+        <img src={P90Ximg} alt="P90X icon" />
       </Link>
     </div>
 
     <div className={strengthStyles.link}>
       <Link to={ROUTES.P90X2}>
-        <P90X2
+        {/* <P90X2
           fill="#3994C1" // --light-blue-500
           width={100}
-          style={{ background: 'transparent', width: '100%' }} />
+          style={{ background: 'transparent', width: '100%' }} /> */}
+        <img src={P90X2img} alt="P90X2 icon" />
       </Link>
     </div>
 

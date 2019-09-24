@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import cardStyles from '../../styles/card.module.css';
 import { Button } from '../Button';
+import ProgressButton from '../ProgressButton';
 
 import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
@@ -69,6 +70,7 @@ const CardBase = props => {
           </div>
 
           <Button type='submit' element={'Save'} />
+          {/* <ProgressButton type='submit' /> */}
         </form>
       )}
     </AuthUserContext.Consumer>

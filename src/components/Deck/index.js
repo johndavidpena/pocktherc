@@ -9,14 +9,13 @@ import * as WORKOUTS from '../../constants/workouts';
 const Deck = props => {
   switch (props.workout) {
     // Start P90X workouts below
-    // TODO: Update all to styles used below in chestandback
     case 'chestandback':
       return (
         <div className={deckStyles.deck}>
           <div className={deckStyles.heading}>
             <h1 className={mainStyles.mainHeading}
               onClick={props.click}>P90X</h1>
-            <h3>Chest and Back</h3>
+            <h3>Chest & Back</h3>
           </div>
           {WORKOUTS.XCHESTBACK.map(exercise => (
             <Card exercise={exercise}
@@ -28,9 +27,11 @@ const Deck = props => {
     case 'shouldersandarms':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X</h1>
-          <h3>Shoulders and Arms</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X</h1>
+            <h3>Shoulders & Arms</h3>
+          </div>
           {WORKOUTS.XSHOULDERSARMS.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -41,9 +42,11 @@ const Deck = props => {
     case 'legsandback':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X</h1>
-          <h3>Legs and Back</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X</h1>
+            <h3>Legs & Back</h3>
+          </div>
           {WORKOUTS.XLEGSBACK.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -54,9 +57,11 @@ const Deck = props => {
     case 'chestshoulderstris':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X</h1>
-          <h3>Chest, Shoulders, Triceps</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X</h1>
+            <h3>Chest, Shoulders, Triceps</h3>
+          </div>
           {WORKOUTS.XCHESTSHOULDERSTRIS.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -68,9 +73,11 @@ const Deck = props => {
     case 'totalbody':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>Total Body</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>Total Body</h3>
+          </div>
           {WORKOUTS.X2TOTALBODY.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -81,9 +88,11 @@ const Deck = props => {
     case 'balancepower':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>Balance and Power</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>Balance & Power</h3>
+          </div>
           {WORKOUTS.X2BALANCEPOWER.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -94,9 +103,11 @@ const Deck = props => {
     case 'core':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>Core</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>Core</h3>
+          </div>
           {WORKOUTS.X2CORE.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -107,9 +118,11 @@ const Deck = props => {
     case 'chestback':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>Chest and Back</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>Chest & Back</h3>
+          </div>
           {WORKOUTS.X2CHESTBACK.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -120,9 +133,11 @@ const Deck = props => {
     case 'shouldersarms':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>Shoulders and Arms</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>Shoulders & Arms</h3>
+          </div>
           {WORKOUTS.X2SHOULDERSARMS.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -133,9 +148,11 @@ const Deck = props => {
     case 'baseback':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>Base and Back</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>Base & Back</h3>
+          </div>
           {WORKOUTS.X2BASEBACK.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -146,9 +163,11 @@ const Deck = props => {
     case 'paplower':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>PAP Lower</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>PAP Lower</h3>
+          </div>
           {WORKOUTS.X2PAPLOWER.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -159,9 +178,11 @@ const Deck = props => {
     case 'chesttris':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>Chest and Triceps</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>Chest & Triceps</h3>
+          </div>
           {WORKOUTS.X2CHESTTRIS.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -172,9 +193,11 @@ const Deck = props => {
     case 'papupper':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>PAP Upper</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>PAP Upper</h3>
+          </div>
           {WORKOUTS.X2PAPUPPER.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />
@@ -185,9 +208,11 @@ const Deck = props => {
     case 'vsculpt':
       return (
         <div className={deckStyles.deck}>
-          <h1 className={mainStyles.mainHeading}
-            onClick={props.click}>P90X2</h1>
-          <h3>V Sculpt</h3>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X2</h1>
+            <h3>V Sculpt</h3>
+          </div>
           {WORKOUTS.X2VSCULPT.map(exercise => (
             <Card exercise={exercise}
               key={exercise.id} />

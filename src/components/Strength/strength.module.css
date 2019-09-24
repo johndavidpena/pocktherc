@@ -1,4 +1,5 @@
 .link {
   cursor: pointer;
   margin: var(--size-4);
+  text-align: center;
 }
