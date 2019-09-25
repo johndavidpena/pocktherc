@@ -1,114 +1,95 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import mainStyles from '../../styles/main.module.css';
+import calendarStyles from '../../styles/calendar.module.css';
 import { Button } from '../Button';
+
+import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
 
-// TODO:
+// Step 2: Add 'Save to Calendar' function to CalendarButton
+
+// export const CalendarButton = () => (
+//   <div className={calendarStyles.container}>
+//     <Button
+//       element={'Add to Calendar'}
+//        click={addWorkout}
+//     />
+//   </div>
+// );
+
 const CalendarBase = props => {
-  const [date, setDate] = useState(new Date().toUTCString().replace(/\s/g, ""));
+  const date = new Date().toISOString().slice(0, 10);
+
+  const [entries, setEntries] = useState([]);
   const [program, setProgram] = useState('');
   const [workout, setWorkout] = useState('');
 
-  const onSubmit = event => {
+  useEffect(() => {
+    const user = props.firebase.auth.currentUser.uid;
+
+    // TODO: Change once to on so new data gets updated on save
+    // TODO: Order by most recent date
+    props.firebase.calendar(user).once('value')
+      .then(snapshot => {
+        // console.log('snapshot.val() is', snapshot.val());
+        const entriesList = Object.values(snapshot.val());
+        console.log("TCL: entriesList", entriesList);
+        setEntries(entriesList);
+      })
+      .catch(err => console.log(err));
+  }, [props.firebase]);
+
+  // FIX: Does not work for multiple workouts on same date, overwrites instead
+  const addWorkout = (event, authUser) => {
     event.preventDefault();
 
-    const { date, program, workout } = this.state;
-
-    // TODO:On saving a new workout, the list should update
-    this.props.firebase.saveWorkoutDate(date, program, workout)
-  }
-
-  const onChange = event => {
-    this.setState({ [event.target.name]: event.target.value });
+    props.firebase.calendars(authUser.uid, date).set({
+      // userId: authUser.uid,
+      workout,
+      program,
+      date,
+    });
   }
 
   return (
-    <React.Fragment>
-      <h1 className={mainStyles.mainHeading}>Calendar</h1>
-      <h3 className={mainStyles.subHeading}>Add Workout Below</h3>
-      <form
-        className={mainStyles.form}
-        onSubmit={onSubmit}>
-        <input
-          name='program'
-          type='text'
-          onChange={onChange}
-          value={program}
-          placeholder='Program' />
-        <input
-          name='workout'
-          type='text'
-          onChange={onChange}
-          value={workout}
-          placeholder='Workout' />
-        <Button type='submit'
-          element={'Save'} />
-      </form>
+    <AuthUserContext.Consumer>
+      {authUser => (
+        <React.Fragment>
+          <h1 className={mainStyles.mainHeading}>Calendar</h1>
+          <h3 className={mainStyles.subHeading}>Add Workout Below</h3>
+          <form
+            className={mainStyles.form}
+            onSubmit={event => addWorkout(event, authUser)}>
+            <input
+              name='program'
+              type='text'
+              onChange={e => setProgram(e.target.value)}
+              value={program}
+              placeholder='Program' />
+            <input
+              name='workout'
+              type='text'
+              onChange={e => setWorkout(e.target.value)}
+              value={workout}
+              placeholder='Workout' />
+            <Button type='submit'
+              element={'Save'} />
+          </form>
 
-      {/* {this.state.workoutEntries.map(item => (
-        <div className={mainStyles.workoutEntries} key={item[0]}>
-          <p>{item[0].slice(0, 13)}</p>
-          <p>{item[1].program} - {item[1].workout}</p>
-        </div>
-      ))} */}
-    </React.Fragment>
-
+          {entries.map(entry => (
+            <div className={mainStyles.workoutEntries} key={entry.date}>
+              <p>{entry.date}</p>
+              <p>{entry.program} - {entry.workout}</p>
+            </div>
+          ))}
+        </React.Fragment>
+      )}
+    </AuthUserContext.Consumer>
   );
 }
 
-// Read and populate calendar
-// populateCalendar = (date) => {
-// populateCalendar = () => {
-// FIX: For some reason, cant find auth on page reload WRAP IN AUTHUSER CONTEXT like CARD
-// console.log('Firebase.js, populateCalendar, this.auth.currentuser...', this.auth.currentUser);
-//   const calendarRef = this.db.ref(`calendars/${this.auth.currentUser.uid}`);
-
-//   return calendarRef;
-// }
-// Save the date of a workout to the calendar
-// saveWorkoutDate = (date, program, workout) => {
-// console.log('Saved date to calendar for user...', this.auth.currentUser.uid);
-
-//   this.db.ref(`calendars/${this.auth.currentUser.uid}/${date}`)
-//     .set({
-//       program,
-//       workout
-//     });
-// }
-
-// TODO: Convert to useEffect
-// async componentDidMount() {
-//   const calendarRef = this.props.firebase.populateCalendar();
-//   let workoutEntries;
-
-//   try {
-//     // calendarRef.on won't work for some reason
-//     await calendarRef.once('value', function (snapshot) {
-//       if (snapshot.val() === null) return;
-
-//       workoutEntries = Object.entries(snapshot.val());
-//     });
-
-//     this.setState({
-//       workoutEntries
-//     });
-//   } catch (e) {
-//     console.log('Error at Calendar componentDidMount', e);
-//   }
-// }
-
-
-
-
-
-// FIX: With either option...on page reload, can't find uid of null
-// const condition = authUser => !!authUser;
-
-// export default compose(
-//   withAuthorization(condition),
-//   withFirebase,
-// )(CalendarBase);
-
 const Calendar = withFirebase(CalendarBase);
 
-export default Calendar;
+const condition = authUser => !!authUser;
+
+export default withAuthorization(condition)(Calendar);

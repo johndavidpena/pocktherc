@@ -66,6 +66,10 @@ class Firebase {
 
   // Exercises API
   exercises = (workout, exerciseId, user) => this.db.ref(`exercises/${workout}/${exerciseId}${user}`);
+
+  // Calendars API
+  calendar = user => this.db.ref(`calendars/${user}`);
+  calendars = (user, date) => this.db.ref(`calendars/${user}/${date}`);
 }
 
 export default Firebase;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import cardStyles from '../../styles/card.module.css';
 import { Button } from '../Button';
-import ProgressButton from '../ProgressButton';
+// import ProgressButton from '../ProgressButton';
 
 import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
