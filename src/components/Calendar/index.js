@@ -6,13 +6,12 @@ import { Button } from '../Button';
 import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
 
-// Step 2: Add 'Save to Calendar' function to CalendarButton
-
+// TODO: Add 'Save to Calendar' function to CalendarButton
 // export const CalendarButton = () => (
 //   <div className={calendarStyles.container}>
 //     <Button
 //       element={'Add to Calendar'}
-//        click={addWorkout}
+//       click={addWorkout(event, authUser)}
 //     />
 //   </div>
 // );
@@ -24,19 +23,32 @@ const CalendarBase = props => {
   const [program, setProgram] = useState('');
   const [workout, setWorkout] = useState('');
 
+  // Called on first render only
+  // useEffect(() => {
+  //   const user = props.firebase.auth.currentUser.uid;
+
+  //   props.firebase.calendar(user).once('value')
+  //     .then(snapshot => {
+  //       const entriesList = Object.values(snapshot.val());
+  //       setEntries(entriesList);
+  //     })
+  //     .catch(err => console.log(err));
+  // }, [props.firebase]);
+
+  // Called on first render AND when a new workout is added
   useEffect(() => {
     const user = props.firebase.auth.currentUser.uid;
 
-    // TODO: Change once to on so new data gets updated on save
-    // TODO: Order by most recent date
-    props.firebase.calendar(user).once('value')
-      .then(snapshot => {
-        // console.log('snapshot.val() is', snapshot.val());
+    props.firebase.calendar(user).on('value', function (snapshot) {
+      if (snapshot.val() !== null) {
         const entriesList = Object.values(snapshot.val());
-        console.log("TCL: entriesList", entriesList);
         setEntries(entriesList);
-      })
-      .catch(err => console.log(err));
+      }
+    });
+
+    return () => {
+      props.firebase.calendar(user).off();
+    };
   }, [props.firebase]);
 
   // FIX: Does not work for multiple workouts on same date, overwrites instead
@@ -45,10 +57,14 @@ const CalendarBase = props => {
 
     props.firebase.calendars(authUser.uid, date).set({
       // userId: authUser.uid,
+      timestamp: props.firebase.serverValue.TIMESTAMP,
       workout,
       program,
       date,
     });
+
+    setProgram('');
+    setWorkout('');
   }
 
   return (
@@ -60,6 +76,7 @@ const CalendarBase = props => {
           <form
             className={mainStyles.form}
             onSubmit={event => addWorkout(event, authUser)}>
+            {/* FIX: input onChange causes data to jump around on screen */}
             <input
               name='program'
               type='text'
@@ -76,8 +93,8 @@ const CalendarBase = props => {
               element={'Save'} />
           </form>
 
-          {entries.map(entry => (
-            <div className={mainStyles.workoutEntries} key={entry.date}>
+          {entries.reverse().map(entry => (
+            <div className={mainStyles.workoutEntries} key={entry.timestamp}>
               <p>{entry.date}</p>
               <p>{entry.program} - {entry.workout}</p>
             </div>
