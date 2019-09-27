@@ -2,6 +2,7 @@ import React from 'react';
 import mainStyles from '../../styles/main.module.css';
 import deckStyles from '../../styles/deck.module.css';
 import Card from '../Card';
+import CalendarButton from '../CalendarButton';
 
 import * as WORKOUTS from '../../constants/workouts';
 
@@ -20,6 +21,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.XCHESTBACK[0].workout}
+            program={WORKOUTS.XCHESTBACK[0].program} />
         </div>
       );
     case 'shouldersandarms':
@@ -34,6 +37,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.XSHOULDERSARMS[0].workout}
+            program={WORKOUTS.XSHOULDERSARMS[0].program} />
         </div>
       );
     case 'legsandback':
@@ -48,6 +53,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.XLEGSBACK[0].workout}
+            program={WORKOUTS.XLEGSBACK[0].program} />
         </div>
       );
     case 'chestshoulderstris':
@@ -62,6 +69,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.XCHESTSHOULDERSTRIS[0].workout}
+            program={WORKOUTS.XCHESTSHOULDERSTRIS[0].program} />
         </div>
       );
     // Start P90X2 workouts below
@@ -77,6 +86,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2TOTALBODY[0].workout}
+            program={WORKOUTS.X2TOTALBODY[0].program} />
         </div>
       );
     case 'balancepower':
@@ -91,6 +102,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2BALANCEPOWER[0].workout}
+            program={WORKOUTS.X2BALANCEPOWER[0].program} />
         </div>
       );
     case 'core':
@@ -105,6 +118,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2CORE[0].workout}
+            program={WORKOUTS.X2CORE[0].program} />
         </div>
       );
     case 'chestback':
@@ -119,6 +134,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2CHESTBACK[0].workout}
+            program={WORKOUTS.X2CHESTBACK[0].program} />
         </div>
       );
     case 'shouldersarms':
@@ -133,6 +150,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2SHOULDERSARMS[0].workout}
+            program={WORKOUTS.X2SHOULDERSARMS[0].program} />
         </div>
       );
     case 'baseback':
@@ -147,6 +166,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2BASEBACK[0].workout}
+            program={WORKOUTS.X2BASEBACK[0].program} />
         </div>
       );
     case 'paplower':
@@ -161,6 +182,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2PAPLOWER[0].workout}
+            program={WORKOUTS.X2PAPLOWER[0].program} />
         </div>
       );
     case 'chesttris':
@@ -175,6 +198,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2CHESTTRIS[0].workout}
+            program={WORKOUTS.X2CHESTTRIS[0].program} />
         </div>
       );
     case 'papupper':
@@ -189,6 +214,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2PAPUPPER[0].workout}
+            program={WORKOUTS.X2PAPUPPER[0].program} />
         </div>
       );
     case 'vsculpt':
@@ -203,6 +230,8 @@ const Deck = props => {
             <Card exercise={exercise}
               key={exercise.id} />
           ))}
+          <CalendarButton workout={WORKOUTS.X2VSCULPT[0].workout}
+            program={WORKOUTS.X2VSCULPT[0].program} />
         </div>
       );
     default:

@@ -2,145 +2,123 @@
 export const XCHESTBACK = [
   {
     id: '001',
-    workout: 'p90xchestback',
+    program: 'P90X',
+    workout: 'Chest & Back',
     exercise: 'Standard Push Ups',
     description: 'Do a standard push up.'
   },
   {
     id: '002',
-    workout: 'p90xchestback',
     exercise: 'Wide Front Pull Ups',
     description: 'Do a wide front pull up.'
   },
   {
     id: '003',
-    workout: 'p90xchestback',
     exercise: 'Military Push Ups',
     description: 'Arms and hands close to the body.'
   },
   {
     id: '004',
-    workout: 'p90xchestback',
     exercise: 'Chin Ups',
     description: 'Do a standard chin up.'
   },
   {
     id: '005',
-    workout: 'p90xchestback',
     exercise: 'Wide Fly Push Ups',
     description: 'Do a wide push up.'
   },
   {
     id: '006',
-    workout: 'p90xchestback',
     exercise: 'Closed Grip Overhand Pull Ups',
     description: 'Do a close grip pull up.'
   },
   {
     id: '007',
-    workout: 'p90xchestback',
     exercise: 'Decline Push Ups',
     description: 'Feet elevated for a standard push up.'
   },
   {
     id: '008',
-    workout: 'p90xchestback',
     exercise: 'Heavy Pants',
     description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
   },
   {
     id: '009',
-    workout: 'p90xchestback',
     exercise: 'Diamond Push Ups',
     description: 'Hands close together in the shape of a diamond push up.'
   },
   {
     id: '010',
-    workout: 'p90xchestback',
     exercise: 'Lawnmowers',
     description: '1 arm dumbbell rows.'
   },
   {
     id: '011',
-    workout: 'p90xchestback',
     exercise: 'Dive Bomber Push Ups',
     description: 'Down and under an imaginary shaft.'
   },
   {
     id: '012',
-    workout: 'p90xchestback',
     exercise: 'Back Flys',
     description: 'Dumbbell in each hand, slight bend forward, back flies.'
   },
   {
     id: '013',
-    workout: 'p90xchestback',
     exercise: 'Wide Front Pull Ups',
     description: 'Do a wide front pull up.'
   },
   {
     id: '014',
-    workout: 'p90xchestback',
     exercise: 'Standard Push Ups',
     description: 'Do a standard push up.'
   },
   {
     id: '015',
-    workout: 'p90xchestback',
     exercise: 'Chin Ups',
     description: 'Do a standard chin up.'
   },
   {
     id: '016',
-    workout: 'p90xchestback',
     exercise: 'Military Push Ups',
     description: 'Arms and hands close to the body.'
   },
   {
     id: '017',
-    workout: 'p90xchestback',
     exercise: 'Closed Grip Overhand Pull Ups',
     description: 'Do a close grip pull up.'
   },
   {
     id: '018',
-    workout: 'p90xchestback',
     exercise: 'Wide Fly Push Ups',
     description: 'Do a wide push up.'
   },
   {
     id: '019',
-    workout: 'p90xchestback',
     exercise: 'Heavy Pants',
     description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
   },
   {
     id: '020',
-    workout: 'p90xchestback',
     exercise: 'Decline Push Ups',
     description: 'Feet elevated for a standard push up.'
   },
   {
     id: '021',
-    workout: 'p90xchestback',
     exercise: 'Lawnmowers',
     description: '1 arm dumbbell rows.'
   },
   {
     id: '022',
-    workout: 'p90xchestback',
     exercise: 'Diamond Push Ups',
     description: 'Hands close together in the shape of a diamond push up.'
   },
   {
     id: '023',
-    workout: 'p90xchestback',
     exercise: 'Back Flys',
     description: 'Dumbbell in each hand, slight bend forward, back flies.'
   },
   {
     id: '024',
-    workout: 'p90xchestback',
     exercise: 'Dive Bomber Push Ups',
     description: 'Down and under an imaginary shaft.'
   }
@@ -149,181 +127,153 @@ export const XCHESTBACK = [
 export const XSHOULDERSARMS = [
   {
     id: '025',
-    workout: 'p90xshouldersarms',
+    program: 'P90X',
+    workout: 'Shoulders & Arms',
     exercise: 'Alternating Shoulder Press',
     description: 'Dumbbell in each arm, alternating shoulder press.'
   },
   {
     id: '026',
-    workout: 'p90xshouldersarms',
     exercise: 'In and Out Bicep Curls',
     description: 'Dumbbell in each hand, 1 rep in close, 1 rep out wide.'
   },
   {
     id: '027',
-    workout: 'p90xshouldersarms',
     exercise: '2 Arm Tricep Kickbacks',
     description: 'Slight bend at waist, dumbbell kickbacks.'
   },
   {
     id: '028',
-    workout: 'p90xshouldersarms',
     exercise: 'Alternating Shoulder Press',
     description: 'Dumbbell in each arm, alternating shoulder press.'
   },
   {
     id: '029',
-    workout: 'p90xshouldersarms',
     exercise: 'In and Out Bicep Curls',
     description: 'Dumbbell in each hand, 1 rep in close, 1 rep out wide.'
   },
   {
     id: '030',
-    workout: 'p90xshouldersarms',
     exercise: '2 Arm Tricep Kickbacks',
     description: 'Slight bend at waist, dumbbell kickbacks.'
   },
   {
     id: '031',
-    workout: 'p90xshouldersarms',
     exercise: 'Deep Swimmers Press',
     description: 'Dumbbell in each hand, bicep curl up to shoulder press.'
   },
   {
     id: '032',
-    workout: 'p90xshouldersarms',
     exercise: 'Full Supination Concentration Curls',
     description: '1 dumbbell at a time, slightly across the body, squeeze the bicep and slight curl in at the top.'
   },
   {
     id: '033',
-    workout: 'p90xshouldersarms',
     exercise: 'Chair Dips',
     description: 'Dips'
   },
   {
     id: '034',
-    workout: 'p90xshouldersarms',
     exercise: 'Deep Swimmers Press',
     description: 'Dumbbell in each hand, bicep curl up to shoulder press.'
   },
   {
     id: '035',
-    workout: 'p90xshouldersarms',
     exercise: 'Full Supination Concentration Curls',
     description: '1 dumbbell at a time, slightly across the body, squeeze the bicep and slight curl in at the top.'
   },
   {
     id: '036',
-    workout: 'p90xshouldersarms',
     exercise: 'Chair Dips',
     description: 'Dips'
   },
   {
     id: '037',
-    workout: 'p90xshouldersarms',
     exercise: 'Upright Rows',
     description: 'Dumbbell in each hand.'
   },
   {
     id: '038',
-    workout: 'p90xshouldersarms',
     exercise: 'Static Arm Curls',
     description: 'Hold 1 dumbbell at 90 degrees, parallel to the floor, do 4 bicep curls with the other arm, switch.'
   },
   {
     id: '039',
-    workout: 'p90xshouldersarms',
     exercise: 'Flip Grip Twist Tricep Kickbacks',
     description: '1 leg forward, bend forward, wrist facing down on 1 rep, then 1 rep with wrists facing up.'
   },
   {
     id: '040',
-    workout: 'p90xshouldersarms',
     exercise: 'Upright Rows',
     description: 'Dumbbell in each hand.'
   },
   {
     id: '041',
-    workout: 'p90xshouldersarms',
     exercise: 'Static Arm Curls',
     description: 'Hold 1 dumbbell at 90 degrees, parallel to the floor, do 4 bicep curls with the other arm, switch.'
   },
   {
     id: '042',
-    workout: 'p90xshouldersarms',
     exercise: 'Flip Grip Twist Tricep Kickbacks',
     description: '1 leg forward, bend forward, wrist facing down on 1 rep, then 1 rep with wrists facing up.'
   },
   {
     id: '043',
-    workout: 'p90xshouldersarms',
     exercise: 'Seated 2 Angle Shoulder Flys',
     description: '1 rep seated, straight up, then 1 rep with a slight lean forward.'
   },
   {
     id: '044',
-    workout: 'p90xshouldersarms',
     exercise: 'Crouching Cohen Curls',
     description: 'Dumbbell in each hand, crouch down and put elbows inside of knees.'
   },
   {
     id: '045',
-    workout: 'p90xshouldersarms',
     exercise: 'Lying Down Tricep Extensions',
     description: 'Dumbbell in each hand.'
   },
   {
     id: '046',
-    workout: 'p90xshouldersarms',
     exercise: 'Seated 2 Angle Shoulder Flys',
     description: '1 rep seated, straight up, then 1 rep with a slight lean forward.'
   },
   {
     id: '047',
-    workout: 'p90xshouldersarms',
     exercise: 'Crouching Cohen Curls',
     description: 'Dumbbell in each hand, crouch down and put elbows inside of knees.'
   },
   {
     id: '048',
-    workout: 'p90xshouldersarms',
     exercise: 'Lying Down Tricep Extensions',
     description: 'Dumbbell in each hand.'
   },
   {
     id: '049',
-    workout: 'p90xshouldersarms',
     exercise: 'In and Out Straight Arm Shoulder Flys',
     description: 'Shoulder fly out the the sides, then out in front.'
   },
   {
     id: '050',
-    workout: 'p90xshouldersarms',
     exercise: 'Congdon Curls',
     description: 'Regular bicep curl up then hammer down.'
   },
   {
     id: '051',
-    workout: 'p90xshouldersarms',
     exercise: 'Side Tri Rises',
     description: 'Lying on 1 side, bottom arm to opposite shoulder, top arm at a 90 degree angle, fingers pointing to the face, push up with the top arm.'
   },
   {
     id: '052',
-    workout: 'p90xshouldersarms',
     exercise: 'In and Out Straight Arm Shoulder Flys',
     description: 'Shoulder fly out the the sides, then out in front.'
   },
   {
     id: '053',
-    workout: 'p90xshouldersarms',
     exercise: 'Congdon Curls',
     description: 'Regular bicep curl up then hammer down.'
   },
   {
     id: '054',
-    workout: 'p90xshouldersarms',
     exercise: 'Side Tri Rises',
     description: 'Lying on 1 side, bottom arm to opposite shoulder, top arm at a 90 degree angle, fingers pointing to the face, push up with the top arm.'
   }
@@ -332,139 +282,118 @@ export const XSHOULDERSARMS = [
 export const XLEGSBACK = [
   {
     id: '055',
-    workout: 'p90xlegsback',
+    program: 'P90X',
+    workout: 'Legs & Back',
     exercise: 'Balanced Lunges',
     description: 'Dumbbell in each hand, back leg on a chair or step, lunge with front leg. 30 reps per leg.'
   },
   {
     id: '056',
-    workout: 'p90xlegsback',
     exercise: 'Calf Raise Squats',
     description: 'Dumbbell in each hand, squat down the up to a calf raise. At least 25 reps.'
   },
   {
     id: '057',
-    workout: 'p90xlegsback',
     exercise: 'Chin Ups',
     description: 'Standard chin up.'
   },
   {
     id: '058',
-    workout: 'p90xlegsback',
     exercise: 'Super Skaters',
     description: 'On 1 leg, no weight, back leg swings back with supporting arm movement. 25 reps per side.'
   },
   {
     id: '059',
-    workout: 'p90xlegsback',
     exercise: 'Wall Squats',
     description: 'High for 15 seconds, low for 15, total of 90 seconds.'
   },
   {
     id: '060',
-    workout: 'p90xlegsback',
     exercise: 'Wide Front Pull Ups',
     description: 'Wide pull ups'
   },
   {
     id: '061',
-    workout: 'p90xlegsback',
     exercise: 'Step Back Lunge',
     description: 'Dumbbell in each hand. 1 leg step back lunge at a time. Do 10 normal, then 5 with dumbbells overhead or bicep curls.'
   },
   {
     id: '062',
-    workout: 'p90xlegsback',
     exercise: 'Alternating Side Lunge',
     description: 'Dumbbell in each hand, right leg lunge out to the side, then the left. Do at least 20 reps.'
   },
   {
     id: '063',
-    workout: 'p90xlegsback',
     exercise: 'Narrow Grip Pull Ups',
     description: 'Narrow grip pull ups.'
   },
   {
     id: '064',
-    workout: 'p90xlegsback',
     exercise: 'Single Leg Wall Squat',
     description: '10 seconds per leg for a total of 60 seconds at least.'
   },
   {
     id: '065',
-    workout: 'p90xlegsback',
     exercise: 'Deadlift Squats',
     description: 'With dumbbells or not, stand on 1 leg, go down in a squat, touch the floor 20 times per leg.'
   },
   {
     id: '066',
-    workout: 'p90xlegsback',
     exercise: 'Switch Grip Pull Ups',
     description: 'Back and forth between chin ups and pull ups.'
   },
   {
     id: '067',
-    workout: 'p90xlegsback',
     exercise: 'Three Way Lunge',
     description: 'No weight, step out to the side, then kick with front leg. Step out 45 degrees and kick, then step forward and kick.'
   },
   {
     id: '068',
-    workout: 'p90xlegsback',
     exercise: 'Sneaky Lunge',
     description: 'Right leg lunge forward, leaning forward, arms back then arms over head, to standing. Do another, then turn around and do the same with the left leg.'
   },
   {
     id: '069',
-    workout: 'p90xlegsback',
     exercise: 'Chin Ups',
     description: 'Standard chin ups.'
   },
   {
     id: '070',
-    workout: 'p90xlegsback',
     exercise: 'Chair Salutations',
     description: 'Standing, bend over, come up into chair and hold for 30 seconds. Take a break and do another rep.'
   },
   {
     id: '071',
-    workout: 'p90xlegsback',
     exercise: 'Toe Roll Iso Lunge',
     description: 'Step 1 leg far back, roll the back leg toe forwards and backwards 20 times. Repeat with the other leg.'
   },
   {
     id: '072',
-    workout: 'p90xlegsback',
     exercise: 'Wide Pull Ups',
     description: 'Wide pull ups.'
   },
   {
     id: '073',
-    workout: 'p90xlegsback',
     exercise: 'Groucho Walk',
     description: 'Get into a wide squat position. 4 steps forward, then 4 back. 60 seconds at least.'
   },
   {
     id: '074',
-    workout: 'p90xlegsback',
     exercise: 'Calf Raises',
     description: 'Toes out, feet parallel, toes in. Dumbbells in each hand, do 15 slow and 10 quick per position.'
   },
   {
     id: '075',
-    workout: 'p90xlegsback',
     exercise: 'Narrow Pull Ups',
     description: 'Narrow pull up.'
   },
   {
     id: '076',
-    workout: 'p90xlegsback',
     exercise: '80/20 Siebers Speed Squats',
     description: '80% of the body weight on 1 foot, 20 on the other. 20 squats on that side then switch.'
   },
   {
     id: '077',
-    workout: 'p90xlegsback',
     exercise: 'Switch Grip Pull Ups',
     description: 'Back and forth between chin ups and pull ups.'
   },
@@ -473,7 +402,9 @@ export const XLEGSBACK = [
 // TODO: Update all ids below AND add workout: 'p90x...'
 export const XCHESTSHOULDERSTRIS = [
   {
-    id: '186',
+    id: '078',
+    program: 'P90X',
+    workout: 'Chest, Shoulders, Tris',
     exercise: 'Slow Motion 3 in 1 Push Ups',
     description: ''
   },
@@ -598,6 +529,8 @@ export const XCHESTSHOULDERSTRIS = [
 export const X2BASEBACK = [
   {
     id: '000',
+    program: 'P90X2',
+    workout: 'Base & Back',
     exercise: 'No Kip Pull Up',
     description: 'Body straight, no kipping.'
   },
@@ -651,6 +584,8 @@ export const X2BASEBACK = [
 export const X2VSCULPT = [
   {
     id: '010',
+    program: 'P90X2',
+    workout: 'V Sculpt',
     exercise: 'Around the World Pull Up',
     description: 'Do a pull up in a circle, change direction each time.'
   },
@@ -764,6 +699,8 @@ export const X2VSCULPT = [
 export const X2CHESTTRIS = [
   {
     id: '032',
+    program: 'P90X2',
+    workout: 'Chest & Tris',
     exercise: 'Chattarocker Push Up',
     description: 'Plank position, down to chattaronga, shuffle back to elbow plank, shuffle back to chattaronga, do a push up.'
   },
@@ -822,6 +759,8 @@ export const X2CHESTTRIS = [
 export const X2CHESTBACK = [
   {
     id: '043',
+    program: 'P90X2',
+    workout: 'Chest & Back',
     exercise: 'Pull Up X',
     description: 'Wide arms, wide legs.'
   },
@@ -925,6 +864,8 @@ export const X2CHESTBACK = [
 export const X2SHOULDERSARMS = [
   {
     id: '063',
+    program: 'P90X2',
+    workout: 'Shoulders & Arms',
     exercise: 'Balance Curl',
     description: 'Dumbbell bicep curls with 1 foot off the ground.'
   },
@@ -963,6 +904,8 @@ export const X2SHOULDERSARMS = [
 export const X2TOTALBODY = [
   {
     id: '070',
+    program: 'P90X2',
+    workout: 'Total Body',
     exercise: 'Arm Chest Press',
     description: 'Lying on a stability ball. 1 arm dumbbell chest press, switch arms.'
   },
@@ -1026,6 +969,8 @@ export const X2TOTALBODY = [
 export const X2BALANCEPOWER = [
   {
     id: '082',
+    program: 'P90X2',
+    workout: 'Balance & Power',
     exercise: 'Sphinx to Plank Plyo Bounce',
     description: 'On a stability ball on the elbows, BOUNCE up to hands on ball, go back and forth.'
   },
@@ -1134,6 +1079,8 @@ export const X2BALANCEPOWER = [
 export const X2CORE = [
   {
     id: '103',
+    program: 'P90X2',
+    workout: 'Core',
     exercise: 'Sphinx Plank Crunch',
     description: 'In sphinx plank, bring knee to opposite elbow, swing knee to outside and return to start. Switch.'
   },
@@ -1222,6 +1169,8 @@ export const X2CORE = [
 export const X2PAPLOWER = [
   {
     id: '120',
+    program: 'P90X2',
+    workout: 'PAP Lower',
     exercise: 'Step Up Convict',
     description: 'Holding a dumbbell in each hand, step up with one foot, raise the opposite knee, step down, and lunge back with one leg. Do at least 8 reps per leg.'
   },
@@ -1265,6 +1214,8 @@ export const X2PAPLOWER = [
 export const X2PAPUPPER = [
   {
     id: '128',
+    program: 'P90X2',
+    workout: 'PAP Upper',
     exercise: 'Renegade Row',
     description: 'In plank position with a dumbbell in each hand. Do a push up, then a row with each arm. Do at least 10 reps.'
   },

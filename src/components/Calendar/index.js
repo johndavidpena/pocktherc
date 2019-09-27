@@ -1,20 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import mainStyles from '../../styles/main.module.css';
-import calendarStyles from '../../styles/calendar.module.css';
 import { Button } from '../Button';
 
 import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
-
-// TODO: Add 'Save to Calendar' function to CalendarButton
-// export const CalendarButton = () => (
-//   <div className={calendarStyles.container}>
-//     <Button
-//       element={'Add to Calendar'}
-//       click={addWorkout(event, authUser)}
-//     />
-//   </div>
-// );
 
 const CalendarBase = props => {
   const date = new Date().toISOString().slice(0, 10);
