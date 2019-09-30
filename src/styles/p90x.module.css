@@ -22,27 +22,15 @@
 }
 
 .workoutsContainer p {
-  background-color: var(--grey-900);
+  background-color: var(--grey-800);
   padding: 1rem;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-}
-
-.lastWorkoutContainer {
 }
 
 .lastWorkoutContainer h3 {
   font-size: 1.75rem;
   color: var(--red-300);
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-
-.lastWorkoutContainer p {
-
-}
-
-/* .container p {
-  font-size: var(--font-size);
-  margin-bottom: var(--size-1);
-  cursor: pointer;
-} */

@@ -19,13 +19,15 @@ const P90XBase = props => {
 
     props.firebase.calendar(user).once('value')
       .then(snapshot => {
-        const workoutList = Object.values(snapshot.val());
+        if (snapshot.val() !== null) {
+          const workoutList = Object.values(snapshot.val());
 
-        setLastWorkout([
-          workoutList[workoutList.length - 1].date,
-          workoutList[workoutList.length - 1].program,
-          workoutList[workoutList.length - 1].workout
-        ]);
+          setLastWorkout([
+            workoutList[workoutList.length - 1].date,
+            workoutList[workoutList.length - 1].program,
+            workoutList[workoutList.length - 1].workout
+          ]);
+        }
       })
       .catch(err => console.log(err));
   }, [props.firebase]);

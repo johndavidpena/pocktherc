@@ -73,6 +73,22 @@ const Deck = props => {
             program={WORKOUTS.XCHESTSHOULDERSTRIS[0].program} />
         </div>
       );
+    case 'backandbiceps':
+      return (
+        <div className={deckStyles.deck}>
+          <div className={deckStyles.heading}>
+            <h1 className={mainStyles.mainHeading}
+              onClick={props.click}>P90X</h1>
+            <h3>Back & Biceps</h3>
+          </div>
+          {WORKOUTS.XBACKBICEPS.map(exercise => (
+            <Card exercise={exercise}
+              key={exercise.id} />
+          ))}
+          <CalendarButton workout={WORKOUTS.XBACKBICEPS[0].workout}
+            program={WORKOUTS.XBACKBICEPS[0].program} />
+        </div>
+      );
     // Start P90X2 workouts below
     case 'totalbody':
       return (

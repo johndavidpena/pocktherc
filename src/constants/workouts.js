@@ -399,7 +399,6 @@ export const XLEGSBACK = [
   },
 ];
 
-// TODO: Update all ids below AND add workout: 'p90x...'
 export const XCHESTSHOULDERSTRIS = [
   {
     id: '078',
@@ -409,133 +408,259 @@ export const XCHESTSHOULDERSTRIS = [
     description: ''
   },
   {
-    id: '187',
+    id: '079',
     exercise: 'In and Out Shoulder Flys',
     description: ''
   },
   {
-    id: '188',
+    id: '080',
     exercise: 'Chair Dips',
     description: ''
   },
   {
-    id: '189',
+    id: '081',
     exercise: 'Plange Push Ups',
     description: ''
   },
   {
-    id: '190',
+    id: '082',
     exercise: 'Pike Presses',
     description: ''
   },
   {
-    id: '191',
+    id: '083',
     exercise: 'Side Tri Rises',
     description: ''
   },
   {
-    id: '192',
+    id: '084',
     exercise: 'Floor Flys',
     description: 'Switch every 4 reps.'
   },
   {
-    id: '193',
+    id: '085',
     exercise: 'Scarecrows',
     description: ''
   },
   {
-    id: '194',
+    id: '086',
     exercise: 'Overhead Tricep Extensions',
     description: ''
   },
   {
-    id: '195',
+    id: '087',
     exercise: '2 Twitch Speed Push Ups',
     description: '4 fast, 3 slow.'
   },
   {
-    id: '196',
+    id: '088',
     exercise: 'Y Presses',
     description: ''
   },
   {
-    id: '197',
+    id: '089',
     exercise: 'Lying Tricep Extensions',
     description: ''
   },
   {
-    id: '198',
+    id: '090',
     exercise: 'Side to Side Push Ups',
     description: ''
   },
   {
-    id: '199',
+    id: '091',
     exercise: 'Pour Flys',
     description: ''
   },
   {
-    id: '200',
+    id: '092',
     exercise: 'Side-Leaning Tricep Extensions',
     description: ''
   },
   {
-    id: '201',
+    id: '093',
     exercise: '1 Arm Push Ups',
     description: ''
   },
   {
-    id: '202',
+    id: '094',
     exercise: 'Weighted Circles',
     description: '2 x 20 reps.'
   },
   {
-    id: '203',
+    id: '095',
     exercise: 'Throw the Bomb',
     description: ''
   },
   {
-    id: '204',
+    id: '096',
     exercise: 'Clap or Plyo Push Ups',
     description: ''
   },
   {
-    id: '205',
+    id: '097',
     exercise: 'Slow-Mo Throws',
     description: ''
   },
   {
-    id: '206',
+    id: '098',
     exercise: 'Front to Back Tricep Extensions',
     description: ''
   },
   {
-    id: '207',
+    id: '099',
     exercise: '1 Arm Balance Push Ups',
     description: ''
   },
   {
-    id: '208',
+    id: '100',
     exercise: 'Fly Row Presses',
     description: ''
   },
   {
-    id: '209',
+    id: '101',
     exercise: 'Dumbbell Cross Body Blows',
     description: ''
   },
 ];
 
+export const XBACKBICEPS = [
+  {
+    id: '102',
+    program: 'P90X',
+    workout: 'Back & Biceps',
+    exercise: 'Wide Front Pull Ups',
+    description: 'Do a wide front pull up.'
+  },
+  {
+    id: '103',
+    exercise: 'Lawnmowers',
+    description: '1 arm dumbbell rows.'
+  },
+  {
+    id: '104',
+    exercise: 'Twenty Ones',
+    description: ''
+  },
+  {
+    id: '105',
+    exercise: '1 Arm Cross Body Curls',
+    description: ''
+  },
+  {
+    id: '106',
+    exercise: 'Switch Grip Pull Ups',
+    description: 'Alternating pull ups and chin ups.'
+  },
+  {
+    id: '107',
+    exercise: 'Elbow Out Lawnmowers',
+    description: ''
+  },
+  {
+    id: '108',
+    exercise: 'Standing Bicep Curls',
+    description: ''
+  },
+  {
+    id: '109',
+    exercise: '1 Arm Concentration Curls',
+    description: ''
+  },
+  {
+    id: '110',
+    exercise: 'Corn Cob Pull Ups',
+    description: ''
+  },
+  {
+    id: '111',
+    exercise: 'Reverse Grip Bent Over Rows',
+    description: ''
+  },
+  {
+    id: '112',
+    exercise: 'Open Arm Curls',
+    description: ''
+  },
+  {
+    id: '113',
+    exercise: 'Static Arm Curls',
+    description: ''
+  },
+  {
+    id: '114',
+    exercise: 'Towel Pull Ups',
+    description: 'Switch every 3.'
+  },
+  {
+    id: '115',
+    exercise: 'Congdon Locomotives',
+    description: ''
+  },
+  {
+    id: '116',
+    exercise: 'Crouching Cohen Curls',
+    description: ''
+  },
+  {
+    id: '117',
+    exercise: '1 Arm Corkscrew Curls',
+    description: ''
+  },
+  {
+    id: '118',
+    exercise: 'Chin Ups',
+    description: ''
+  },
+  {
+    id: '119',
+    exercise: 'Seated Bent Over Back Flys',
+    description: ''
+  },
+  {
+    id: '120',
+    exercise: 'Curl Up Hammer Down',
+    description: ''
+  },
+  {
+    id: '121',
+    exercise: 'Hammer Curls',
+    description: ''
+  },
+  {
+    id: '122',
+    exercise: 'Max Rep Pull Ups',
+    description: ''
+  },
+  {
+    id: '123',
+    exercise: 'Superman',
+    description: '6 X 10 seconds.'
+  },
+  {
+    id: '124',
+    exercise: 'In-Out Hammer Curls',
+    description: ''
+  },
+  {
+    id: '125',
+    exercise: 'Strip Set Curls',
+    description: '4 rounds.'
+  }
+];
+
+// TODO: Update all ids below AND add workout: 'p90x...'
 // P90X2 workouts below
 export const X2BASEBACK = [
   {
-    id: '000',
+    id: '126',
     program: 'P90X2',
     workout: 'Base & Back',
     exercise: 'No Kip Pull Up',
     description: 'Body straight, no kipping.'
   },
   {
-    id: '001',
+    id: '127',
     exercise: 'Plyo Frog Squat',
     description: 'Legs wide, standing in place, squat down then jump up and bring hands to prayer or touch the sky. Go for at least 30.'
   },
