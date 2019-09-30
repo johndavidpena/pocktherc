@@ -21,7 +21,6 @@
   width: 100%;
   height: 100%;
   position: relative;
-  /* background: #1d0302; */
   overflow: hidden;
 }
 
@@ -37,7 +36,7 @@
   height: 11.59719rem;
   top: 25%;
   left: 47%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 0.75;
   box-shadow: 16.59719rem 0 0.50968rem currentColor;
   filter: brightness(304%);
@@ -50,7 +49,7 @@
   height: 11.35336rem;
   top: 16%;
   left: 17%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 1.05;
   box-shadow: 16.35336rem 0 0.45809rem currentColor;
   filter: brightness(330%);
@@ -63,7 +62,7 @@
   height: 11.05655rem;
   top: 28%;
   left: 41%;
-  color: #fe000060;
+  color: #3994C160;
   opacity: 1.05;
   box-shadow: 16.05655rem 0 0.32032rem currentColor;
   filter: brightness(236%);
@@ -76,7 +75,7 @@
   height: 11.74765rem;
   top: 83%;
   left: 30%;
-  color: #ec6b025b;
+  color: #A61B1B5b;
   opacity: 1.05;
   box-shadow: 16.74765rem 0 0.3409rem currentColor;
   filter: brightness(240%);
@@ -89,7 +88,7 @@
   height: 11.5821rem;
   top: 68%;
   left: 37%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 0.9;
   box-shadow: 16.5821rem 0 0.61387rem currentColor;
   filter: brightness(241%);
@@ -102,7 +101,7 @@
   height: 11.43247rem;
   top: 15%;
   left: 79%;
-  color: #fe000060;
+  color: #3994C160;
   opacity: 0.75;
   box-shadow: 16.43247rem 0 0.4283rem currentColor;
   filter: brightness(286%);
@@ -115,7 +114,7 @@
   height: 11.22584rem;
   top: 6%;
   left: 41%;
-  color: #fe000060;
+  color: #3994C160;
   opacity: 0.9;
   box-shadow: 16.22584rem 0 0.68334rem currentColor;
   filter: brightness(234%);
@@ -128,7 +127,7 @@
   height: 11.9148rem;
   top: 35%;
   left: 89%;
-  color: #ec6b025b;
+  color: #A61B1B5b;
   opacity: 1.05;
   box-shadow: 16.9148rem 0 0.66877rem currentColor;
   filter: brightness(226%);
@@ -141,7 +140,7 @@
   height: 11.38237rem;
   top: 66%;
   left: 59%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 1.05;
   box-shadow: 16.38237rem 0 0.68478rem currentColor;
   filter: brightness(337%);
@@ -154,7 +153,7 @@
   height: 11.15737rem;
   top: 26%;
   left: 83%;
-  color: #ec6b025b;
+  color: #A61B1B5b;
   opacity: 1.05;
   box-shadow: 16.15737rem 0 0.39793rem currentColor;
   filter: brightness(212%);
@@ -167,7 +166,7 @@
   height: 11.08686rem;
   top: 45%;
   left: 21%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 0.9;
   box-shadow: 16.08686rem 0 0.67279rem currentColor;
   filter: brightness(286%);
@@ -180,7 +179,7 @@
   height: 11.62953rem;
   top: 54%;
   left: 79%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 0.75;
   box-shadow: 16.62953rem 0 0.20231rem currentColor;
   filter: brightness(246%);
@@ -193,7 +192,7 @@
   height: 11.57143rem;
   top: 96%;
   left: 30%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 0.75;
   box-shadow: 16.57143rem 0 0.46138rem currentColor;
   filter: brightness(272%);
@@ -206,7 +205,7 @@
   height: 11.5283rem;
   top: 46%;
   left: 5%;
-  color: #ec6b025b;
+  color: #A61B1B5b;
   opacity: 0.75;
   box-shadow: 16.5283rem 0 0.23469rem currentColor;
   filter: brightness(267%);
@@ -219,7 +218,7 @@
   height: 11.32381rem;
   top: 70%;
   left: 87%;
-  color: #fe000060;
+  color: #3994C160;
   opacity: 0.75;
   box-shadow: 16.32381rem 0 0.67629rem currentColor;
   filter: brightness(214%);
@@ -232,7 +231,7 @@
   height: 11.86131rem;
   top: 69%;
   left: 35%;
-  color: #ec6b025b;
+  color: #A61B1B5b;
   opacity: 1.05;
   box-shadow: 16.86131rem 0 0.46473rem currentColor;
   filter: brightness(288%);
@@ -245,7 +244,7 @@
   height: 11.12447rem;
   top: 40%;
   left: 75%;
-  color: #fe000060;
+  color: #3994C160;
   opacity: 0.75;
   box-shadow: 16.12447rem 0 0.66456rem currentColor;
   filter: brightness(284%);
@@ -258,7 +257,7 @@
   height: 11.66983rem;
   top: 22%;
   left: 13%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 0.75;
   box-shadow: 16.66983rem 0 0.20606rem currentColor;
   filter: brightness(255%);
@@ -271,7 +270,7 @@
   height: 11.04747rem;
   top: 32%;
   left: 30%;
-  color: #fe000060;
+  color: #3994C160;
   opacity: 0.9;
   box-shadow: 16.04747rem 0 0.56914rem currentColor;
   filter: brightness(336%);
@@ -284,7 +283,7 @@
   height: 11.6799rem;
   top: 26%;
   left: 38%;
-  color: #fe000060;
+  color: #3994C160;
   opacity: 1.05;
   box-shadow: 16.6799rem 0 0.27945rem currentColor;
   filter: brightness(267%);
@@ -297,7 +296,7 @@
   height: 11.10146rem;
   top: 17%;
   left: 79%;
-  color: #fe000060;
+  color: #3994C160;
   opacity: 0.6;
   box-shadow: 16.10146rem 0 0.63522rem currentColor;
   filter: brightness(319%);
@@ -310,7 +309,7 @@
   height: 11.39859rem;
   top: 25%;
   left: 44%;
-  color: #fe000060;
+  color: #3994C160;
   opacity: 0.6;
   box-shadow: 16.39859rem 0 0.33018rem currentColor;
   filter: brightness(264%);
@@ -323,7 +322,7 @@
   height: 11.64687rem;
   top: 92%;
   left: 94%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 0.6;
   box-shadow: 16.64687rem 0 0.35366rem currentColor;
   filter: brightness(212%);
@@ -336,7 +335,7 @@
   height: 11.41375rem;
   top: 33%;
   left: 19%;
-  color: #ec6b025b;
+  color: #A61B1B5b;
   opacity: 1.05;
   box-shadow: 16.41375rem 0 0.57501rem currentColor;
   filter: brightness(217%);
@@ -349,7 +348,7 @@
   height: 11.86843rem;
   top: 10%;
   left: 60%;
-  color: #ffa6007c;
+  color: #d645457c;
   opacity: 0.9;
   box-shadow: 16.86843rem 0 0.22799rem currentColor;
   filter: brightness(270%);

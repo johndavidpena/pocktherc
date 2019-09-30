@@ -1,17 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import mainStyles from '../../styles/main.module.css';
 import p90xStyles from '../../styles/p90x.module.css';
-
 import Deck from '../Deck';
 
 import { withAuthorization } from '../Session';
+import { withFirebase } from '../Firebase';
 
-const P90X = () => {
+const P90XBase = props => {
   const [workout, setWorkout] = useState(null);
+  const [lastWorkout, setLastWorkout] = useState([]);
 
   const click = () => {
     setWorkout(null);
   }
+
+  useEffect(() => {
+    const user = props.firebase.auth.currentUser.uid;
+
+    props.firebase.calendar(user).once('value')
+      .then(snapshot => {
+        const workoutList = Object.values(snapshot.val());
+
+        setLastWorkout([
+          workoutList[workoutList.length - 1].date,
+          workoutList[workoutList.length - 1].program,
+          workoutList[workoutList.length - 1].workout
+        ]);
+      })
+      .catch(err => console.log(err));
+  }, [props.firebase]);
 
   switch (workout) {
     case 'chestandback':
@@ -30,28 +47,44 @@ const P90X = () => {
           <h1 className={mainStyles.mainHeading}>P90X</h1>
 
           <h4>PHASE 1 - 3 wks</h4>
-          <p onClick={() => setWorkout('chestandback')}>Chest and Back</p>
-          <p onClick={() => setWorkout('shouldersandarms')}>Shoulders and Arms</p>
-          <p onClick={() => setWorkout('legsandback')}>Legs and Back</p>
+          <div className={p90xStyles.workoutsContainer}>
+            <p onClick={() => setWorkout('chestandback')}>Chest<br />Back</p>
+            <p onClick={() => setWorkout('shouldersandarms')}>Shoulders<br />Arms</p>
+            <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p>
+          </div>
 
           <h4>PHASE 2 - 3 wks</h4>
-          <p onClick={() => setWorkout('chestshoulderstris')}>Chest, Shoulders, Triceps</p>
-          <p onClick={() => setWorkout('backandbiceps')}>Back and Biceps</p>
-          <p onClick={() => setWorkout('legsandback')}>Legs and Back</p>
+          <div className={p90xStyles.workoutsContainer}>
+            <p onClick={() => setWorkout('chestshoulderstris')}>Chest Tris<br />Shoulders</p>
+            <p onClick={() => setWorkout('backandbiceps')}>Back<br />Biceps</p>
+            <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p>
+          </div>
 
           <h4>PHASE 3 - Odd</h4>
-          <p onClick={() => setWorkout('chestandback')}>Chest and Back</p>
-          <p onClick={() => setWorkout('shouldersandarms')}>Shoulders and Arms</p>
-          <p onClick={() => setWorkout('legsandback')}>Legs and Back</p>
+          <div className={p90xStyles.workoutsContainer}>
+            <p onClick={() => setWorkout('chestandback')}>Chest<br />Back</p>
+            <p onClick={() => setWorkout('shouldersandarms')}>Shoulders<br />Arms</p>
+            <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p>
+          </div>
 
           <h4>PHASE 3 - Even</h4>
-          <p onClick={() => setWorkout('chestshoulderstris')}>Chest, Shoulders, Triceps</p>
-          <p onClick={() => setWorkout('backandbiceps')}>Back and Biceps</p>
-          <p onClick={() => setWorkout('legsandback')}>Legs and Back</p>
+          <div className={p90xStyles.workoutsContainer}>
+            <p onClick={() => setWorkout('chestshoulderstris')}>Chest Tris<br />Shoulders</p>
+            <p onClick={() => setWorkout('backandbiceps')}>Back<br />Biceps</p>
+            <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p>
+          </div>
+
+          <div className={p90xStyles.lastWorkoutContainer}>
+            <h3>Last Workout:</h3>
+            <p>{lastWorkout[0]}</p>
+            <p>{lastWorkout[1]}</p>
+            <p>{lastWorkout[2]}</p>
+          </div>
         </div>
       );
   }
 }
+const P90X = withFirebase(P90XBase);
 
 const condition = authUser => !!authUser;
 

@@ -14,8 +14,35 @@
   margin-bottom: var(--size-1);
 }
 
-.container p {
+.workoutsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 0 1rem;
+}
+
+.workoutsContainer p {
+  background-color: var(--grey-900);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.lastWorkoutContainer {
+}
+
+.lastWorkoutContainer h3 {
+  font-size: 1.75rem;
+  color: var(--red-300);
+  margin-top: 2rem;
+}
+
+.lastWorkoutContainer p {
+
+}
+
+/* .container p {
   font-size: var(--font-size);
   margin-bottom: var(--size-1);
   cursor: pointer;
-}
+} */

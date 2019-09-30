@@ -9,6 +9,7 @@
   width: 85vw;
   height: auto;
   padding: 1rem;
+  border-radius: 3px;
 }
 
 .card h4 {

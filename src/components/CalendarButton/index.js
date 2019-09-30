@@ -1,12 +1,13 @@
 import React from 'react';
 import calendarStyles from '../../styles/calendar.module.css';
 import { Button } from '../Button';
+import { Link } from 'react-router-dom';
+import * as ROUTES from '../../constants/routes';
 
 import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
 
 const CalendarButtonBase = props => {
-  // console.log(props);
   const date = new Date().toISOString().slice(0, 10);
 
   const saveWorkout = (program, workout, authUser) => {
@@ -24,10 +25,12 @@ const CalendarButtonBase = props => {
     <AuthUserContext.Consumer>
       {authUser => (
         <div className={calendarStyles.container}>
-          <Button
-            element={'Add to Calendar'}
-            click={() => saveWorkout(props.program, props.workout, authUser)}
-          />
+          <Link to={ROUTES.CALENDAR}>
+            <Button
+              element={'Add to Calendar'}
+              click={() => saveWorkout(props.program, props.workout, authUser)}
+            />
+          </Link>
         </div>
       )}
     </AuthUserContext.Consumer>

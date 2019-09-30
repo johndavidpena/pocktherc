@@ -1,6 +1,6 @@
 import React from 'react';
 import navStyles from './nav.module.css';
-import { FiHome, FiUser, FiUserPlus } from "react-icons/fi";
+import { FiAnchor, FiHome, FiUser, FiCalendar, FiUserPlus } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 
 import SignOutButton from '../SignOut';
@@ -24,11 +24,16 @@ const Navigation = () => (
 
 const NavigationAuth = ({ authUser }) => (
   <ul className={navStyles.ul}>
-    {/* <li>
-      <Link to={ROUTES.LANDING}>Landing</Link>
-    </li> */}
+    <li>
+      <Link to={ROUTES.LANDING}><FiAnchor /></Link>
+    </li>
     <li>
       <Link to={ROUTES.WORKOUT}><FiHome /></Link>
+    </li>
+    <li>
+      <Link to={ROUTES.CALENDAR}>
+        <FiCalendar />
+      </Link>
     </li>
     <li>
       <Link to={ROUTES.ACCOUNT}><FiUser /></Link>
@@ -41,9 +46,9 @@ const NavigationAuth = ({ authUser }) => (
 
 const NavigationNonAuth = () => (
   <ul className={navStyles.ul}>
-    {/* <li>
-      <Link to={ROUTES.LANDING}>Landing</Link>
-    </li> */}
+    <li>
+      <Link to={ROUTES.LANDING}><FiAnchor /></Link>
+    </li>
     <li>
       <Link to={ROUTES.SIGN_IN}><FiUserPlus /></Link>
     </li>

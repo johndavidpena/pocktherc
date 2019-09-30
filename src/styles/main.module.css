@@ -28,13 +28,6 @@
   border: none;
 }
 
-.calendarIcon {
-  width: 100%;
-  margin: 2rem 0;
-  color: var(--off-white);
-  font-size: var(--size-4);
-}
-
 .userList {
   color: var(--off-white);
   font-size: var(--font-size);

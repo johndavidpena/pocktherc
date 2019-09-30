@@ -68,7 +68,6 @@ class Firebase {
   exercises = (workout, exerciseId, user) => this.db.ref(`exercises/${workout}/${exerciseId}${user}`);
 
   // Calendars API
-  // calendar = user => this.db.ref(`calendars/${user}`);
   calendar = user => this.db.ref(`calendars/${user}`).orderByChild('timestamp');
   calendars = (user, date) => this.db.ref(`calendars/${user}/${date}`);
 }
