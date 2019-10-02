@@ -1,5 +1,5 @@
 import React from 'react';
-import navStyles from './nav.module.css';
+import navStyles from '../../styles/nav.module.css';
 import { FiAnchor, FiHome, FiUser, FiCalendar, FiUserPlus } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 

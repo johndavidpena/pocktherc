@@ -1,6 +1,6 @@
 // https://tympanus.net/codrops/2014/04/09/how-to-create-a-circular-progress-button/
 import React from 'react';
-import ProgressButtonStyles from './progressButton.module.css';
+import ProgressButtonStyles from '../../styles/progressButton.module.css';
 
 const ProgressButton = () => {
   return (

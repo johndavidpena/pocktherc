@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import mainStyles from '../../styles/main.module.css';
 import p90xStyles from '../../styles/p90x.module.css';
-
+import { useSpring, animated } from 'react-spring';
 import Deck from '../Deck';
-
 import { withAuthorization } from '../Session';
 
 const P90X2 = () => {
+  const fade = useSpring({ config: { duration: 950 }, from: { opacity: 0 }, opacity: 1 });
+
   const [workout, setWorkout] = useState(null);
 
   const click = () => {
@@ -36,7 +37,7 @@ const P90X2 = () => {
       return <Deck workout={'vsculpt'} click={click} />;
     default:
       return (
-        <div className={p90xStyles.container}>
+        <animated.div style={fade} className={p90xStyles.container}>
           <h1 className={mainStyles.mainHeading}>P90X2</h1>
 
           <h4>PHASE 1</h4>
@@ -54,7 +55,7 @@ const P90X2 = () => {
           <p onClick={() => setWorkout('chesttris')}>Chest Tris</p>
           <p onClick={() => setWorkout('papupper')}>PAP Upper</p>
           <p onClick={() => setWorkout('vsculpt')}>V Sculpt</p>
-        </div>
+        </animated.div>
       );
   }
 }

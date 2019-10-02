@@ -1,31 +1,49 @@
 import React from 'react';
-import mainStyles from '../../styles/main.module.css';
-import strengthStyles from './strength.module.css';
-import P90Ximg from '../../assets/p90x.png';
-import P90X2img from '../../assets/p90x2.png';
-
+import strengthStyles from '../../styles/strength.module.css';
+import FireImg from '../../assets/warmDuoImage.jpg';
+import p90xImg from '../../assets/db1Duotone.jpg';
+import p90x2Img from '../../assets/db2Duotone.jpg';
 import { Link } from 'react-router-dom';
+import { useSpring, animated } from 'react-spring';
 import * as ROUTES from '../../constants/routes';
-
 import { withAuthorization } from '../Session';
 
-const StrengthPage = () => (
-  <React.Fragment>
-    <h1 className={mainStyles.mainHeading}>Strength</h1>
+const StrengthPage = () => {
+  const fade = useSpring({ config: { duration: 950 }, from: { opacity: 0 }, opacity: 1 });
 
-    <div className={strengthStyles.link}>
-      <Link to={ROUTES.P90X}>
-        <img src={P90Ximg} alt="P90X icon" />
-      </Link>
-    </div>
+  return (
+    <animated.div style={fade} className={strengthStyles.container}>
+      <div className={strengthStyles.warmupsContainer}>
+        <div className={strengthStyles.warmupContainer}>
+          <Link to={ROUTES.UPPERWARMUP}>
+            <img src={FireImg} alt='upper warmup' />
+            <span>UPPER</span>
+          </Link>
+        </div>
+        <div className={strengthStyles.warmupContainer}>
+          <Link to={ROUTES.LOWERWARMUP}>
+            <img src={FireImg} alt='lower warmup' />
+            <span>LOWER</span>
+          </Link>
+        </div>
+      </div>
 
-    <div className={strengthStyles.link}>
-      <Link to={ROUTES.P90X2}>
-        <img src={P90X2img} alt="P90X2 icon" />
-      </Link>
-    </div>
-  </React.Fragment>
-);
+      <div className={strengthStyles.links}>
+        <Link to={ROUTES.P90X}>
+          <img src={p90xImg} alt='upper warmup' />
+          <span>P90X</span>
+        </Link>
+      </div>
+
+      <div className={strengthStyles.links}>
+        <Link to={ROUTES.P90X2}>
+          <img src={p90x2Img} alt='upper warmup' />
+          <span>P90X2</span>
+        </Link>
+      </div>
+    </animated.div>
+  );
+}
 
 const condition = authUser => !!authUser;
 

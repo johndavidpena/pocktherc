@@ -28,7 +28,7 @@ const WorkoutPage = () => {
       </div>
 
       <div className={workoutStyles.links}>
-        <Link to={ROUTES.CARDIO}>
+        <Link to={ROUTES.MOBILITY}>
           <img src={mobilityImg} alt='man jumping' />
           <span>MOBILITY</span>
         </Link>

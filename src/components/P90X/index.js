@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import mainStyles from '../../styles/main.module.css';
 import p90xStyles from '../../styles/p90x.module.css';
 import Deck from '../Deck';
-
+import { useSpring, animated } from 'react-spring';
 import { withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
 
 const P90XBase = props => {
+  const fade = useSpring({ config: { duration: 950 }, from: { opacity: 0 }, opacity: 1 });
+
   const [workout, setWorkout] = useState(null);
   const [lastWorkout, setLastWorkout] = useState([]);
 
@@ -45,7 +47,7 @@ const P90XBase = props => {
       return <Deck workout={'backandbiceps'} click={click} />;
     default:
       return (
-        <div className={p90xStyles.container}>
+        <animated.div style={fade} className={p90xStyles.container}>
           <h1 className={mainStyles.mainHeading}>P90X</h1>
 
           <h4>PHASE 1 - 3 wks</h4>
@@ -82,7 +84,7 @@ const P90XBase = props => {
             <p>{lastWorkout[1]}</p>
             <p>{lastWorkout[2]}</p>
           </div>
-        </div>
+        </animated.div>
       );
   }
 }
