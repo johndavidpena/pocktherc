@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Marvin';
+  font-weight: bold;
+  src:
+    local('Marvin'),
+    local('MarvinVisions-Bold'),
+    url(../fonts/MarvinVisions-Bold.otf);
+}
+
 .landing {
   height: 100vh;
 }
@@ -5,7 +14,7 @@
 .landingHeading {
   color: var(--off-white);
   font-size: 15vh;
-  font-family: var(--default-serif);
+  font-family: 'Marvin';
   text-align: center;
   z-index: 1;
 
