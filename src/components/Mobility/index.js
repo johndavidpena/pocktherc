@@ -1,6 +1,5 @@
 import React from 'react';
 import strengthStyles from '../../styles/strength.module.css';
-import FireImg from '../../assets/warmDuoImage.jpg';
 import tabataImg from '../../assets/tabataDuotone.jpg';
 import { Link } from 'react-router-dom';
 import { useSpring, animated } from 'react-spring';
@@ -11,32 +10,24 @@ const MobilityPage = () => {
 
   return (
     <animated.div style={fade} className={strengthStyles.container}>
-      <div className={strengthStyles.warmupsContainer}>
-        <div className={strengthStyles.warmupContainer}>
-          <Link to={ROUTES.UPPERWARMUP}>
-            <img src={FireImg} alt='upper warmup' />
-            <span>UPPER</span>
-          </Link>
-        </div>
-        <div className={strengthStyles.warmupContainer}>
-          <Link to={ROUTES.LOWERWARMUP}>
-            <img src={FireImg} alt='lower warmup' />
-            <span>LOWER</span>
-          </Link>
-        </div>
-      </div>
-
       <div className={strengthStyles.links}>
-        <Link to={ROUTES.P90X}>
-          <img src={tabataImg} alt='tabata' />
-          <span>TABATAS</span>
+        <Link to={ROUTES.HIPS}>
+          <img src={tabataImg} alt='hips' />
+          <span>HIPS</span>
         </Link>
       </div>
 
       <div className={strengthStyles.links}>
-        <Link to={ROUTES.P90X2}>
-          <img src={tabataImg} alt='tabata' />
-          <span>P90X2</span>
+        <Link to={ROUTES.KNEES}>
+          <img src={tabataImg} alt='knees' />
+          <span>Knees</span>
+        </Link>
+      </div>
+
+      <div className={strengthStyles.links}>
+        <Link to={ROUTES.SHOULDERS}>
+          <img src={tabataImg} alt='shoulders' />
+          <span>Shoulders</span>
         </Link>
       </div>
     </animated.div>

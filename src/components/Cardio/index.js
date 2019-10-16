@@ -1,6 +1,7 @@
 import React from 'react';
 import strengthStyles from '../../styles/strength.module.css';
 import insanityImg from '../../assets/insanityDuotone.jpg';
+import tabataImg from '../../assets/tabataDuotone.jpg';
 import FireImg from '../../assets/warmDuoImage.jpg';
 import { useSpring, animated } from 'react-spring';
 import { Link } from 'react-router-dom';
@@ -33,12 +34,12 @@ const CardioPage = () => {
         </Link>
       </div>
 
-      {/* <div className={strengthStyles.links}>
-        <Link to={ROUTES.}>
-          <img src={p90x2Img} alt='upper warmup' />
-          <span>P90X2</span>
+      <div className={strengthStyles.links}>
+        <Link to={ROUTES.TABATAS}>
+          <img src={tabataImg} alt='tabatas' />
+          <span>Tabatas</span>
         </Link>
-      </div> */}
+      </div>
     </animated.div>
   );
 }

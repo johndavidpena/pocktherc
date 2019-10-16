@@ -14,3 +14,7 @@ export const MOBILITY = '/mobility';
 export const P90X = '/p90x';
 export const P90X2 = '/p90x2';
 export const INSANITY = '/insanity';
+export const HIPS = '/hips';
+export const KNEES = '/knees';
+export const SHOULDERS = '/shoulders';
+export const TABATAS = '/tabatas';

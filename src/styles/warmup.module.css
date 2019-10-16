@@ -1,0 +1,42 @@
+.timedCard {
+  position: relative;
+  height: 6rem;
+  width: 75vw;
+  z-index: 1;
+  background-color: var(--text-dark);
+  border-radius: var(--border-radius);
+  margin: 0 auto;
+}
+
+.timedCard p {
+  font-size: var(--font-size-5);
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.progressBar {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 6rem;
+  width: 75vw;
+  border-radius: var(--border-radius);
+}
+
+.filler {
+  height: 100%;
+  background-color: var(--red-400);
+  border-radius: inherit;
+  transition: width .2s ease-in;
+}
+
+.startBtn {
+  margin-top: 1rem;
+  text-align: center;
+}

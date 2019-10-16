@@ -17,6 +17,10 @@ import MobilityPage from '../Mobility';
 import P90XPage from '../P90X';
 import P90X2Page from '../P90X2';
 import InsanityPage from '../Insanity';
+import HipsPage from '../Hips';
+import KneesPage from '../Knees';
+import ShouldersPage from '../Shoulders';
+import TabatasPage from '../Tabatas';
 
 import * as ROUTES from '../../constants/routes';
 import { withAuthentication } from '../Session';
@@ -41,6 +45,10 @@ const App = () => (
       <Route path={ROUTES.CARDIO} component={CardioPage} />
       <Route path={ROUTES.INSANITY} component={InsanityPage} />
       <Route path={ROUTES.MOBILITY} component={MobilityPage} />
+      <Route path={ROUTES.HIPS} component={HipsPage} />
+      <Route path={ROUTES.KNEES} component={KneesPage} />
+      <Route path={ROUTES.SHOULDERS} component={ShouldersPage} />
+      <Route path={ROUTES.TABATAS} component={TabatasPage} />
     </div>
   </Router>
 );
