@@ -7,11 +7,11 @@ import { Button } from '../Button';
 const lowerWarmups = [
   {
     name: 'High Intensity Exercise',
-    duration: 3
+    duration: 60
   },
   {
     name: 'Spinal mobilization',
-    duration: 10
+    duration: 60
   },
   {
     name: 'Test the water',
@@ -46,18 +46,31 @@ const lowerWarmups = [
 const LowerWarmupPage = () => {
   const [isRunning, setIsRunning] = useState(false);
   const [warmupDone, setWarmupDone] = useState(false);
+  const [index, setIndex] = useState(0);
 
   const startWarmup = () => {
     setIsRunning(!isRunning);
   }
 
-  let index = 0;
-  // If warmupDone, increase the index by 1 and render with next warmup
+  // Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function.
+  //   in Counter(at LowerWarmup / index.js: 85)
+  //   in div(at LowerWarmup / index.js: 83)
   useEffect(() => {
     const wd = warmupDone;
-    console.log('warmupDone', wd);
-    if (wd) index++;
-    console.log('index', index);
+    if (wd) {
+      setIndex(index + 1);
+      setWarmupDone(false);
+      console.log('index', index, ' - warmupDone', warmupDone);
+
+      if (index === 8) {
+        setIsRunning(false);
+        setWarmupDone(true);
+        setIndex(0);
+      }
+    }
+    return () => {
+      console.log('Clean up this hook somehow');
+    }
   }, [warmupDone, index]);
 
   return (
@@ -74,7 +87,7 @@ const LowerWarmupPage = () => {
 
       {isRunning &&
         <div className={warmupStyles.timedCard}>
-          <p>{lowerWarmups[index].name} - {lowerWarmups[index].duration}</p>
+          <p>{lowerWarmups[index].name}</p>
           <Counter duration={lowerWarmups[index].duration} warmupDone={setWarmupDone} />
         </div>
       }
@@ -92,12 +105,13 @@ const Counter = props => {
   useInterval(() => {
     if (count === props.duration) {
       props.warmupDone(true);
+      setCount(0);
+      setPercentage(0);
       return;
     }
 
     setCount(count + 1);
     setPercentage(((count + 1) / initialCount) * 100);
-    // props.warmupDone(false);
   }, 1000);
 
   return (
