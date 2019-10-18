@@ -3,6 +3,7 @@ import warmupStyles from '../../styles/warmup.module.css';
 import mainStyles from '../../styles/main.module.css';
 import videoStyles from '../../styles/video.module.css';
 import { Button } from '../Button';
+import Viewpager from '../SlidingCard.js';
 
 const lowerWarmups = [
   {
@@ -91,6 +92,8 @@ const LowerWarmupPage = () => {
           <Counter duration={lowerWarmups[index].duration} warmupDone={setWarmupDone} />
         </div>
       }
+
+      <Viewpager />
     </React.Fragment>
   );
 }

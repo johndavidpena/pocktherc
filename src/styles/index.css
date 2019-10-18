@@ -194,6 +194,17 @@ html {
   }
 }
 
+/* For use with the slidingCard component */
+html,
+body {
+  overscroll-behavior-y: contain;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  position: fixed;
+  overflow: hidden;
+}
+
 body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
