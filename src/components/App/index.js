@@ -27,29 +27,27 @@ import { withAuthentication } from '../Session';
 
 const App = () => (
   <Router>
-    <div>
-      <Navigation />
+    <Navigation />
 
-      <Route exact path={ROUTES.LANDING} component={LandingPage} />
-      <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
-      <Route path={ROUTES.SIGN_IN} component={SignInPage} />
-      <Route path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
-      <Route path={ROUTES.ACCOUNT} component={AccountPage} />
-      <Route path={ROUTES.WORKOUT} component={WorkoutPage} />
-      <Route path={ROUTES.CALENDAR} component={CalendarPage} />
-      <Route path={ROUTES.STRENGTH} component={StrengthPage} />
-      <Route path={ROUTES.UPPERWARMUP} component={UpperWarmupPage} />
-      <Route path={ROUTES.LOWERWARMUP} component={LowerWarmupPage} />
-      <Route path={ROUTES.P90X} component={P90XPage} />
-      <Route path={ROUTES.P90X2} component={P90X2Page} />
-      <Route path={ROUTES.CARDIO} component={CardioPage} />
-      <Route path={ROUTES.INSANITY} component={InsanityPage} />
-      <Route path={ROUTES.MOBILITY} component={MobilityPage} />
-      <Route path={ROUTES.HIPS} component={HipsPage} />
-      <Route path={ROUTES.KNEES} component={KneesPage} />
-      <Route path={ROUTES.SHOULDERS} component={ShouldersPage} />
-      <Route path={ROUTES.TABATAS} component={TabatasPage} />
-    </div>
+    <Route exact path={ROUTES.LANDING} component={LandingPage} />
+    <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
+    <Route path={ROUTES.SIGN_IN} component={SignInPage} />
+    <Route path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
+    <Route path={ROUTES.ACCOUNT} component={AccountPage} />
+    <Route path={ROUTES.WORKOUT} component={WorkoutPage} />
+    <Route path={ROUTES.CALENDAR} component={CalendarPage} />
+    <Route path={ROUTES.STRENGTH} component={StrengthPage} />
+    <Route path={ROUTES.UPPERWARMUP} component={UpperWarmupPage} />
+    <Route path={ROUTES.LOWERWARMUP} component={LowerWarmupPage} />
+    <Route path={ROUTES.P90X} component={P90XPage} />
+    <Route path={ROUTES.P90X2} component={P90X2Page} />
+    <Route path={ROUTES.CARDIO} component={CardioPage} />
+    <Route path={ROUTES.INSANITY} component={InsanityPage} />
+    <Route path={ROUTES.MOBILITY} component={MobilityPage} />
+    <Route path={ROUTES.HIPS} component={HipsPage} />
+    <Route path={ROUTES.KNEES} component={KneesPage} />
+    <Route path={ROUTES.SHOULDERS} component={ShouldersPage} />
+    <Route path={ROUTES.TABATAS} component={TabatasPage} />
   </Router>
 );
 
