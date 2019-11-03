@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import mainStyles from '../../styles/main.module.css';
 import cardStyles from '../../styles/card.module.css';
-import { Button } from '../Button';
-// import ProgressButton from '../ProgressButton';
-
 import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
 
 const CardBase = props => {
   const [reps, setReps] = useState(0);
   const [weight, setWeight] = useState(0);
+  const [saved, setSaved] = useState('Save');
 
   useEffect(() => {
     const { workout, id } = props.exercise;
@@ -37,41 +36,57 @@ const CardBase = props => {
       weight,
       createdAt: props.firebase.serverValue.TIMESTAMP,
     });
+
+    setSaved('Saved');
   }
 
+  // TODO: Clear the inputs when clicked
   return (
     <AuthUserContext.Consumer>
       {authUser => (
-        <form
-          className={cardStyles.card}
-          onSubmit={event => saveExercise(event, authUser)}
-        >
-          <h4>{props.exercise.exercise}</h4>
-          <p>{props.exercise.description}</p>
+        <div className={cardStyles.box}>
+          <div className={cardStyles.wrapper}>
+            <div className={cardStyles.container}>
+              <form
+                className={cardStyles.form}
+                onSubmit={event => saveExercise(event, authUser)}
+              >
+                <h4>{props.exercise.exercise}</h4>
+                <p>{props.exercise.description}</p>
 
-          <div className={cardStyles.inputsWrapper}>
-            <div className={cardStyles.inputs}>
-              <label htmlFor="reps">Reps</label>
-              <input
-                name='reps'
-                type='number'
-                onChange={e => setReps(e.target.value)}
-                value={reps} />
-            </div>
+                <label htmlFor="reps">Reps</label>
+                <input
+                  className={cardStyles.input}
+                  name='reps'
+                  type='number'
+                  onChange={e => setReps(e.target.value)}
+                  value={reps} />
 
-            <div className={cardStyles.inputs}>
-              <label htmlFor="weight">Weight</label>
-              <input
-                name='weight'
-                type='number'
-                onChange={e => setWeight(e.target.value)}
-                value={weight} />
+                <label htmlFor="weight">Weight</label>
+                <input
+                  className={cardStyles.input}
+                  name='weight'
+                  type='number'
+                  onChange={e => setWeight(e.target.value)}
+                  value={weight} />
+
+                <button type='submit' className={mainStyles.button}>{saved}</button>
+              </form>
             </div>
+            <ul className={cardStyles.bgBubbles}>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
           </div>
-
-          <Button type='submit' element={'Save'} />
-          {/* <ProgressButton type='submit' /> */}
-        </form>
+        </div>
       )}
     </AuthUserContext.Consumer>
   );

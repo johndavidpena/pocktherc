@@ -13,7 +13,7 @@
 .container span {
   font-size: 2rem;
   font-weight: bold;
-  color: var(--text-dark);
+  color: var(--blue-900);
 
   position: absolute;
   top: 50%;

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import mainStyles from '../../styles/main.module.css';
-
 import { withFirebase } from '../Firebase';
 
 const INITIAL_STATE = {

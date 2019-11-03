@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import mainStyles from '../../styles/main.module.css';
-import { Button } from '../Button';
-
 import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
 
@@ -78,8 +76,7 @@ const CalendarBase = props => {
               onChange={e => setWorkout(e.target.value)}
               value={workout}
               placeholder='Workout' />
-            <Button type='submit'
-              element={'Save'} />
+            <button type='submit'>Save</button>
           </form>
 
           {entries.reverse().map(entry => (

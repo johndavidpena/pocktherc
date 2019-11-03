@@ -51,7 +51,7 @@ class PasswordForgetFormBase extends Component {
         className={mainStyles.form}>
         <input
           name="email" value={this.state.email} onChange={this.onChange} type="text" placeholder="Email Address" />
-        <button disabled={isInvalid} type="submit">
+        <button disabled={isInvalid} type="submit" className={mainStyles.button}>
           Email Me a Reset
         </button>
         {error && <p>{error.message}</p>}

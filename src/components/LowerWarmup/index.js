@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import warmupStyles from '../../styles/warmup.module.css';
 import mainStyles from '../../styles/main.module.css';
 import videoStyles from '../../styles/video.module.css';
-import { Button } from '../Button';
 
 const lowerWarmups = [
   {
@@ -82,7 +81,7 @@ const LowerWarmupPage = () => {
       </div>
 
       <div className={warmupStyles.startBtn}>
-        <Button click={startWarmup} element={'Start'} />
+        <button onClick={startWarmup} className={mainStyles.button}>Start</button>
       </div>
 
       {isRunning &&

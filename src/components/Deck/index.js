@@ -1,9 +1,8 @@
 import React from 'react';
 import mainStyles from '../../styles/main.module.css';
 import deckStyles from '../../styles/deck.module.css';
-import Card from '../Card';
+import Card from '../Card/index';
 import CalendarButton from '../CalendarButton';
-
 import * as WORKOUTS from '../../constants/workouts';
 
 const Deck = props => {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import mainStyles from '../../styles/main.module.css';
-
 import { withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
 import { SignUpLink } from '../SignUp';

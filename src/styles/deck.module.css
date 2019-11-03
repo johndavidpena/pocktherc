@@ -1,8 +1,6 @@
-.heading {
-  display: inline-flex;
-  align-items: baseline;
-  width: 100vw;
-  justify-content: center;
+.deck {
+  display: flex;
+  flex-direction: column;
 }
 
 .deck h3 {

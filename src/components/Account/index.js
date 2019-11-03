@@ -1,6 +1,5 @@
 import React from 'react';
 import mainStyles from '../../styles/main.module.css'
-
 import { AuthUserContext, withAuthorization } from '../Session';
 import { PasswordForgetForm } from '../PasswordForget';
 import PasswordChangeForm from '../PasswordChange';

@@ -1,3 +1,22 @@
+.button {
+  appearance: none;
+  outline: 0;
+  background-color: var(--off-white);
+  border: 0;
+  margin-top: 10px;
+  padding: 10px 15px;
+  color: var(--light-blue-vivid-600);
+  border-radius: 3px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+}
+
+.button:hover{
+  background-color: rgb(245, 247, 249);
+}
+
 .mainHeading {
   color: var(--off-white);
   font-size: var(--font-size-headline);
@@ -55,14 +74,19 @@
 }
 
 .form button {
-  width: 50vw;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 10px;
   margin-bottom: var(--size-2);
   background: var(--grey-300);
-  font-size: var(--font-size);
+  font-size: 18px;
   font-family: inherit;
   color: var(--text-dark);
-  outline: none;
-  padding: var(--size-1);
+  padding: 10px 15px;
 }
 
 .workoutEntries {

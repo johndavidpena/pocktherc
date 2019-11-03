@@ -9,6 +9,7 @@
 
 .container h4 {
   font-size: var(--font-size-subheadline);
+  font-weight: 100;
   color: var(--light-blue-300);
   margin-top: var(--size-2);
   margin-bottom: var(--size-1);
@@ -22,15 +23,19 @@
 }
 
 .workoutsContainer p {
-  background-color: var(--grey-800);
+  background: linear-gradient(45deg, var(--red-400), var(--red-300));
   padding: 1rem;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
 
+.lastWorkoutContainer {
+  margin-bottom: 2rem;
+}
+
 .lastWorkoutContainer h3 {
   font-size: 1.75rem;
-  color: var(--red-300);
+  color: var(--off-white);
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
