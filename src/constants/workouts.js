@@ -34,7 +34,7 @@ export const XCHESTBACK = [
   {
     id: '006',
     workout: 'Chest & Back',
-    exercise: 'Closed Grip Overhand Pull Ups',
+    exercise: 'Close Grip Overhand Pull Ups',
     description: 'Do a close grip pull up.'
   },
   {
@@ -100,7 +100,7 @@ export const XCHESTBACK = [
   {
     id: '017',
     workout: 'Chest & Back',
-    exercise: 'Closed Grip Overhand Pull Ups',
+    exercise: 'Close Grip Overhand Pull Ups',
     description: 'Do a close grip pull up.'
   },
   {

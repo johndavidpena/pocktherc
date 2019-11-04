@@ -1,4 +1,5 @@
 import React from 'react';
+import mainStyles from '../../styles/main.module.css';
 import calendarStyles from '../../styles/calendar.module.css';
 import { Link } from 'react-router-dom';
 import * as ROUTES from '../../constants/routes';
@@ -26,6 +27,7 @@ const CalendarButtonBase = props => {
         <div className={calendarStyles.container}>
           <Link to={ROUTES.CALENDAR}>
             <button
+              className={mainStyles.button}
               onClick={() => saveWorkout(props.program, props.workout, authUser)}>Save to Calendar</button>
           </Link>
         </div>

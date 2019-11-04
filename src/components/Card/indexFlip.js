@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import mainStyles from '../../styles/main.module.css';
 import cardStyles from '../../styles/card.module.css';
+import { useSpring, animated } from 'react-spring';
 import { AuthUserContext, withAuthorization } from '../Session';
 import { withFirebase } from '../Firebase';
 
@@ -8,6 +9,13 @@ const CardBase = props => {
   const [reps, setReps] = useState(0);
   const [weight, setWeight] = useState(0);
   const [saved, setSaved] = useState('Save');
+
+  const [flipped, setFlipped] = useState(false);
+  const { transform, opacity } = useSpring({
+    opacity: flipped ? 1 : 0,
+    transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
+    config: { mass: 5, tension: 500, friction: 80 }
+  });
 
   useEffect(() => {
     const { workout, id } = props.exercise;
@@ -43,15 +51,14 @@ const CardBase = props => {
   return (
     <AuthUserContext.Consumer>
       {authUser => (
-        <div className={cardStyles.box}>
-          <div className={cardStyles.wrapper}>
+        <div className={cardStyles.box} onClick={() => setFlipped(state => !state)}>
+          <animated.div className={cardStyles.wrapper} style={{ opacity: opacity.interpolate(o => 1 - o), transform }}>
             <div className={cardStyles.container}>
               <form
                 className={cardStyles.form}
                 onSubmit={event => saveExercise(event, authUser)}
               >
                 <h4>{props.exercise.exercise}</h4>
-                <p>{props.exercise.description}</p>
 
                 <label htmlFor="reps">Reps</label>
                 <input
@@ -84,7 +91,14 @@ const CardBase = props => {
               <li></li>
               <li></li>
             </ul>
-          </div>
+          </animated.div>
+
+          <animated.div className={cardStyles.wrapper} style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
+            <div className={cardStyles.descContainer}>
+              <h4>{props.exercise.exercise}</h4>
+              <p>{props.exercise.description}</p>
+            </div>
+          </animated.div>
         </div>
       )}
     </AuthUserContext.Consumer>

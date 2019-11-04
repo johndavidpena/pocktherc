@@ -13,7 +13,7 @@ const MobilityPage = () => {
       <div className={strengthStyles.links}>
         <Link to={ROUTES.HIPS}>
           <img src={tabataImg} alt='hips' />
-          <span>HIPS</span>
+          <span>Hips</span>
         </Link>
       </div>
 
