@@ -30,6 +30,13 @@ const MobilityPage = () => {
           <span>Shoulders</span>
         </Link>
       </div>
+
+      <div className={strengthStyles.links}>
+        <Link to={ROUTES.CORE}>
+          <img src={tabataImg} alt='core' />
+          <span>Core</span>
+        </Link>
+      </div>
     </animated.div>
   );
 }

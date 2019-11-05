@@ -50,6 +50,12 @@
 	text-align: center;
 }
 
+.container svg {
+  font-size: 20px;
+  color: var(--off-white);
+  cursor: pointer;
+}
+
 .descContainer {
   max-width: 85vw;
   text-align: center;

@@ -20,6 +20,7 @@ import InsanityPage from '../Insanity';
 import HipsPage from '../Hips';
 import KneesPage from '../Knees';
 import ShouldersPage from '../Shoulders';
+import CorePage from '../Core';
 import TabatasPage from '../Tabatas';
 
 import * as ROUTES from '../../constants/routes';
@@ -47,6 +48,7 @@ const App = () => (
     <Route path={ROUTES.HIPS} component={HipsPage} />
     <Route path={ROUTES.KNEES} component={KneesPage} />
     <Route path={ROUTES.SHOULDERS} component={ShouldersPage} />
+    <Route path={ROUTES.CORE} component={CorePage} />
     <Route path={ROUTES.TABATAS} component={TabatasPage} />
   </Router>
 );

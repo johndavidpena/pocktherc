@@ -17,4 +17,5 @@ export const INSANITY = '/insanity';
 export const HIPS = '/hips';
 export const KNEES = '/knees';
 export const SHOULDERS = '/shoulders';
+export const CORE = '/core';
 export const TABATAS = '/tabatas';
