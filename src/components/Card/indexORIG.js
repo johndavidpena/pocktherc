@@ -8,8 +8,6 @@ const CardBase = props => {
   const [reps, setReps] = useState(0);
   const [weight, setWeight] = useState(0);
   const [saved, setSaved] = useState('Save');
-  const [description, showDescription] = useState(false);
-  const toggle = () => showDescription(!description);
 
   useEffect(() => {
     const { workout, id } = props.exercise;
@@ -48,37 +46,31 @@ const CardBase = props => {
         <div className={cardStyles.box}>
           <div className={cardStyles.wrapper}>
             <div className={cardStyles.container}>
-              {!description ? (
-                <form
-                  className={cardStyles.form}
-                  onSubmit={event => saveExercise(event, authUser)}
-                >
-                  <h4 onClick={toggle}>{props.exercise.exercise}</h4>
+              <form
+                className={cardStyles.form}
+                onSubmit={event => saveExercise(event, authUser)}
+              >
+                <h4>{props.exercise.exercise}</h4>
+                <p>{props.exercise.description}</p>
 
-                  <label htmlFor="reps">Reps</label>
-                  <input
-                    className={cardStyles.input}
-                    name='reps'
-                    type='number'
-                    onChange={e => setReps(e.target.value)}
-                    value={reps} />
+                <label htmlFor="reps">Reps</label>
+                <input
+                  className={cardStyles.input}
+                  name='reps'
+                  type='number'
+                  onChange={e => setReps(e.target.value)}
+                  value={reps} />
 
-                  <label htmlFor="weight">Weight</label>
-                  <input
-                    className={cardStyles.input}
-                    name='weight'
-                    type='number'
-                    onChange={e => setWeight(e.target.value)}
-                    value={weight} />
+                <label htmlFor="weight">Weight</label>
+                <input
+                  className={cardStyles.input}
+                  name='weight'
+                  type='number'
+                  onChange={e => setWeight(e.target.value)}
+                  value={weight} />
 
-                  <button type='submit' className={mainStyles.button}>{saved}</button>
-                </form>
-              ) : (
-                  <div className={cardStyles.description}>
-                    <h4 onClick={toggle}>{props.exercise.exercise}</h4>
-                    <p>{props.exercise.description}</p>
-                  </div>
-                )}
+                <button type='submit' className={mainStyles.button}>{saved}</button>
+              </form>
             </div>
             <ul className={cardStyles.bgBubbles}>
               <li></li>

@@ -21,310 +21,492 @@ export const XCHESTBACK = [
   },
   {
     id: '004',
+    program: 'P90X',
+    workout: 'Legs',
+    exercise: 'Balanced Lunges',
+    description: 'Dumbbell in each hand, back leg on a chair or step, lunge with front leg. 30 reps per leg.'
+  },
+  {
+    id: '005',
+    workout: 'Legs',
+    exercise: 'Calf Raise Squats',
+    description: 'Dumbbell in each hand, squat down the up to a calf raise. At least 25 reps.'
+  },
+  {
+    id: '006',
     workout: 'Chest & Back',
     exercise: 'Chin Ups',
     description: 'Do a standard chin up.'
   },
   {
-    id: '005',
+    id: '007',
     workout: 'Chest & Back',
     exercise: 'Wide Fly Push Ups',
     description: 'Do a wide push up.'
   },
   {
-    id: '006',
+    id: '008',
     workout: 'Chest & Back',
     exercise: 'Close Grip Overhand Pull Ups',
     description: 'Do a close grip pull up.'
   },
   {
-    id: '007',
+    id: '009',
+    workout: 'Legs',
+    exercise: 'Super Skaters',
+    description: 'On 1 leg, no weight, back leg swings back with supporting arm movement. 25 reps per side.'
+  },
+  {
+    id: '010',
+    workout: 'Legs',
+    exercise: 'Wall Squats',
+    description: 'High for 15 seconds, low for 15, total of 90 seconds.'
+  },
+  {
+    id: '011',
     workout: 'Chest & Back',
     exercise: 'Decline Push Ups',
     description: 'Feet elevated for a standard push up.'
   },
   {
-    id: '008',
+    id: '012',
     workout: 'Chest & Back',
     exercise: 'Heavy Pants',
     description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
   },
   {
-    id: '009',
+    id: '013',
     workout: 'Chest & Back',
     exercise: 'Diamond Push Ups',
     description: 'Hands close together in the shape of a diamond push up.'
   },
   {
-    id: '010',
+    id: '014',
+    workout: 'Legs',
+    exercise: 'Step Back Lunge',
+    description: 'Dumbbell in each hand. 1 leg step back lunge at a time. Do 10 normal, then 5 with dumbbells overhead or bicep curls.'
+  },
+  {
+    id: '015',
+    workout: 'Legs',
+    exercise: 'Alternating Side Lunge',
+    description: 'Dumbbell in each hand, right leg lunge out to the side, then the left. Do at least 20 reps.'
+  },
+  {
+    id: '016',
     workout: 'Chest & Back',
     exercise: 'Lawnmowers',
     description: '1 arm dumbbell rows.'
   },
   {
-    id: '011',
+    id: '017',
     workout: 'Chest & Back',
     exercise: 'Dive Bomber Push Ups',
     description: 'Down and under an imaginary shaft.'
   },
   {
-    id: '012',
+    id: '018',
     workout: 'Chest & Back',
     exercise: 'Back Flys',
     description: 'Dumbbell in each hand, slight bend forward, back flies.'
   },
   {
-    id: '013',
+    id: '019',
+    workout: 'Legs',
+    exercise: 'Single Leg Wall Squat',
+    description: '10 seconds per leg for a total of 60 seconds at least.'
+  },
+  {
+    id: '020',
+    workout: 'Legs',
+    exercise: 'Deadlift Squats',
+    description: 'With dumbbells or not, stand on 1 leg, go down in a squat, touch the floor 20 times per leg.'
+  },
+  {
+    id: '021',
     workout: 'Chest & Back',
     exercise: 'Wide Front Pull Ups',
     description: 'Do a wide front pull up.'
   },
   {
-    id: '014',
+    id: '022',
     workout: 'Chest & Back',
     exercise: 'Standard Push Ups',
     description: 'Do a standard push up.'
   },
   {
-    id: '015',
+    id: '023',
     workout: 'Chest & Back',
     exercise: 'Chin Ups',
     description: 'Do a standard chin up.'
   },
   {
-    id: '016',
+    id: '024',
+    workout: 'Legs',
+    exercise: 'Three Way Lunge',
+    description: 'No weight, step out to the side, then kick with front leg. Step out 45 degrees and kick, then step forward and kick.'
+  },
+  {
+    id: '025',
+    workout: 'Legs',
+    exercise: 'Sneaky Lunge',
+    description: 'Right leg lunge forward, leaning forward, arms back then arms over head, to standing. Do another, then turn around and do the same with the left leg.'
+  },
+  {
+    id: '026',
     workout: 'Chest & Back',
     exercise: 'Military Push Ups',
     description: 'Arms and hands close to the body.'
   },
   {
-    id: '017',
+    id: '027',
     workout: 'Chest & Back',
     exercise: 'Close Grip Overhand Pull Ups',
     description: 'Do a close grip pull up.'
   },
   {
-    id: '018',
+    id: '028',
     workout: 'Chest & Back',
     exercise: 'Wide Fly Push Ups',
     description: 'Do a wide push up.'
   },
   {
-    id: '019',
+    id: '029',
+    workout: 'Legs',
+    exercise: 'Chair Salutations',
+    description: 'Standing, bend over, come up into chair and hold for 30 seconds. Take a break and do another rep.'
+  },
+  {
+    id: '030',
+    workout: 'Legs',
+    exercise: 'Toe Roll Iso Lunge',
+    description: 'Step 1 leg far back, roll the back leg toe forwards and backwards 20 times. Repeat with the other leg.'
+  },
+  {
+    id: '031',
     workout: 'Chest & Back',
     exercise: 'Heavy Pants',
     description: 'Dumbbell in each hand, 1 foot in front of the other, slight bend at the waist, dumbbell rows.'
   },
   {
-    id: '020',
+    id: '032',
     workout: 'Chest & Back',
     exercise: 'Decline Push Ups',
     description: 'Feet elevated for a standard push up.'
   },
   {
-    id: '021',
+    id: '033',
     workout: 'Chest & Back',
     exercise: 'Lawnmowers',
     description: '1 arm dumbbell rows.'
   },
   {
-    id: '022',
+    id: '034',
+    workout: 'Legs',
+    exercise: 'Groucho Walk',
+    description: 'Get into a wide squat position. 4 steps forward, then 4 back. 60 seconds at least.'
+  },
+  {
+    id: '035',
+    workout: 'Legs',
+    exercise: 'Calf Raises',
+    description: 'Toes out, feet parallel, toes in. Dumbbells in each hand, do 15 slow and 10 quick per position.'
+  },
+  {
+    id: '036',
     workout: 'Chest & Back',
     exercise: 'Diamond Push Ups',
     description: 'Hands close together in the shape of a diamond push up.'
   },
   {
-    id: '023',
+    id: '037',
     workout: 'Chest & Back',
     exercise: 'Back Flys',
     description: 'Dumbbell in each hand, slight bend forward, back flies.'
   },
   {
-    id: '024',
+    id: '038',
     workout: 'Chest & Back',
     exercise: 'Dive Bomber Push Ups',
     description: 'Down and under an imaginary shaft.'
+  },
+  {
+    id: '039',
+    workout: 'Legs',
+    exercise: '80/20 Siebers Speed Squats',
+    description: '80% of the body weight on 1 foot, 20 on the other. 20 squats on that side then switch.'
   }
 ];
 
 export const XSHOULDERSARMS = [
   {
-    id: '025',
+    id: '040',
     program: 'P90X',
     workout: 'Shoulders & Arms',
     exercise: 'Alternating Shoulder Press',
     description: 'Dumbbell in each arm, alternating shoulder press.'
   },
   {
-    id: '026',
+    id: '041',
     workout: 'Shoulders & Arms',
     exercise: 'In and Out Bicep Curls',
     description: 'Dumbbell in each hand, 1 rep in close, 1 rep out wide.'
   },
   {
-    id: '027',
+    id: '042',
+    program: 'P90X',
+    workout: 'Legs',
+    exercise: 'Balanced Lunges',
+    description: 'Dumbbell in each hand, back leg on a chair or step, lunge with front leg. 30 reps per leg.'
+  },
+  {
+    id: '043',
+    workout: 'Legs',
+    exercise: 'Calf Raise Squats',
+    description: 'Dumbbell in each hand, squat down the up to a calf raise. At least 25 reps.'
+  },
+  {
+    id: '044',
     workout: 'Shoulders & Arms',
     exercise: '2 Arm Tricep Kickbacks',
     description: 'Slight bend at waist, dumbbell kickbacks.'
   },
   {
-    id: '028',
+    id: '045',
     workout: 'Shoulders & Arms',
     exercise: 'Alternating Shoulder Press',
     description: 'Dumbbell in each arm, alternating shoulder press.'
   },
   {
-    id: '029',
+    id: '046',
     workout: 'Shoulders & Arms',
     exercise: 'In and Out Bicep Curls',
     description: 'Dumbbell in each hand, 1 rep in close, 1 rep out wide.'
   },
   {
-    id: '030',
+    id: '047',
+    workout: 'Legs',
+    exercise: 'Super Skaters',
+    description: 'On 1 leg, no weight, back leg swings back with supporting arm movement. 25 reps per side.'
+  },
+  {
+    id: '048',
+    workout: 'Legs',
+    exercise: 'Wall Squats',
+    description: 'High for 15 seconds, low for 15, total of 90 seconds.'
+  },
+  {
+    id: '049',
     workout: 'Shoulders & Arms',
     exercise: '2 Arm Tricep Kickbacks',
     description: 'Slight bend at waist, dumbbell kickbacks.'
   },
   {
-    id: '031',
+    id: '050',
     workout: 'Shoulders & Arms',
     exercise: 'Deep Swimmers Press',
     description: 'Dumbbell in each hand, bicep curl up to shoulder press.'
   },
   {
-    id: '032',
+    id: '051',
     workout: 'Shoulders & Arms',
     exercise: 'Full Supination Concentration Curls',
     description: '1 dumbbell at a time, slightly across the body, squeeze the bicep and slight curl in at the top.'
   },
   {
-    id: '033',
+    id: '052',
+    workout: 'Legs',
+    exercise: 'Step Back Lunge',
+    description: 'Dumbbell in each hand. 1 leg step back lunge at a time. Do 10 normal, then 5 with dumbbells overhead or bicep curls.'
+  },
+  {
+    id: '053',
+    workout: 'Legs',
+    exercise: 'Alternating Side Lunge',
+    description: 'Dumbbell in each hand, right leg lunge out to the side, then the left. Do at least 20 reps.'
+  },
+  {
+    id: '054',
     workout: 'Shoulders & Arms',
     exercise: 'Chair Dips',
     description: 'Dips'
   },
   {
-    id: '034',
+    id: '055',
     workout: 'Shoulders & Arms',
     exercise: 'Deep Swimmers Press',
     description: 'Dumbbell in each hand, bicep curl up to shoulder press.'
   },
   {
-    id: '035',
+    id: '056',
     workout: 'Shoulders & Arms',
     exercise: 'Full Supination Concentration Curls',
     description: '1 dumbbell at a time, slightly across the body, squeeze the bicep and slight curl in at the top.'
   },
   {
-    id: '036',
+    id: '057',
+    workout: 'Legs',
+    exercise: 'Single Leg Wall Squat',
+    description: '10 seconds per leg for a total of 60 seconds at least.'
+  },
+  {
+    id: '058',
+    workout: 'Legs',
+    exercise: 'Deadlift Squats',
+    description: 'With dumbbells or not, stand on 1 leg, go down in a squat, touch the floor 20 times per leg.'
+  },
+  {
+    id: '059',
     workout: 'Shoulders & Arms',
     exercise: 'Chair Dips',
     description: 'Dips'
   },
   {
-    id: '037',
+    id: '060',
     workout: 'Shoulders & Arms',
     exercise: 'Upright Rows',
     description: 'Dumbbell in each hand.'
   },
   {
-    id: '038',
+    id: '061',
     workout: 'Shoulders & Arms',
     exercise: 'Static Arm Curls',
     description: 'Hold 1 dumbbell at 90 degrees, parallel to the floor, do 4 bicep curls with the other arm, switch.'
   },
   {
-    id: '039',
+    id: '062',
+    workout: 'Legs',
+    exercise: 'Three Way Lunge',
+    description: 'No weight, step out to the side, then kick with front leg. Step out 45 degrees and kick, then step forward and kick.'
+  },
+  {
+    id: '063',
+    workout: 'Legs',
+    exercise: 'Sneaky Lunge',
+    description: 'Right leg lunge forward, leaning forward, arms back then arms over head, to standing. Do another, then turn around and do the same with the left leg.'
+  },
+  {
+    id: '064',
     workout: 'Shoulders & Arms',
     exercise: 'Flip Grip Twist Tricep Kickbacks',
     description: '1 leg forward, bend forward, wrist facing down on 1 rep, then 1 rep with wrists facing up.'
   },
   {
-    id: '040',
+    id: '065',
     workout: 'Shoulders & Arms',
     exercise: 'Upright Rows',
     description: 'Dumbbell in each hand.'
   },
   {
-    id: '041',
+    id: '066',
     workout: 'Shoulders & Arms',
     exercise: 'Static Arm Curls',
     description: 'Hold 1 dumbbell at 90 degrees, parallel to the floor, do 4 bicep curls with the other arm, switch.'
   },
   {
-    id: '042',
+    id: '067',
+    workout: 'Legs',
+    exercise: 'Chair Salutations',
+    description: 'Standing, bend over, come up into chair and hold for 30 seconds. Take a break and do another rep.'
+  },
+  {
+    id: '068',
+    workout: 'Legs',
+    exercise: 'Toe Roll Iso Lunge',
+    description: 'Step 1 leg far back, roll the back leg toe forwards and backwards 20 times. Repeat with the other leg.'
+  },
+  {
+    id: '069',
     workout: 'Shoulders & Arms',
     exercise: 'Flip Grip Twist Tricep Kickbacks',
     description: '1 leg forward, bend forward, wrist facing down on 1 rep, then 1 rep with wrists facing up.'
   },
   {
-    id: '043',
+    id: '070',
     workout: 'Shoulders & Arms',
     exercise: 'Seated 2 Angle Shoulder Flys',
     description: '1 rep seated, straight up, then 1 rep with a slight lean forward.'
   },
   {
-    id: '044',
+    id: '071',
     workout: 'Shoulders & Arms',
     exercise: 'Crouching Cohen Curls',
     description: 'Dumbbell in each hand, crouch down and put elbows inside of knees.'
   },
   {
-    id: '045',
+    id: '072',
+    workout: 'Legs',
+    exercise: 'Groucho Walk',
+    description: 'Get into a wide squat position. 4 steps forward, then 4 back. 60 seconds at least.'
+  },
+  {
+    id: '073',
+    workout: 'Legs',
+    exercise: 'Calf Raises',
+    description: 'Toes out, feet parallel, toes in. Dumbbells in each hand, do 15 slow and 10 quick per position.'
+  },
+  {
+    id: '074',
     workout: 'Shoulders & Arms',
     exercise: 'Lying Down Tricep Extensions',
     description: 'Dumbbell in each hand.'
   },
   {
-    id: '046',
+    id: '075',
     workout: 'Shoulders & Arms',
     exercise: 'Seated 2 Angle Shoulder Flys',
     description: '1 rep seated, straight up, then 1 rep with a slight lean forward.'
   },
   {
-    id: '047',
+    id: '076',
     workout: 'Shoulders & Arms',
     exercise: 'Crouching Cohen Curls',
     description: 'Dumbbell in each hand, crouch down and put elbows inside of knees.'
   },
   {
-    id: '048',
+    id: '077',
+    workout: 'Legs',
+    exercise: '80/20 Siebers Speed Squats',
+    description: '80% of the body weight on 1 foot, 20 on the other. 20 squats on that side then switch.'
+  },
+  {
+    id: '078',
     workout: 'Shoulders & Arms',
     exercise: 'Lying Down Tricep Extensions',
     description: 'Dumbbell in each hand.'
   },
   {
-    id: '049',
+    id: '079',
     workout: 'Shoulders & Arms',
     exercise: 'In and Out Straight Arm Shoulder Flys',
     description: 'Shoulder fly out the the sides, then out in front.'
   },
   {
-    id: '050',
+    id: '080',
     workout: 'Shoulders & Arms',
     exercise: 'Congdon Curls',
     description: 'Regular bicep curl up then hammer down.'
   },
   {
-    id: '051',
+    id: '081',
     workout: 'Shoulders & Arms',
     exercise: 'Side Tri Rises',
     description: 'Lying on 1 side, bottom arm to opposite shoulder, top arm at a 90 degree angle, fingers pointing to the face, push up with the top arm.'
   },
   {
-    id: '052',
+    id: '082',
     workout: 'Shoulders & Arms',
     exercise: 'In and Out Straight Arm Shoulder Flys',
     description: 'Shoulder fly out the the sides, then out in front.'
   },
   {
-    id: '053',
+    id: '083',
     workout: 'Shoulders & Arms',
     exercise: 'Congdon Curls',
     description: 'Regular bicep curl up then hammer down.'
   },
   {
-    id: '054',
+    id: '084',
     workout: 'Shoulders & Arms',
     exercise: 'Side Tri Rises',
     description: 'Lying on 1 side, bottom arm to opposite shoulder, top arm at a 90 degree angle, fingers pointing to the face, push up with the top arm.'
@@ -333,140 +515,140 @@ export const XSHOULDERSARMS = [
 
 export const XLEGSBACK = [
   {
-    id: '055',
+    id: '085',
     program: 'P90X',
     workout: 'Legs & Back',
     exercise: 'Balanced Lunges',
     description: 'Dumbbell in each hand, back leg on a chair or step, lunge with front leg. 30 reps per leg.'
   },
   {
-    id: '056',
+    id: '086',
     workout: 'Legs & Back',
     exercise: 'Calf Raise Squats',
     description: 'Dumbbell in each hand, squat down the up to a calf raise. At least 25 reps.'
   },
   {
-    id: '057',
+    id: '087',
     workout: 'Legs & Back',
     exercise: 'Chin Ups',
     description: 'Standard chin up.'
   },
   {
-    id: '058',
+    id: '088',
     workout: 'Legs & Back',
     exercise: 'Super Skaters',
     description: 'On 1 leg, no weight, back leg swings back with supporting arm movement. 25 reps per side.'
   },
   {
-    id: '059',
+    id: '089',
     workout: 'Legs & Back',
     exercise: 'Wall Squats',
     description: 'High for 15 seconds, low for 15, total of 90 seconds.'
   },
   {
-    id: '060',
+    id: '090',
     workout: 'Legs & Back',
     exercise: 'Wide Front Pull Ups',
     description: 'Wide pull ups'
   },
   {
-    id: '061',
+    id: '091',
     workout: 'Legs & Back',
     exercise: 'Step Back Lunge',
     description: 'Dumbbell in each hand. 1 leg step back lunge at a time. Do 10 normal, then 5 with dumbbells overhead or bicep curls.'
   },
   {
-    id: '062',
+    id: '092',
     workout: 'Legs & Back',
     exercise: 'Alternating Side Lunge',
     description: 'Dumbbell in each hand, right leg lunge out to the side, then the left. Do at least 20 reps.'
   },
   {
-    id: '063',
+    id: '093',
     workout: 'Legs & Back',
     exercise: 'Narrow Grip Pull Ups',
     description: 'Narrow grip pull ups.'
   },
   {
-    id: '064',
+    id: '094',
     workout: 'Legs & Back',
     exercise: 'Single Leg Wall Squat',
     description: '10 seconds per leg for a total of 60 seconds at least.'
   },
   {
-    id: '065',
+    id: '095',
     workout: 'Legs & Back',
     exercise: 'Deadlift Squats',
     description: 'With dumbbells or not, stand on 1 leg, go down in a squat, touch the floor 20 times per leg.'
   },
   {
-    id: '066',
+    id: '096',
     workout: 'Legs & Back',
     exercise: 'Switch Grip Pull Ups',
     description: 'Back and forth between chin ups and pull ups.'
   },
   {
-    id: '067',
+    id: '097',
     workout: 'Legs & Back',
     exercise: 'Three Way Lunge',
     description: 'No weight, step out to the side, then kick with front leg. Step out 45 degrees and kick, then step forward and kick.'
   },
   {
-    id: '068',
+    id: '098',
     workout: 'Legs & Back',
     exercise: 'Sneaky Lunge',
     description: 'Right leg lunge forward, leaning forward, arms back then arms over head, to standing. Do another, then turn around and do the same with the left leg.'
   },
   {
-    id: '069',
+    id: '099',
     workout: 'Legs & Back',
     exercise: 'Chin Ups',
     description: 'Standard chin ups.'
   },
   {
-    id: '070',
+    id: '100',
     workout: 'Legs & Back',
     exercise: 'Chair Salutations',
     description: 'Standing, bend over, come up into chair and hold for 30 seconds. Take a break and do another rep.'
   },
   {
-    id: '071',
+    id: '101',
     workout: 'Legs & Back',
     exercise: 'Toe Roll Iso Lunge',
     description: 'Step 1 leg far back, roll the back leg toe forwards and backwards 20 times. Repeat with the other leg.'
   },
   {
-    id: '072',
+    id: '102',
     workout: 'Legs & Back',
     exercise: 'Wide Pull Ups',
     description: 'Wide pull ups.'
   },
   {
-    id: '073',
+    id: '103',
     workout: 'Legs & Back',
     exercise: 'Groucho Walk',
     description: 'Get into a wide squat position. 4 steps forward, then 4 back. 60 seconds at least.'
   },
   {
-    id: '074',
+    id: '104',
     workout: 'Legs & Back',
     exercise: 'Calf Raises',
     description: 'Toes out, feet parallel, toes in. Dumbbells in each hand, do 15 slow and 10 quick per position.'
   },
   {
-    id: '075',
+    id: '105',
     workout: 'Legs & Back',
     exercise: 'Narrow Pull Ups',
     description: 'Narrow pull up.'
   },
   {
-    id: '076',
+    id: '106',
     workout: 'Legs & Back',
     exercise: '80/20 Siebers Speed Squats',
     description: '80% of the body weight on 1 foot, 20 on the other. 20 squats on that side then switch.'
   },
   {
-    id: '077',
+    id: '107',
     workout: 'Legs & Back',
     exercise: 'Switch Grip Pull Ups',
     description: 'Back and forth between chin ups and pull ups.'
@@ -475,297 +657,479 @@ export const XLEGSBACK = [
 
 export const XCHESTSHOULDERSTRIS = [
   {
-    id: '078',
+    id: '108',
     program: 'P90X',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Slow Motion 3 in 1 Push Ups',
-    description: ''
+    description: 'Do a set of standard, military and wide push ups. Each push up for 4 counts.'
   },
   {
-    id: '079',
+    id: '109',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'In and Out Shoulder Flys',
-    description: ''
+    description: 'Dumbbell in each hand, arms straight out in front, then arms out to the sides.'
   },
   {
-    id: '080',
+    id: '110',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Chair Dips',
-    description: ''
+    description: 'Standard chair dips.'
   },
   {
-    id: '081',
+    id: '111',
+    program: 'P90X',
+    workout: 'Legs',
+    exercise: 'Balanced Lunges',
+    description: 'Dumbbell in each hand, back leg on a chair or step, lunge with front leg. 30 reps per leg.'
+  },
+  {
+    id: '112',
+    workout: 'Legs',
+    exercise: 'Calf Raise Squats',
+    description: 'Dumbbell in each hand, squat down the up to a calf raise. At least 25 reps.'
+  },
+  {
+    id: '113',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Plange Push Ups',
-    description: ''
+    description: 'Arms down by the ribs, fingers pointing away from the body.'
   },
   {
-    id: '082',
+    id: '114',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Pike Presses',
-    description: ''
+    description: 'Push up with the body in an A-frame position. Head to the floor, work the shoulders.'
   },
   {
-    id: '083',
+    id: '115',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Side Tri Rises',
-    description: ''
+    description: 'Lying on 1 side, bottom arm to opposite shoulder, top arm at a 90 degree angle, fingers pointing to the face, push up with the top arm.'
   },
   {
-    id: '084',
+    id: '116',
+    workout: 'Legs',
+    exercise: 'Super Skaters',
+    description: 'On 1 leg, no weight, back leg swings back with supporting arm movement. 25 reps per side.'
+  },
+  {
+    id: '117',
+    workout: 'Legs',
+    exercise: 'Wall Squats',
+    description: 'High for 15 seconds, low for 15, total of 90 seconds.'
+  },
+  {
+    id: '118',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Floor Flys',
-    description: 'Switch every 4 reps.'
+    description: 'Place one hand on something slippery and slide out for a wide fly push up. Switch every 4 reps.'
   },
   {
-    id: '085',
+    id: '119',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Scarecrows',
-    description: ''
+    description: 'Full range of scarecrow-motion with light dumbbells in each hand.'
   },
   {
-    id: '086',
+    id: '120',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Overhead Tricep Extensions',
-    description: ''
+    description: '1 dumbbell in both hands or 1 in each.'
   },
   {
-    id: '087',
+    id: '121',
+    workout: 'Legs',
+    exercise: 'Step Back Lunge',
+    description: 'Dumbbell in each hand. 1 leg step back lunge at a time. Do 10 normal, then 5 with dumbbells overhead or bicep curls.'
+  },
+  {
+    id: '122',
+    workout: 'Legs',
+    exercise: 'Alternating Side Lunge',
+    description: 'Dumbbell in each hand, right leg lunge out to the side, then the left. Do at least 20 reps.'
+  },
+  {
+    id: '123',
     workout: 'Chest, Shoulders, Tris',
     exercise: '2 Twitch Speed Push Ups',
     description: '4 fast, 3 slow.'
   },
   {
-    id: '088',
+    id: '124',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Y Presses',
-    description: ''
+    description: 'Dumbbell in each hand at the shoulder, press up and out into a Y position.'
   },
   {
-    id: '089',
+    id: '125',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Lying Tricep Extensions',
-    description: ''
+    description: 'Dumbbell in each hand.'
   },
   {
-    id: '090',
+    id: '126',
+    workout: 'Legs',
+    exercise: 'Single Leg Wall Squat',
+    description: '10 seconds per leg for a total of 60 seconds at least.'
+  },
+  {
+    id: '127',
+    workout: 'Legs',
+    exercise: 'Deadlift Squats',
+    description: 'With dumbbells or not, stand on 1 leg, go down in a squat, touch the floor 20 times per leg.'
+  },
+  {
+    id: '128',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Side to Side Push Ups',
-    description: ''
+    description: 'Push up, move to the side and do another push. Repeat in the opposite direction.'
   },
   {
-    id: '091',
+    id: '129',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Pour Flys',
-    description: ''
+    description: 'Dumbbells at the sides, raise out to the sides, pour down, return to start position.'
   },
   {
-    id: '092',
+    id: '130',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Side-Leaning Tricep Extensions',
-    description: ''
+    description: '1 arm dumbbell tricep extension while lying on the side on the floor OR standing and leaning against a post.'
   },
   {
-    id: '093',
+    id: '131',
+    workout: 'Legs',
+    exercise: 'Three Way Lunge',
+    description: 'No weight, step out to the side, then kick with front leg. Step out 45 degrees and kick, then step forward and kick.'
+  },
+  {
+    id: '132',
+    workout: 'Legs',
+    exercise: 'Sneaky Lunge',
+    description: 'Right leg lunge forward, leaning forward, arms back then arms over head, to standing. Do another, then turn around and do the same with the left leg.'
+  },
+  {
+    id: '133',
     workout: 'Chest, Shoulders, Tris',
     exercise: '1 Arm Push Ups',
-    description: ''
+    description: 'Go to the knees if necessary.'
   },
   {
-    id: '094',
+    id: '134',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Weighted Circles',
-    description: '2 x 20 reps.'
+    description: '20 reps forwards, 20 reps backwards.'
   },
   {
-    id: '095',
+    id: '135',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Throw the Bomb',
-    description: ''
+    description: '1 arm tricep extension, throw the bomb.'
   },
   {
-    id: '096',
+    id: '136',
+    workout: 'Legs',
+    exercise: 'Chair Salutations',
+    description: 'Standing, bend over, come up into chair and hold for 30 seconds. Take a break and do another rep.'
+  },
+  {
+    id: '137',
+    workout: 'Legs',
+    exercise: 'Toe Roll Iso Lunge',
+    description: 'Step 1 leg far back, roll the back leg toe forwards and backwards 20 times. Repeat with the other leg.'
+  },
+  {
+    id: '138',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Clap or Plyo Push Ups',
-    description: ''
+    description: 'Push up with a hand clap or plyo with hands and feet off the ground.'
   },
   {
-    id: '097',
+    id: '139',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Slow-Mo Throws',
-    description: ''
+    description: 'Dumbbell in each arm. Raise the arms straight out in front of the body. Palms down, retract to the shoulders and back out, then down.'
   },
   {
-    id: '098',
+    id: '140',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Front to Back Tricep Extensions',
-    description: ''
+    description: '1 arm dumbbell tricep extension behind the head, then in front.'
   },
   {
-    id: '099',
+    id: '141',
+    workout: 'Legs',
+    exercise: 'Groucho Walk',
+    description: 'Get into a wide squat position. 4 steps forward, then 4 back. 60 seconds at least.'
+  },
+  {
+    id: '142',
+    workout: 'Legs',
+    exercise: 'Calf Raises',
+    description: 'Toes out, feet parallel, toes in. Dumbbells in each hand, do 15 slow and 10 quick per position.'
+  },
+  {
+    id: '143',
     workout: 'Chest, Shoulders, Tris',
     exercise: '1 Arm Balance Push Ups',
-    description: ''
+    description: 'Do a push up then transition to 1 arm side balance.'
   },
   {
-    id: '100',
+    id: '144',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Fly Row Presses',
-    description: ''
+    description: 'Dumbbell in each hand. Do a shoulder fly, then upright row, followed by a shoulder press up.'
   },
   {
-    id: '101',
+    id: '145',
     workout: 'Chest, Shoulders, Tris',
     exercise: 'Dumbbell Cross Body Blows',
-    description: ''
+    description: 'Lying on a bench with a dumbbell in each hand, press up with a slight twist, one arm at a time.'
   },
+  {
+    id: '146',
+    workout: 'Legs',
+    exercise: '80/20 Siebers Speed Squats',
+    description: '80% of the body weight on 1 foot, 20 on the other. 20 squats on that side then switch.'
+  }
 ];
 
 export const XBACKBICEPS = [
   {
-    id: '102',
+    id: '147',
     program: 'P90X',
     workout: 'Back & Biceps',
     exercise: 'Wide Front Pull Ups',
     description: 'Do a wide front pull up.'
   },
   {
-    id: '103',
+    id: '148',
     workout: 'Back & Biceps',
     exercise: 'Lawnmowers',
     description: '1 arm dumbbell rows.'
   },
   {
-    id: '104',
+    id: '149',
     workout: 'Back & Biceps',
     exercise: 'Twenty Ones',
-    description: ''
+    description: '7 reps from starting position to halfway up. 7 reps halfway up to all the way up. 7 reps full range of motion.'
   },
   {
-    id: '105',
+    id: '150',
+    program: 'P90X',
+    workout: 'Legs',
+    exercise: 'Balanced Lunges',
+    description: 'Dumbbell in each hand, back leg on a chair or step, lunge with front leg. 30 reps per leg.'
+  },
+  {
+    id: '151',
+    workout: 'Legs',
+    exercise: 'Calf Raise Squats',
+    description: 'Dumbbell in each hand, squat down the up to a calf raise. At least 25 reps.'
+  },
+  {
+    id: '152',
     workout: 'Back & Biceps',
     exercise: '1 Arm Cross Body Curls',
-    description: ''
+    description: 'Palm facing the thigh, curl up and across the body.'
   },
   {
-    id: '106',
+    id: '153',
     workout: 'Back & Biceps',
     exercise: 'Switch Grip Pull Ups',
     description: 'Alternating pull ups and chin ups.'
   },
   {
-    id: '107',
+    id: '154',
     workout: 'Back & Biceps',
     exercise: 'Elbow Out Lawnmowers',
-    description: ''
+    description: 'Opposite foot out in a lunge. Elbow out to the side of the room.'
   },
   {
-    id: '108',
+    id: '155',
+    workout: 'Legs',
+    exercise: 'Super Skaters',
+    description: 'On 1 leg, no weight, back leg swings back with supporting arm movement. 25 reps per side.'
+  },
+  {
+    id: '156',
+    workout: 'Legs',
+    exercise: 'Wall Squats',
+    description: 'High for 15 seconds, low for 15, total of 90 seconds.'
+  },
+  {
+    id: '157',
     workout: 'Back & Biceps',
     exercise: 'Standing Bicep Curls',
-    description: ''
+    description: 'Standard bicep curls.'
   },
   {
-    id: '109',
+    id: '158',
     workout: 'Back & Biceps',
     exercise: '1 Arm Concentration Curls',
-    description: ''
+    description: 'Sitting position with the elbow on the inside of the thigh. Rotate the pinky up at the top of the curl.'
   },
   {
-    id: '110',
+    id: '159',
     workout: 'Back & Biceps',
     exercise: 'Corn Cob Pull Ups',
-    description: ''
+    description: 'Slightly wide pull up, chin to the right wrist, then the other, then push back and return to the front.'
   },
   {
-    id: '111',
+    id: '160',
+    workout: 'Legs',
+    exercise: 'Step Back Lunge',
+    description: 'Dumbbell in each hand. 1 leg step back lunge at a time. Do 10 normal, then 5 with dumbbells overhead or bicep curls.'
+  },
+  {
+    id: '161',
+    workout: 'Legs',
+    exercise: 'Alternating Side Lunge',
+    description: 'Dumbbell in each hand, right leg lunge out to the side, then the left. Do at least 20 reps.'
+  },
+  {
+    id: '162',
     workout: 'Back & Biceps',
     exercise: 'Reverse Grip Bent Over Rows',
-    description: ''
+    description: 'Palms facing away from the body.'
   },
   {
-    id: '112',
+    id: '163',
     workout: 'Back & Biceps',
     exercise: 'Open Arm Curls',
-    description: ''
+    description: 'Curls out to the side.'
   },
   {
-    id: '113',
+    id: '164',
     workout: 'Back & Biceps',
     exercise: 'Static Arm Curls',
-    description: ''
+    description: 'Hold 1 dumbbell halfway up and do 4 reps with the other.'
   },
   {
-    id: '114',
+    id: '165',
+    workout: 'Legs',
+    exercise: 'Single Leg Wall Squat',
+    description: '10 seconds per leg for a total of 60 seconds at least.'
+  },
+  {
+    id: '166',
+    workout: 'Legs',
+    exercise: 'Deadlift Squats',
+    description: 'With dumbbells or not, stand on 1 leg, go down in a squat, touch the floor 20 times per leg.'
+  },
+  {
+    id: '167',
     workout: 'Back & Biceps',
     exercise: 'Towel Pull Ups',
     description: 'Switch every 3.'
   },
   {
-    id: '115',
+    id: '168',
     workout: 'Back & Biceps',
     exercise: 'Congdon Locomotives',
-    description: ''
+    description: 'Dumbbell in each hand, slight bend at the wrist. Palms facing in, row with each arm back and forth.'
   },
   {
-    id: '116',
+    id: '169',
     workout: 'Back & Biceps',
     exercise: 'Crouching Cohen Curls',
-    description: ''
+    description: 'Squat down with a dumbbell in each hand. Elbows to the knees.'
   },
   {
-    id: '117',
+    id: '170',
+    workout: 'Legs',
+    exercise: 'Three Way Lunge',
+    description: 'No weight, step out to the side, then kick with front leg. Step out 45 degrees and kick, then step forward and kick.'
+  },
+  {
+    id: '171',
+    workout: 'Legs',
+    exercise: 'Sneaky Lunge',
+    description: 'Right leg lunge forward, leaning forward, arms back then arms over head, to standing. Do another, then turn around and do the same with the left leg.'
+  },
+  {
+    id: '172',
     workout: 'Back & Biceps',
     exercise: '1 Arm Corkscrew Curls',
-    description: ''
+    description: 'Corkscrew up with a twisting motion at the top.'
   },
   {
-    id: '118',
+    id: '173',
     workout: 'Back & Biceps',
     exercise: 'Chin Ups',
-    description: ''
+    description: 'Standard chin up.'
   },
   {
-    id: '119',
+    id: '174',
     workout: 'Back & Biceps',
     exercise: 'Seated Bent Over Back Flys',
-    description: ''
+    description: 'Just like it says bro.'
   },
   {
-    id: '120',
+    id: '175',
+    workout: 'Legs',
+    exercise: 'Chair Salutations',
+    description: 'Standing, bend over, come up into chair and hold for 30 seconds. Take a break and do another rep.'
+  },
+  {
+    id: '176',
+    workout: 'Legs',
+    exercise: 'Toe Roll Iso Lunge',
+    description: 'Step 1 leg far back, roll the back leg toe forwards and backwards 20 times. Repeat with the other leg.'
+  },
+  {
+    id: '177',
     workout: 'Back & Biceps',
     exercise: 'Curl Up Hammer Down',
-    description: ''
+    description: 'Do what it says dummy.'
   },
   {
-    id: '121',
+    id: '178',
     workout: 'Back & Biceps',
     exercise: 'Hammer Curls',
-    description: ''
+    description: 'Hammer curls.'
   },
   {
-    id: '122',
+    id: '179',
     workout: 'Back & Biceps',
     exercise: 'Max Rep Pull Ups',
-    description: ''
+    description: 'Do your best, forget the rest!'
   },
   {
-    id: '123',
+    id: '180',
+    workout: 'Legs',
+    exercise: 'Groucho Walk',
+    description: 'Get into a wide squat position. 4 steps forward, then 4 back. 60 seconds at least.'
+  },
+  {
+    id: '181',
+    workout: 'Legs',
+    exercise: 'Calf Raises',
+    description: 'Toes out, feet parallel, toes in. Dumbbells in each hand, do 15 slow and 10 quick per position.'
+  },
+  {
+    id: '182',
     workout: 'Back & Biceps',
     exercise: 'Superman',
-    description: '6 X 10 seconds.'
+    description: '6 sets X 10 seconds.'
   },
   {
-    id: '124',
+    id: '183',
     workout: 'Back & Biceps',
     exercise: 'In-Out Hammer Curls',
-    description: ''
+    description: 'Alternate in and out hammer curls.'
   },
   {
-    id: '125',
+    id: '184',
     workout: 'Back & Biceps',
     exercise: 'Strip Set Curls',
-    description: '4 rounds.'
+    description: '4 rounds with heavy to lighter weight.'
+  },
+  {
+    id: '185',
+    workout: 'Legs & Back',
+    exercise: '80/20 Siebers Speed Squats',
+    description: '80% of the body weight on 1 foot, 20 on the other. 20 squats on that side then switch.'
   }
 ];
 
@@ -773,7 +1137,7 @@ export const XBACKBICEPS = [
 // P90X2 workouts below
 export const X2BASEBACK = [
   {
-    id: '126',
+    id: '186',
     program: 'P90X2',
     workout: 'Base & Back',
     exercise: 'No Kip Pull Up',

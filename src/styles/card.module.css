@@ -63,7 +63,8 @@
 }
 
 .form,
-.section {
+.section,
+.description {
 	padding: 20px 0;
 	position: relative;
 	z-index: 2;
@@ -71,6 +72,7 @@
 
 .form h4,
 .section h4,
+.description h4,
 .descContainer h4 {
   font-size: var(--font-size-subheadline);
   color: var(--off-white);
@@ -80,6 +82,7 @@
 
 .form p,
 .section p,
+.description p,
 .descContainer p {
   margin-bottom: 1rem;
   color: var(--off-white);
