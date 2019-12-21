@@ -15,6 +15,10 @@
   margin-bottom: var(--size-1);
 }
 
+.container p {
+  margin-bottom: var(--size-1);
+}
+
 .workoutsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

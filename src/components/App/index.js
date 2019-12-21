@@ -13,6 +13,7 @@ import StrengthPage from '../Strength';
 import UpperWarmupPage from '../UpperWarmup';
 import LowerWarmupPage from '../LowerWarmup';
 import CardioPage from '../Cardio';
+import MovementPage from '../Movement';
 import MobilityPage from '../Mobility';
 import P90XPage from '../P90X';
 import P90X2Page from '../P90X2';
@@ -43,6 +44,7 @@ const App = () => (
     <Route path={ROUTES.P90X} component={P90XPage} />
     <Route path={ROUTES.P90X2} component={P90X2Page} />
     <Route path={ROUTES.CARDIO} component={CardioPage} />
+    <Route path={ROUTES.MOVEMENT} component={MovementPage} />
     <Route path={ROUTES.INSANITY} component={InsanityPage} />
     <Route path={ROUTES.MOBILITY} component={MobilityPage} />
     <Route path={ROUTES.HIPS} component={HipsPage} />

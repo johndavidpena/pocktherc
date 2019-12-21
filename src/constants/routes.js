@@ -11,6 +11,7 @@ export const CARDIO = '/cardio';
 export const UPPERWARMUP = '/upperWarmup';
 export const LOWERWARMUP = '/lowerWarmup';
 export const MOBILITY = '/mobility';
+export const MOVEMENT = '/movement';
 export const P90X = '/p90x';
 export const P90X2 = '/p90x2';
 export const INSANITY = '/insanity';

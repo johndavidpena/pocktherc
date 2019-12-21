@@ -1864,3 +1864,1191 @@ export const X2PAPUPPER = [
     description: 'Lay over a roller (or stand with your back flat against a wall). Work the arms up and down by the head for 30 seconds.'
   },
 ];
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+export const X2TOTALBODYCORE = [
+  {
+    id: '1000',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Sphinx Plank Crunch',
+    description: 'In sphinx plank, bring knee to opposite elbow, swing knee to outside and return to start. Switch.'
+  },
+  {
+    id: '1001',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Arm Chest Press',
+    description: 'Lying on a stability ball. 1 arm dumbbell chest press, switch arms.'
+  },
+  {
+    id: '1002',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Warrior 3 Cross Crunch',
+    description: 'Warrior 3, lifted leg, chest, and both arms parallel to the floor. Come up to standing still on 1 leg, bring knee up to opposite elbow, then back down.'
+  },
+  {
+    id: '1003',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: '4 Position Pull Up',
+    description: 'Wide pull, narrow pull, chin, and hands facing.'
+  },
+  {
+    id: '1004',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Single Leg Walkout to Sphinx',
+    description: 'Stand on 1 foot, hands to the ground, crawl out to sphinx, crawl back to feet, stand up, raise arms, repeat.'
+  },
+  {
+    id: '1005',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Push Up Side Arm Balance',
+    description: 'Each hand on a med ball, push up, then side arm balance and switch.'
+  },
+  {
+    id: '1006',
+    program: 'P90X2',
+    workout: 'CoTotal Body Coree',
+    exercise: 'Half Angel',
+    description: 'Lying on 1 side, feet stacked on top of each other. Plant forearm on ground, lift pelvis, raise leg and bring arm up and over. Repeat.'
+  },
+  {
+    id: '1007',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Switch Lunge Press',
+    description: 'Dumbbell in each hand. Hands at shoulders, step forward with 1 leg into a lunge and press up. Then step back into a lunge and press up. Switch legs.',
+  },
+  {
+    id: '1008',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Roller Boat',
+    description: 'Lie on back, grab hamstrings, roll up to boat with hands and feet extended, grab the knees and roll back. Repeat.'
+  },
+  {
+    id: '1009',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Warrior 3 Kickback',
+    description: 'Dumbbell in each hand. Stand on 1 leg, lifted leg straight back so leg and chest are parallel to the ground. Do tricep kickbacks, switch legs.'
+  },
+  {
+    id: '1010',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: '3 Speed Med Ball Push Up',
+    description: '1 med ball in the middle of your plank, push ups back and forth with both hands on med ball alternating with both hands on the ground. Go for 30 seconds.'
+  },
+  {
+    id: '1011',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Warrior 3 Curl',
+    description: 'Same set up as above, but with bicep curls.'
+  },
+  {
+    id: '1012',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: '1 Leg Lateral Leap Squat',
+    description: 'On 1 foot, jump laterally to opposite foot, reach opposite hand down to the ground. Repeat.'
+  },
+  {
+    id: '1013',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Boing Push Up',
+    description: 'Hands wide on a stability ball. Do a push up and lift the ball off the ground and bring to chest at top of the move.'
+  },
+  {
+    id: '1014',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Crunchy Lever Pull Up',
+    description: 'Hands facing each other. Bring feet up to bar with arms straight, then chin to the bar.'
+  },
+  {
+    id: '1015',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Core Circle',
+    description: 'Forearms on a stability ball, circle around on the ball for 30 seconds.'
+  },
+  {
+    id: '1016',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Holmsen Screamer Lunge',
+    description: '1 leg lunge, jump up while bringing 1 arm up. Do 10 then switch legs.'
+  },
+  {
+    id: '1017',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Mule Kick Burpee',
+    description: 'For 60 seconds, start standing, go down to hands on the floor with legs kicked back into the air. Down to plank, 1 knee into the elbow, then a push, then the other knee to the elbow and a push up. Repeat.'
+  },
+  {
+    id: '1018',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Swimmers Curl Press in 1/2 Chair',
+    description: 'Dumbbell in each hand, cross 1 foot up to the other knee and then into chair position. Bicep curls up to a shoulder press.'
+  },
+  {
+    id: '1019',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Balance Kickback on Stability Ball',
+    description: '1 dumbbell in 1 hand, the other arm supporting the body on a stability ball. Tricep kickback then switch arms.'
+  },
+  {
+    id: '1020',
+    program: 'P90X2',
+    workout: 'Total Body Core',
+    exercise: 'Rocket Launcher Preacher Curl',
+    description: 'Dumbbell in each hand, 1 foot forward lunge position, then bicep curls. Switch legs.'
+  }
+];
+
+export const X2BALANCEPOWERCORE = [
+  {
+    id: '1021',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Sphinx to Plank Plyo Bounce',
+    description: 'On a stability ball on the elbows, BOUNCE up to hands on ball, go back and forth.'
+  },
+  {
+    id: '1022',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: '1 Leg Plyo Squat Reach',
+    description: 'Standing on 1 foot with the other foot by the ankle. Reach down with the opposite hand then up with a jump. 12 reps at least on each leg.'
+  },
+  {
+    id: '1023',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Med Ball Dreya Roll',
+    description: 'Standing with a med ball in the hands. Go down to the butt, roll back, then roll up to standing with a jump.'
+  },
+  {
+    id: '1024',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Russian Twist',
+    description: 'Squeeze a med ball between the knees, sitting on the floor. Hold 1 dumbbell with both hands and twist the dumbbell side to side.'
+  },
+  {
+    id: '1025',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Sphinx to Plank Roll Up',
+    description: 'On a stability ball on the elbows, ROLL up to hands on ball, go back and forth.'
+  },
+  {
+    id: '1026',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Plank Burpee on Stability Ball',
+    description: 'Stability ball in the hands, on 1 leg, jump back to plank, then push up and back to standing with raising the ball to the ceiling and a jump.'
+  },
+  {
+    id: '1027',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: '4 Direction 1 Leg Squat Hop',
+    description: '1 foot off the ground, next to the other ankle. Jump forward, reach opposite hand down to floor then back up, repeat with jump left, jump back, and jump right. Switch legs.'
+  },
+  {
+    id: '1028',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Forearm Alt Side Plank',
+    description: 'Forearms on a stability ball, go ont 1 forearm and raise the other hand to the ceiling, switch. Do 16 reps.'
+  },
+  {
+    id: '1029',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Banana Ball Switch Crunch',
+    description: 'On the back with a stability ball in the hands, bring ball overhead then contract and switch ball to feet, fully extend then contract and switch ball back to hands, repeat.'
+  },
+  {
+    id: '1030',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Decline Sphinx Plank Press',
+    description: 'Both feet up on a stability ball, press up and down from sphinx to plank.'
+  },
+  {
+    id: '1031',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Weighted Katherine',
+    description: 'Dumbbell in each hand. Jump from 1 leg lunge to opposite leg lunge. Do 30 reps.'
+  },
+  {
+    id: '1032',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: '3 Point Squat Press with Med Ball',
+    description: 'Stand with a med ball in the hands, squat down, then stand and raise ball to the left, repeat with the ball up to the center, and then up to the right. Repeat.'
+  },
+  {
+    id: '1033',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Plank X Crunch',
+    description: 'Feet and hands wide. Raise 1 leg and opposite arm up and out, bring elbow and knee together, then extends out again. Switch and do 20 reps.'
+  },
+  {
+    id: '1034',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Renegade Row 1/2 Lolasana',
+    description: 'Dumbbell in each hand, do a row in each hand, then jump knees into chest, suspended off the ground or 1 foot on the ground.'
+  },
+  {
+    id: '1035',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Glute Bridge Roll Out',
+    description: 'Lying on the back with feet up on a stability ball, lift the pelvis up and bring feet to butt, back and forth.'
+  },
+  {
+    id: '1036',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Slo-Mo Balance Climber',
+    description: 'Forearms on a stability ball, bring right knee to right elbow, then switch.'
+  },
+  {
+    id: '1037',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Over/Under Boat',
+    description: 'With a band or a broomstick, sit on the ground. In a boat position, move the broom under the feet, then over the feet. Do 15 - 20 reps.'
+  },
+  {
+    id: '1038',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Warrior Row Press',
+    description: '8 per side, 1 dumbbell in 1 hand. Warrior 3 position with lifted leg and chest parallel to the floor, do a row then stand up, still on 1 foot and press up.'
+  },
+  {
+    id: '1039',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Split Lunge',
+    description: 'Top of 1 foot or toe on a stability ball, do 1 leg squats, bring hands to prayer or over head. Switch.'
+  },
+  {
+    id: '1040',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'X2 Diver',
+    description: 'Stand with wide legs, come down to hands on the floor, push back up to standing and raise hands over head and clap.'
+  },
+  {
+    id: '1041',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Crawly Crab Press',
+    description: 'Back on the stability ball, pivot over to 1 elbow and reach the opposite hand to the ceiling, switch.'
+  },
+  {
+    id: '1042',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Lateral Plyo Push Up',
+    description: '1 med ball in the center of your plank position. Do a push up with 1 arm on the med ball, go back and forth, switching the hand on the med ball.'
+  },
+  {
+    id: '1043',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Ryan Sphinx Twist Crunch',
+    description: 'Plank position with 1 forearm on the ground, out to the side, NOT out in front. With the opposite raised arm, reach under the body, then come out and reach that hand to that swung out leg.'
+  },
+  {
+    id: '1044',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Lunge Kneel Knee Raise',
+    description: 'Dumbbell in each hand, hands at the shoulders in a 1 leg kneel. Stand up to 1 leg, press dumbbells up and bring opposite knee up.'
+  },
+  {
+    id: '1045',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'X Plank Spider Twist',
+    description: 'Hands wide in plank position. Bring left foot across body to right hand, switch back and forth.'
+  },
+  {
+    id: '1046',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: '1 Leg Med Ball Burpee',
+    description: 'Holding a med ball in the hands, stand on 1 leg, jump back to plank, do a push up and return to standing. Switch legs.'
+  },
+  {
+    id: '1047',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Dumbbell Row to Side Plank',
+    description: 'Dumbbell in each hand in a plank position. Row up and continue with dumbbell up to the ceiling, switch.'
+  },
+  {
+    id: '1048',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Dumbbell Super Burpee',
+    description: 'Dumbbell in each hand. Start standing, jump back to plank on 1 foot, push up, then back to standing, then shoulder press up.'
+  },
+  {
+    id: '1049',
+    program: 'P90X2',
+    workout: 'Balance Power Core',
+    exercise: 'Plank Ball Crunch',
+    description: 'Plank position with feet up on a stability ball, bring knees into chest, back and forth.'
+  }
+];
+
+export const X2CHESTBACKBASE = [
+  {
+    id: '1050',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Pull Up X',
+    description: 'Wide arms, wide legs.'
+  },
+  {
+    id: '1051',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Plyo Stability Ball Push Up',
+    description: 'Hands wide on a stability ball, do a push up with a clap at the top.'
+  },
+  {
+    id: '1052',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Plyo Frog Squat',
+    description: 'Legs wide, standing in place, squat down then jump up and bring hands to prayer or touch the sky. Go for at least 30.'
+  },
+  {
+    id: '1053',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Core Crunch Chin Up',
+    description: 'Knees or ankles to the bar on the chin up.'
+  },
+  {
+    id: '1054',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Push Up Side Arm Balance',
+    description: 'Each hand on a med ball, push up, then side arm balance.'
+  },
+  {
+    id: '1055',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Chair Jump',
+    description: 'Legs shoulder width apart, slight bend in the legs. Arms up and out, then jump and swing arms behind body. Go for at least 20.'
+  },
+  {
+    id: '1056',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Lever',
+    description: 'Palms in, bring the body horizontal with the arms fully extended.'
+  },
+  {
+    id: '1057',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: '4 Ball Push Up',
+    description: 'Each hand and foot on a med ball, do a push up.'
+  },
+  {
+    id: '1058',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Plyo Lunge Press',
+    description: 'A dumbbell in each hand, dumbbells at the shoulders, palms in, get in the 1 leg squat position. Jump up and switch legs and raise the dumbbells straight up in the air.'
+  },
+  {
+    id: '1059',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Chin Pull',
+    description: 'Alternate every 2 or 3.'
+  },
+  {
+    id: '1060',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Impossible/Possible',
+    description: 'Each hand on a med ball and feet up on a stability ball, do a push up.'
+  },
+  {
+    id: '1061',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Surfer Spin',
+    description: 'Arms out, slight squat position. Jump a 180, then another, then come back to start. Do at least 22.'
+  },
+  {
+    id: '1062',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'L Pull Up',
+    description: 'Pull up with the legs extended horizontally.'
+  },
+  {
+    id: '1063',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: '3 Ball Plyo Push Up',
+    description: '3 med balls spread out in front. Push up position, push up on 2 balls, side to side.'
+  },
+  {
+    id: '1064',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Jack-in-the-Box Knee Tuck',
+    description: 'Slight squat position with hands touching the ground. Jump up and touch the hands to the knees. Do at least 25.'
+  },
+  {
+    id: '1065',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Vaulter Pull Up',
+    description: 'Hands facing opposite, switch every 2 or 3.'
+  },
+  {
+    id: '1066',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Elevated Stability Ball Push Up',
+    description: 'Hands wide on stability ball and feet elevated on a step. Do a push up.'
+  },
+  {
+    id: '01067',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'In and Out, Narrow - Wide',
+    description: 'Switch close grip and wide every 2 or 3.'
+  },
+  {
+    id: '1068',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Swimmers Push Up',
+    description: 'Each hand on a med ball, do a push up and raise 1 arm and the opposite leg, switch.'
+  },
+  {
+    id: '1069',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: '4 Grip Pull Up',
+    description: 'Wide, close, facing in, opposite.'
+  },
+  {
+    id: '1070',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Double Wide Push Up',
+    description: 'Super wide push up on med balls.'
+  },
+  {
+    id: '1071',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Double Wide Push Up',
+    description: 'Super wide push up on med balls.'
+  },
+  {
+    id: '1072',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Chattarocker',
+    description: 'Plank position, down to chattaronga, shuffle back to elbow plank, shuffle back to chattaronga, do a push up.'
+  },
+  {
+    id: '1073',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Towel Pull Up',
+    description: 'Towel in each hand, do a pull up.'
+  },
+  {
+    id: '1074',
+    program: 'P90X2',
+    workout: 'Chest Back Base',
+    exercise: 'Med Ball Plyo Push Up',
+    description: 'Hands on med ball alternating with hands on the floor.'
+  },
+];
+
+export const X2SHOULDERSARMSBASE = [
+  {
+    id: '1075',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Balance Curl',
+    description: 'Dumbbell bicep curls with 1 foot off the ground.'
+  },
+  {
+    id: '1076',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Alt Arnold Press',
+    description: 'Dumbbell in each hand, 1 foot off the ground. Hands at shoulders, palms facing in, alternating shoulder press rotating to palm facing out at top.'
+  },
+  {
+    id: '1077',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Overhead Tricep Pull',
+    description: 'Dumbbell in each hand, lying on a stability ball, tricep extensions.'
+  },
+  {
+    id: '1078',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: '6 Direction Shoulder Fly',
+    description: 'Dumbbell in each hand, 1 foot off of the ground. Arms raise out to the sides, then come in and down. Then arms up in the middle, out to the sides and down.'
+  },
+  {
+    id: '1079',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Crazy 8',
+    description: 'Dumbbell in each hand, 1 foot off the ground. Hold 1 arm halfway up while the other does 8 curls. Switch for a total of 32.'
+  },
+  {
+    id: '1080',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Y-T Fly',
+    description: 'Light dumbbell or nothing in each hand. Chest on stability ball. Hands up straight, then up and out to the sides.'
+  },
+  {
+    id: '1081',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Rocket Launcher Tri Kickback',
+    description: 'Dumbbell in each hand, 1 foot up on a step or in a forward lunge. Tricep kickbacks.'
+  },
+  {
+    id: '1082',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Plyo Frog Squat',
+    description: 'Legs wide, standing in place, squat down then jump up and bring hands to prayer or touch the sky. Go for at least 30.'
+  },
+  {
+    id: '1083',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Chair Jump',
+    description: 'Legs shoulder width apart, slight bend in the legs. Arms up and out, then jump and swing arms behind body. Go for at least 20.'
+  },
+  {
+    id: '1084',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Plyo Lunge Press',
+    description: 'A dumbbell in each hand, dumbbells at the shoulders, palms in, get in the 1 leg squat position. Jump up and switch legs and raise the dumbbells straight up in the air.'
+  },
+  {
+    id: '1085',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Surfer Spin',
+    description: 'Arms out, slight squat position. Jump a 180, then another, then come back to start. Do at least 22.'
+  },
+  {
+    id: '1086',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Jack-in-the-Box Knee Tuck',
+    description: 'Slight squat position with hands touching the ground. Jump up and touch the hands to the knees. Do at least 25.'
+  },
+  {
+    id: '1087',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Balance Curl',
+    description: 'Dumbbell bicep curls with 1 foot off the ground.'
+  },
+  {
+    id: '1088',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Alt Arnold Press',
+    description: 'Dumbbell in each hand, 1 foot off the ground. Hands at shoulders, palms facing in, alternating shoulder press rotating to palm facing out at top.'
+  },
+  {
+    id: '1089',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Overhead Tricep Pull',
+    description: 'Dumbbell in each hand, lying on a stability ball, tricep extensions.'
+  },
+  {
+    id: '1090',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: '6 Direction Shoulder Fly',
+    description: 'Dumbbell in each hand, 1 foot off of the ground. Arms raise out to the sides, then come in and down. Then arms up in the middle, out to the sides and down.'
+  },
+  {
+    id: '1091',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Crazy 8',
+    description: 'Dumbbell in each hand, 1 foot off the ground. Hold 1 arm halfway up while the other does 8 curls. Switch for a total of 32.'
+  },
+  {
+    id: '1092',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Y-T Fly',
+    description: 'Light dumbbell or nothing in each hand. Chest on stability ball. Hands up straight, then up and out to the sides.'
+  },
+  {
+    id: '1093',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Rocket Launcher Tri Kickback',
+    description: 'Dumbbell in each hand, 1 foot up on a step or in a forward lunge. Tricep kickbacks.'
+  },
+  {
+    id: '1094',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Plyo Frog Squat',
+    description: 'Legs wide, standing in place, squat down then jump up and bring hands to prayer or touch the sky. Go for at least 30.'
+  },
+  {
+    id: '1095',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Chair Jump',
+    description: 'Legs shoulder width apart, slight bend in the legs. Arms up and out, then jump and swing arms behind body. Go for at least 20.'
+  },
+  {
+    id: '1096',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Plyo Lunge Press',
+    description: 'A dumbbell in each hand, dumbbells at the shoulders, palms in, get in the 1 leg squat position. Jump up and switch legs and raise the dumbbells straight up in the air.'
+  },
+  {
+    id: '1097',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Surfer Spin',
+    description: 'Arms out, slight squat position. Jump a 180, then another, then come back to start. Do at least 22.'
+  },
+  {
+    id: '1098',
+    program: 'P90X2',
+    workout: 'Shoulders Arms Base',
+    exercise: 'Jack-in-the-Box Knee Tuck',
+    description: 'Slight squat position with hands touching the ground. Jump up and touch the hands to the knees. Do at least 25.'
+  },
+];
+
+export const X2PAPLOWERCHESTTRIS = [
+  {
+    id: '1099',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Step Up Convict',
+    description: 'Holding a dumbbell in each hand, step up with one foot, raise the opposite knee, step down, and lunge back with one leg. Do at least 8 reps per leg.'
+  },
+  {
+    id: '1100',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Skater Plyo',
+    description: 'Do 8 side-to-side with the arm swing.'
+  },
+  {
+    id: '1101',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: '1 Leg Line Hop',
+    description: '10 seconds front-to-back, 10 seconds side-to-side, repeat for a total of 40 seconds per leg.'
+  },
+  {
+    id: '1102',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Tonys Triangle',
+    description: 'On your side, bottom leg bent at a 90 degree angle. Top leg, foot pointed down, up, then forward and down, up, then back and down. 5 per side.'
+  },
+  {
+    id: '1103',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Squat Cross Reach',
+    description: 'Standing on right leg, holding a dumbbell in the left hand, squat down, reach forward with the dumbbell while kicking the back leg behind. Come back to the squat position, then stand and repeat. Do at least 8 per side.'
+  },
+  {
+    id: '1104',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Split Squat Jump',
+    description: 'In a 1 leg squat position, jump up with both hands and switch lunging legs. 8 reps.'
+  },
+  {
+    id: '1105',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Monster Slalom',
+    description: 'Feet together, jump side-to-side for 30 seconds.'
+  },
+  {
+    id: '1106',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Side Bridge Leg Lift',
+    description: 'On your side, raise hips, lift top leg up, toes pointed down, hand on hip for 30 seconds per side.'
+  },
+  {
+    id: '1107',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Chattarocker Push Up',
+    description: 'Plank position, down to chattaronga, shuffle back to elbow plank, shuffle back to chattaronga, do a push up.'
+  },
+  {
+    id: '1108',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Strip Press 1',
+    description: '1 foot up on a step, dumbbell in each hand. Hands at shoulders, palms facing out, shoulder press up with palms facing in. Do 8 reps.'
+  },
+  {
+    id: '1109',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Strip Press 2',
+    description: 'Same as above with less wait.'
+  },
+  {
+    id: '1110',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Strip Press 3',
+    description: 'Same as above with less wait.'
+  },
+  {
+    id: '1111',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Tri Ext on Stability Ball',
+    description: 'Lying on stability ball with a dumbbell in each hand. Tricep pullovers.'
+  },
+  {
+    id: '1112',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: '3 Ball Extravaganza',
+    description: 'Each hand on a med ball and both feet on another. Do a push up, then bring the right knee into the body, switch.'
+  },
+  {
+    id: '1113',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Callahan Press 1 leg',
+    description: '1 foot up on a step, dumbbell in each hand. Shoulder press up with palms out, then elbows down to shoulder level, bring the dumbbells together in front, palms facing face.'
+  },
+  {
+    id: '1114',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Iron Man Kickback',
+    description: 'Chest on a stability ball, feet wide, dumbbell kick backs.'
+  },
+  {
+    id: '1115',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Push Up Side Arm Balance',
+    description: 'Each hand on a med ball, feet wide. Push up then side arm balance, switch sides.'
+  },
+  {
+    id: '1116',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'X2 Circle Fly',
+    description: 'Chest on stability ball, dumbbell in each hand, 15 seconds forward, 15 seconds backward. OR..standing with a band.'
+  },
+  {
+    id: '1117',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: '3 Ball Dip',
+    description: 'Each hand on a ball, both feet on another. Tricep dips.'
+  },
+  {
+    id: '1118',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Step Up Convict',
+    description: 'Holding a dumbbell in each hand, step up with one foot, raise the opposite knee, step down, and lunge back with one leg. Do at least 8 reps per leg.'
+  },
+  {
+    id: '1119',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Skater Plyo',
+    description: 'Do 8 side-to-side with the arm swing.'
+  },
+  {
+    id: '1120',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: '1 Leg Line Hop',
+    description: '10 seconds front-to-back, 10 seconds side-to-side, repeat for a total of 40 seconds per leg.'
+  },
+  {
+    id: '1121',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Tonys Triangle',
+    description: 'On your side, bottom leg bent at a 90 degree angle. Top leg, foot pointed down, up, then forward and down, up, then back and down. 5 per side.'
+  },
+  {
+    id: '1122',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Squat Cross Reach',
+    description: 'Standing on right leg, holding a dumbbell in the left hand, squat down, reach forward with the dumbbell while kicking the back leg behind. Come back to the squat position, then stand and repeat. Do at least 8 per side.'
+  },
+  {
+    id: '1123',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Split Squat Jump',
+    description: 'In a 1 leg squat position, jump up with both hands and switch lunging legs. 8 reps.'
+  },
+  {
+    id: '1124',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Monster Slalom',
+    description: 'Feet together, jump side-to-side for 30 seconds.'
+  },
+  {
+    id: '1125',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Side Bridge Leg Lift',
+    description: 'On your side, raise hips, lift top leg up, toes pointed down, hand on hip for 30 seconds per side.'
+  },
+  {
+    id: '1126',
+    program: 'P90X2',
+    workout: 'Chest & Tris',
+    exercise: 'Chattarocker Push Up',
+    description: 'Plank position, down to chattaronga, shuffle back to elbow plank, shuffle back to chattaronga, do a push up.'
+  },
+  {
+    id: '1127',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Strip Press 1',
+    description: '1 foot up on a step, dumbbell in each hand. Hands at shoulders, palms facing out, shoulder press up with palms facing in. Do 8 reps.'
+  },
+  {
+    id: '1128',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Strip Press 2',
+    description: 'Same as above with less wait.'
+  },
+  {
+    id: '1129',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Strip Press 3',
+    description: 'Same as above with less wait.'
+  },
+  {
+    id: '1130',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Tri Ext on Stability Ball',
+    description: 'Lying on stability ball with a dumbbell in each hand. Tricep pullovers.'
+  },
+  {
+    id: '1131',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: '3 Ball Extravaganza',
+    description: 'Each hand on a med ball and both feet on another. Do a push up, then bring the right knee into the body, switch.'
+  },
+  {
+    id: '1132',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Callahan Press 1 leg',
+    description: '1 foot up on a step, dumbbell in each hand. Shoulder press up with palms out, then elbows down to shoulder level, bring the dumbbells together in front, palms facing face.'
+  },
+  {
+    id: '1133',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Iron Man Kickback',
+    description: 'Chest on a stability ball, feet wide, dumbbell kick backs.'
+  },
+  {
+    id: '1134',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'Push Up Side Arm Balance',
+    description: 'Each hand on a med ball, feet wide. Push up then side arm balance, switch sides.'
+  },
+  {
+    id: '1135',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: 'X2 Circle Fly',
+    description: 'Chest on stability ball, dumbbell in each hand, 15 seconds forward, 15 seconds backward. OR..standing with a band.'
+  },
+  {
+    id: '1136',
+    program: 'P90X2',
+    workout: 'PAP Lower Chest Tris',
+    exercise: '3 Ball Dip',
+    description: 'Each hand on a ball, both feet on another. Tricep dips.'
+  }
+];
+
+export const X2PAPUPPERVSCULPT = [
+  {
+    id: '1137',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Renegade Row',
+    description: 'In plank position with a dumbbell in each hand. Do a push up, then a row with each arm. Do at least 10 reps.'
+  },
+  {
+    id: '1138',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Plyo Push Ups',
+    description: 'Hand clap plyo push up. Do 6 reps.'
+  },
+  {
+    id: '1139',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Plank on Med Ball',
+    description: 'Feet up on a med ball. Elbow plank for 60 seconds.'
+  },
+  {
+    id: '1140',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Superman',
+    description: 'On your stomach, raise the arms and legs for 45 seconds. Hold a broom or weighted bar if available.'
+  },
+  {
+    id: '1141',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Towel Push Up',
+    description: '2 towels over the pull up bar, 1 in each hand.'
+  },
+  {
+    id: '1142',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Med Ball Pike',
+    description: 'On your back with a med ball straight above your chest. Bring the med ball to the feet and do not let the med ball go past the head. Do 10 reps.'
+  },
+  {
+    id: '1143',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Step Up Hammer Press',
+    description: 'Dumbbell in each hand, 1 foot up on a step. Hammer curl then up to a shoulder press with the palms facing out.'
+  },
+  {
+    id: '1144',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Roller Angel',
+    description: 'Lay over a roller (or stand with your back flat against a wall). Work the arms up and down by the head for 30 seconds.'
+  },
+  {
+    id: '1145',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Around the World Pull Up',
+    description: 'Do a pull up in a circle, change direction each time.'
+  },
+  {
+    id: '1146',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Alt Hammer Curl',
+    description: 'One foot up on a step, dumbbell in each hand. Hammer curl 1 arm alternating. Put pressure on the foot that is up.'
+  },
+  {
+    id: '1147',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Med Ball Renegade Row',
+    description: 'In wide leg plank, 1 hand on a med ball, the other doing a row with a dumbbell.'
+  },
+  {
+    id: '1148',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Band Bicep Curl',
+    description: 'Band on top of 1 foot, wrapped around once. That foot out while the other leg is planted at the knee. Both hands do a bicep curl with the band.'
+  },
+  {
+    id: '1149',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Pull Up X',
+    description: 'Hands and legs wide.'
+  },
+  {
+    id: '1150',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Med Ball Renegade Curl',
+    description: 'Just like Med Ball Renegade Row but with a curl.'
+  },
+  {
+    id: '1151',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Wide Leg Row Twist',
+    description: 'Sitting down, band over the tops of the feet and wrapped around, coming INTO the legs. Hold both band handles with 1 arm, do a row with a slight twist. Switch sides.'
+  },
+  {
+    id: '1152',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Balance Dumbbell Curl',
+    description: 'Sit on a large stability ball, dumbbell curls, both arms at a time.'
+  },
+  {
+    id: '1153',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Switch Grip Pull Up',
+    description: 'Alternate chin ups and pull ups every 2 or 3 reps.'
+  },
+  {
+    id: '1154',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Roman Band Curl',
+    description: 'Sit on a stability ball, band under the feet and coming OUTSIDE. Do a bicep curl, 1 arm at a time. Bring to opposite pec with a little hold.'
+  },
+  {
+    id: '1155',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: '21 Pull Up',
+    description: '3 sets of pulls ups. First reps only bottom to halfway, second reps halfway to the top, last reps full range.'
+  },
+  {
+    id: '1156',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Entmans Chin Up',
+    description: 'Chin ups with a med ball between the feet.'
+  },
+  {
+    id: '1157',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Ball Preacher',
+    description: 'Chest on a stability ball, wide feet. Bicep curls with dumbbells, both arms at once.'
+  },
+  {
+    id: '1158',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Stability Ball Lawnmower',
+    description: '1 dumbbell in 1 hand, the other arm on a stability ball, feet wide. Lawnmower row with dumbbell.'
+  },
+  {
+    id: '1159',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Renegade Roman Curl',
+    description: 'In plank with a dumbbell in each hand. Curl into the body, switch.'
+  },
+  {
+    id: '1160',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Zip Kip Pull Up',
+    description: 'No kipping.'
+  },
+  {
+    id: '1161',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'High Rep Balance Curl',
+    description: '30 dumbbell bicep curls. 15 with the right leg elevated, 15 with the left.'
+  },
+  {
+    id: '1162',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Straight Arm Pullover',
+    description: 'Lying on a stability ball with 1 dumbbell. Keep the arms straight and do a tricep pullover.'
+  },
+  {
+    id: '1163',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Renegade Hammer Curl',
+    description: 'In plank, a dumbbell in each hand. Hammer curls, alternating arms.'
+  },
+  {
+    id: '1164',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Zip Kip Chin Up',
+    description: 'No kipping.'
+  },
+  {
+    id: '1165',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Close Body Curl',
+    description: 'Standing with a dumbbell in each arm. Bicep curls with the arms squeezed into the body and into the armpits. Elbows back.'
+  },
+  {
+    id: '1166',
+    program: 'P90X2',
+    workout: 'PAP Upper V Sculpt',
+    exercise: 'Cross Fugly Pull Up',
+    description: 'Ugly without hurting yourself.'
+  }
+];
