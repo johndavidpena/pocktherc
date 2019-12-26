@@ -1,5 +1,6 @@
 import React from 'react';
 import strengthStyles from '../../styles/strength.module.css';
+import budokonImg from '../../assets/budokonDuotone.jpg';
 import tabataImg from '../../assets/tabataDuotone.jpg';
 import { Link } from 'react-router-dom';
 import { useSpring, animated } from 'react-spring';
@@ -10,6 +11,13 @@ const MobilityPage = () => {
 
   return (
     <animated.div style={fade} className={strengthStyles.container}>
+      <div className={strengthStyles.links}>
+        <Link to={ROUTES.BUDOKON}>
+          <img src={budokonImg} alt='budokon beginner' />
+          <span>Budokon</span>
+        </Link>
+      </div>
+
       <div className={strengthStyles.links}>
         <Link to={ROUTES.HIPS}>
           <img src={tabataImg} alt='hips' />

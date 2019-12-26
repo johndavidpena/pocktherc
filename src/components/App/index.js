@@ -18,6 +18,7 @@ import MobilityPage from '../Mobility';
 import P90XPage from '../P90X';
 import P90X2Page from '../P90X2';
 import InsanityPage from '../Insanity';
+import BudokonPage from '../Budokon';
 import HipsPage from '../Hips';
 import KneesPage from '../Knees';
 import ShouldersPage from '../Shoulders';
@@ -46,6 +47,7 @@ const App = () => (
     <Route path={ROUTES.CARDIO} component={CardioPage} />
     <Route path={ROUTES.MOVEMENT} component={MovementPage} />
     <Route path={ROUTES.INSANITY} component={InsanityPage} />
+    <Route path={ROUTES.BUDOKON} component={BudokonPage} />
     <Route path={ROUTES.MOBILITY} component={MobilityPage} />
     <Route path={ROUTES.HIPS} component={HipsPage} />
     <Route path={ROUTES.KNEES} component={KneesPage} />
