@@ -17,15 +17,15 @@ const Budokon = () => {
       </div>
 
       <div className={videoStyles.videoResponsive}>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wi6OAMmdh3A" frameBorder="0" title="Budokon flow and flexibilty" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TTJCkW6Z_3o" frameBorder="0" title="Budokon flow and flexibilty" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
 
       <div className={videoStyles.videoResponsive}>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wi6OAMmdh3A" frameBorder="0" title="Budokon strength and balance" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CglAjKSeXfE" frameBorder="0" title="Budokon strength and balance" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
 
       <div className={videoStyles.videoResponsive}>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wi6OAMmdh3A" frameBorder="0" title="Budokon power and agility" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4fe6wvynfhA" frameBorder="0" title="Budokon power and agility" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
     </animated.div>
   );
