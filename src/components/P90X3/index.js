@@ -21,13 +21,13 @@ const P90X3 = () => {
 
       <a href='https://drive.google.com/open?id=1feFYm0589IL88JA78xGow3C3ynAVFvKK'>The Warrior</a>
 
-      <a href=''>Accelerator</a>
+      <a href='https://drive.google.com/open?id=1qNIw23PIZaX6bYMwagTm3xvbsZhnRsa8'>Accelerator</a>
 
-      <a href=''>Decelerator</a>
+      <a href='https://drive.google.com/open?id=1h0Axg1M7CKpAFY0eNi5Ps-AzwIdl22m5'>Decelerator</a>
 
-      <a href=''>Dynamix</a>
+      <a href='https://drive.google.com/open?id=1KIv-vXpS35exwaICl92TdEiC7vaC1VYP'>Dynamix</a>
 
-      <a href=''>Isometrix</a>
+      <a href='https://drive.google.com/open?id=1hXX2f8DzCr9xG7NlD1ZIS3LB3UDQ-Zn_'>Isometrix</a>
     </animated.div>
   );
 }
