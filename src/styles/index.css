@@ -204,6 +204,12 @@ p {
   font-size: var(--font-size);
 }
 
+a {
+  font-size: var(--font-size);
+  color: var(--off-white);
+  text-decoration: none;
+}
+
 .center {
   text-align: center;
 }

@@ -64,12 +64,14 @@ const CalendarBase = props => {
             className={mainStyles.form}
             onSubmit={event => addWorkout(event, authUser)}>
             {/* FIX: input onChange causes data to jump around on screen */}
+            <label htmlFor='program'>Strength</label>
             <input
               name='program'
               type='text'
               onChange={e => setProgram(e.target.value)}
               value={program}
               placeholder='Program' />
+            <label htmlFor='workout'>Cardio</label>
             <input
               name='workout'
               type='text'

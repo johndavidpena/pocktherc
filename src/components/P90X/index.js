@@ -54,28 +54,28 @@ const P90XBase = props => {
           <div className={p90xStyles.workoutsContainer}>
             <p onClick={() => setWorkout('chestandback')}>Chest<br />Back</p>
             <p onClick={() => setWorkout('shouldersandarms')}>Shoulders<br />Arms</p>
-            <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p>
+            {/* <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p> */}
           </div>
 
           <h4>PHASE 2 - 3 wks</h4>
           <div className={p90xStyles.workoutsContainer}>
             <p onClick={() => setWorkout('chestshoulderstris')}>Chest Tris<br />Shoulders</p>
             <p onClick={() => setWorkout('backandbiceps')}>Back<br />Biceps</p>
-            <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p>
+            {/* <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p> */}
           </div>
 
           <h4>PHASE 3 - Odd</h4>
           <div className={p90xStyles.workoutsContainer}>
             <p onClick={() => setWorkout('chestandback')}>Chest<br />Back</p>
             <p onClick={() => setWorkout('shouldersandarms')}>Shoulders<br />Arms</p>
-            <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p>
+            {/* <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p> */}
           </div>
 
           <h4>PHASE 3 - Even</h4>
           <div className={p90xStyles.workoutsContainer}>
             <p onClick={() => setWorkout('chestshoulderstris')}>Chest Tris<br />Shoulders</p>
             <p onClick={() => setWorkout('backandbiceps')}>Back<br />Biceps</p>
-            <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p>
+            {/* <p onClick={() => setWorkout('legsandback')}>Legs<br />Back</p> */}
           </div>
 
           <div className={p90xStyles.lastWorkoutContainer}>

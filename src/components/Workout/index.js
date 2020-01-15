@@ -31,9 +31,9 @@ const WorkoutPage = () => {
       </div>
 
       <div className={workoutStyles.links}>
-        <Link to={ROUTES.MOVEMENT}>
+        <Link to={ROUTES.CARDIO}>
           <img src={bjj3Img} alt='man jumping' />
-          <span>MOVEMENT</span>
+          <span>CARDIO</span>
         </Link>
       </div>
     </animated.div>

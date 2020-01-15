@@ -16,16 +16,16 @@ const StrengthPage = () => {
   return (
     <animated.div style={fade} className={strengthStyles.container}>
       <div className={strengthStyles.links}>
-        <Link to={ROUTES.P90X2}>
-          <img src={p90x2Img} alt='p90x2' />
-          {/* <span>P90X2</span> */}
+        <Link to={ROUTES.P90X}>
+          <img src={p90xImg} alt='p90x' />
+          {/* <span>P90X</span> */}
         </Link>
       </div>
 
       <div className={strengthStyles.links}>
-        <Link to={ROUTES.P90X}>
-          <img src={p90xImg} alt='p90x' />
-          {/* <span>P90X</span> */}
+        <Link to={ROUTES.P90X2}>
+          <img src={p90x2Img} alt='p90x2' />
+          {/* <span>P90X2</span> */}
         </Link>
       </div>
     </animated.div>

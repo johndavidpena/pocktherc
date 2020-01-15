@@ -1,7 +1,6 @@
 import React from 'react';
 import mainStyles from '../../styles/main.module.css';
 import p90xStyles from '../../styles/p90x.module.css';
-import videoStyles from '../../styles/video.module.css';
 import { useSpring, animated } from 'react-spring';
 import { withAuthorization } from '../Session';
 
@@ -13,19 +12,19 @@ const Insanity = () => {
       <h1 className={mainStyles.mainHeading}>Insanity</h1>
 
       <h4>PHASE 1</h4>
-      <p>Plyometric Cardio Circuit</p>
+      <a href='https://drive.google.com/open?id=1xuv7cmzS07R0n0P4GrPZ5Y1CQutfRHex'>Plyometric Cardio Circuit</a>
 
-      <p>Cardio Power and Resistance</p>
-      <div className={videoStyles.videoResponsive}>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SfmTg8iotlA" title="Insanity cardio power and resistance" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-      </div>
+      <a href=''>Cardio Power and Resistance</a>
 
-      <p>Pure Cardio</p>
+      <a href='https://drive.google.com/open?id=1qT6ituRY0UzgF9qKuJz34TXcWn1Ugi1t'>Pure Cardio</a>
 
       <h4>PHASE 2</h4>
-      <p>Max Interval Circuit</p>
-      <p>Max Cardio Conditioning and Cardio</p>
-      <p>Max Interval Plyo</p>
+      <a href=''>Max Interval Circuit</a>
+      <a href=''>Max Cardio Conditioning and Cardio</a>
+      <a href=''>Max Interval Plyo</a>
+
+      <h4>REST</h4>
+      <a href='https://drive.google.com/open?id=1QI7P8Sd2AG7P6Un0qStOnHApx9wdzeVJ'>Core Cardio and Balance</a>
     </animated.div>
   );
 }

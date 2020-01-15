@@ -15,15 +15,20 @@
   margin-bottom: var(--size-1);
 }
 
-.container p {
+.container p,
+.container a {
   margin-bottom: var(--size-1);
+}
+
+.container a {
+  display: block;
 }
 
 .workoutsContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
-  margin: 0 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 0 2rem;
 }
 
 .workoutsContainer p {
